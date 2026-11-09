@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Vehicle Recommender — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html" class="active">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem;">
+    <!-- Page Header -->
+    <div class="section-header" style="margin-bottom: 2.5rem;">
+      <span class="badge badge-purple" style="margin-bottom: 0.75rem;">Machine Learning Recommendation Engine</span>
+      <h1>Find Your Ideal Vehicle</h1>
+      <p>Our hybrid recommendation engine computes mathematical similarity vectors across budget, powertrain, NCAP safety, and usage habits.</p>
+    </div>
+
+    <!-- Questionnaire Card -->
+    <div class="card" id="questionnaire-card" style="max-width: 820px; margin: 0 auto 3rem auto; box-shadow: var(--shadow-lg);">
+      <form id="recommendation-form">
+        <!-- 1. Category -->
+        <div style="margin-bottom: 2rem;">
+          <label class="form-label" style="font-size: 1rem; margin-bottom: 0.75rem;">1. Select Vehicle Category</label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <label style="display: flex; align-items: center; gap: 0.75rem; background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); cursor: pointer;">
+              <input type="radio" name="category" value="car" checked style="accent-color: var(--accent-blue); width: 20px; height: 20px;">
+              <div>
+                <strong style="font-size: 1.05rem;">🚗 Passenger Car</strong>
+                <div class="text-muted" style="font-size: 0.82rem;">Hatchbacks, Sedans, Compact SUVs & MUVs</div>
+              </div>
+            </label>
+            <label style="display: flex; align-items: center; gap: 0.75rem; background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); cursor: pointer;">
+              <input type="radio" name="category" value="bike" style="accent-color: var(--accent-blue); width: 20px; height: 20px;">
+              <div>
+                <strong style="font-size: 1.05rem;">🏍️ Motorcycle / Scooter</strong>
+                <div class="text-muted" style="font-size: 0.82rem;">Cruisers, Commuters, Naked & Sports bikes</div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- 2. Budget Range -->
+        <div style="margin-bottom: 2rem;">
+          <label class="form-label" style="font-size: 1rem; margin-bottom: 0.75rem;">2. Budget Range (Ex-Showroom in INR)</label>
+          <div class="grid grid-2">
+            <div>
+              <span class="text-muted" style="font-size: 0.82rem;">Minimum Budget</span>
+              <input type="number" id="min-budget" class="form-control" placeholder="e.g. 800000" value="800000">
+            </div>
+            <div>
+              <span class="text-muted" style="font-size: 0.82rem;">Maximum Budget</span>
+              <input type="number" id="max-budget" class="form-control" placeholder="e.g. 1600000" value="1600000">
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Fuel & Transmission -->
+        <div style="margin-bottom: 2rem;">
+          <div class="grid grid-2">
+            <div>
+              <label class="form-label">Preferred Fuel Type</label>
+              <select id="pref-fuel" class="form-select">
+                <option value="">Any Fuel Type</option>
+                <option value="Petrol" selected>Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="CNG">CNG</option>
+                <option value="Electric">Electric / Strong Hybrid</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Transmission</label>
+              <select id="pref-trans" class="form-select">
+                <option value="">Any Transmission</option>
+                <option value="Manual">Manual</option>
+                <option value="Automatic">Automatic (DCT, CVT, Torque Converter)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Priorities & Driving Usage -->
+        <div style="margin-bottom: 2rem;">
+          <div class="grid grid-3">
+            <div>
+              <label class="form-label">Safety Priority</label>
+              <select id="pref-safety" class="form-select">
+                <option value="High" selected>High (4★ / 5★ NCAP focus)</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Performance Priority</label>
+              <select id="pref-perf" class="form-select">
+                <option value="High">High (High BHP & Torque)</option>
+                <option value="Medium" selected>Medium (Balanced)</option>
+                <option value="Low">Low (Mileage focused)</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Primary Usage</label>
+              <select id="pref-usage" class="form-select">
+                <option value="City" selected>City Commuting</option>
+                <option value="Highway">Highway Touring</option>
+                <option value="Mixed">Mixed (City + Highway)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Seating & Mileage (Dynamic for Car/Bike) -->
+        <div style="margin-bottom: 2.5rem;" id="car-specific-fields">
+          <div class="grid grid-2">
+            <div>
+              <label class="form-label">Preferred Seating (Cars)</label>
+              <select id="pref-seating" class="form-select">
+                <option value="">Any Seating</option>
+                <option value="5" selected>5 Seater</option>
+                <option value="7">7 Seater (Family/MUV)</option>
+                <option value="4">4 Seater (Thar/Lifestyle)</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Minimum Mileage Required</label>
+              <input type="number" id="pref-mileage" class="form-control" placeholder="e.g. 16 kmpl" value="16">
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; border-radius: var(--radius-md);">
+          <span>🚀 Generate Algorithmic Recommendations</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Results Section -->
+    <div id="results-container" style="display: none; max-width: 960px; margin: 0 auto;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span class="badge badge-green" id="results-methodology-badge">Content-Based Preference Vectorization</span>
+          <h2 style="margin-top: 0.35rem;">Recommended For You</h2>
+          <p class="text-muted" id="results-subtitle">Ranked by multi-factor cosine alignment score.</p>
+        </div>
+        <button id="modify-search-btn" class="btn btn-outline btn-sm">Modify Preferences</button>
+      </div>
+
+      <div id="recommendations-list">
+        <!-- Injected dynamically -->
+      </div>
+
+      <!-- Alternatives Section -->
+      <div id="alternatives-section" style="margin-top: 3.5rem; border-top: 1px solid var(--border-color); padding-top: 2.5rem; display: none;">
+        <span class="badge badge-amber" style="margin-bottom: 0.5rem;">Worth Considering</span>
+        <h3 style="margin-bottom: 1.25rem;">Alternative Vehicles Offering Different Tradeoffs</h3>
+        <div class="grid grid-2" id="alternatives-list">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("recommendation-form");
+      const carFields = document.getElementById("car-specific-fields");
+      const minBudgetInput = document.getElementById("min-budget");
+      const maxBudgetInput = document.getElementById("max-budget");
+
+      // Category toggle adjustments for default budgets
+      document.querySelectorAll('input[name="category"]').forEach(radio => {
+        radio.addEventListener("change", (e) => {
+          if (e.target.value === "bike") {
+            carFields.style.display = "none";
+            minBudgetInput.value = "100000";
+            maxBudgetInput.value = "250000";
+          } else {
+            carFields.style.display = "block";
+            minBudgetInput.value = "800000";
+            maxBudgetInput.value = "1600000";
+          }
+        });
+      });
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const submitBtn = form.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "Computing Similarity Vectors...";
+
+        const category = document.querySelector('input[name="category"]:checked').value;
+        const minBudget = parseFloat(minBudgetInput.value) || 0;
+        const maxBudget = parseFloat(maxBudgetInput.value) || 5000000;
+        const fuel = document.getElementById("pref-fuel").value;
+        const trans = document.getElementById("pref-trans").value;
+        const safety = document.getElementById("pref-safety").value;
+        const perf = document.getElementById("pref-perf").value;
+        const usage = document.getElementById("pref-usage").value;
+        const seating = document.getElementById("pref-seating").value;
+        const mileage = parseFloat(document.getElementById("pref-mileage").value) || 0;
+
+        const payload = {
+          category,
+          min_budget: minBudget,
+          max_budget: maxBudget,
+          fuel_types: fuel ? [fuel] : [],
+          transmissions: trans ? [trans] : [],
+          safety_priority: safety,
+          performance_priority: perf,
+          primary_usage: usage,
+          seating_capacity: seating ? parseInt(seating) : null,
+          min_mileage: mileage,
+          top_k: 5
+        };
+
+        try {
+          const res = await AutoWiseAPI.getRecommendations(payload);
+          displayRecommendations(res);
+        } catch (err) {
+          AutoWiseUtils.showToast(err.message, "error");
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = "<span>🚀 Generate Algorithmic Recommendations</span>";
+        }
+      });
+
+      document.getElementById("modify-search-btn").addEventListener("click", () => {
+        document.getElementById("questionnaire-card").scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+    function displayRecommendations(data) {
+      const resultsContainer = document.getElementById("results-container");
+      const listContainer = document.getElementById("recommendations-list");
+      const methodBadge = document.getElementById("results-methodology-badge");
+      
+      methodBadge.textContent = data.methodology;
+      resultsContainer.style.display = "block";
+      resultsContainer.scrollIntoView({ behavior: "smooth" });
+
+      if (!data.recommendations || data.recommendations.length === 0) {
+        listContainer.innerHTML = '<div class="card" style="text-align: center; padding: 3rem;"><p class="text-muted">No matching vehicles found within criteria.</p></div>';
+        return;
+      }
+
+      listContainer.innerHTML = data.recommendations.map((item, idx) => {
+        const v = item.vehicle;
+        const score = item.match_score;
+        return `
+          <div class="rec-result-card">
+            <div style="border-radius: var(--radius-md); overflow: hidden; height: 160px; background: #111827;">
+              <img src="${v.image_url || '/static/images/' + v.category + '/default.jpg'}" alt="${v.brand} ${v.model}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=80'">
+            </div>
+
+            <div>
+              <div style="display: flex; align-items: center; margin-bottom: 0.35rem;">
+                <span class="rec-rank-badge">#${idx + 1}</span>
+                <span class="vehicle-brand">${v.brand}</span>
+              </div>
+              <h3 style="margin-bottom: 0.35rem;">${v.model} <span style="font-weight: 400; font-size: 1rem;" class="text-muted">${v.variant || ''}</span></h3>
+              <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 0.75rem;">${v.fuel_type} • ${v.transmission} • ${v.mileage_kmpl} kmpl • ${v.safety_rating ? v.safety_rating + '★ Safety' : ''}</p>
+
+              <!-- Matching Features Badges -->
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                ${item.matching_features.map(f => `<span class="badge badge-green" style="font-size: 0.75rem;">✓ ${f}</span>`).join('')}
+              </div>
+
+              <!-- Recommendation Reasons -->
+              <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.5; font-style: italic;">
+                "${item.reasons}"
+              </p>
+            </div>
+
+            <!-- Price & Action Column -->
+            <div style="text-align: right; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+              <div>
+                <span class="match-score-pill">${score}% Match</span>
+                <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-top: 0.75rem;">
+                  ${AutoWiseUtils.formatINR(v.price_ex_showroom, true)}
+                </div>
+                <div class="text-muted" style="font-size: 0.78rem;">Ex-Showroom</div>
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                <a href="/vehicle_detail.html?id=${v.vehicle_id}" class="btn btn-secondary btn-sm" style="width: 100%;">Inspect Specs</a>
+                <a href="/ownership.html?id=${v.vehicle_id}" class="btn btn-outline btn-sm" style="width: 100%;">5-Yr TCO Cost</a>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Alternatives Section
+      const altSection = document.getElementById("alternatives-section");
+      const altList = document.getElementById("alternatives-list");
+      if (data.alternatives && data.alternatives.length > 0) {
+        altSection.style.display = "block";
+        altList.innerHTML = data.alternatives.map(alt => {
+          const av = alt.vehicle;
+          return `
+            <div class="card" style="display: flex; gap: 1rem; align-items: center;">
+              <div style="width: 110px; height: 85px; border-radius: var(--radius-md); overflow: hidden; background: #111827; flex-shrink: 0;">
+                <img src="${av.image_url || '/static/images/' + av.category + '/default.jpg'}" alt="${av.brand} ${av.model}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=300&auto=format&fit=crop&q=80'">
+              </div>
+              <div style="flex: 1;">
+                <span class="vehicle-brand">${av.brand}</span>
+                <h4 style="margin: 0.1rem 0;">${av.model}</h4>
+                <div style="font-size: 0.95rem; font-weight: 700; color: var(--accent-cyan); margin-bottom: 0.25rem;">${AutoWiseUtils.formatINR(av.price_ex_showroom, true)}</div>
+                <p class="text-muted" style="font-size: 0.8rem; line-height: 1.4;">${alt.similarity_reason}</p>
+                <a href="/vehicle_detail.html?id=${av.vehicle_id}" style="color: var(--accent-blue); font-size: 0.82rem; font-weight: 600; margin-top: 0.25rem; display: inline-block;">View Alternative →</a>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } else {
+        altSection.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>

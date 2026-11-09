@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Catalog — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html" class="active">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <!-- Floating Comparison Floating Tray -->
+  <div id="compare-tray" style="display: none; position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); z-index: 99; background: rgba(16, 24, 39, 0.95); backdrop-filter: blur(12px); border: 1px solid var(--accent-blue); box-shadow: var(--shadow-lg); padding: 0.85rem 1.5rem; border-radius: var(--radius-full); align-items: center; gap: 1rem;">
+    <span style="font-size: 0.9rem; font-weight: 600;" id="compare-tray-text">0 selected for comparison</span>
+    <button id="compare-tray-btn" class="btn btn-primary btn-sm">Compare Now</button>
+    <button id="compare-tray-clear" class="btn btn-secondary btn-sm">Clear</button>
+  </div>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem;">
+    <div style="margin-bottom: 2rem;">
+      <span class="badge badge-blue">Complete Indian Specification Database</span>
+      <h1 style="margin-top: 0.5rem;">Explore Cars & Motorcycles</h1>
+      <p class="text-muted">Filter by brand, fuel type, transmission, budget, and ARAI specifications.</p>
+    </div>
+
+    <!-- Category Tabs & Global Search -->
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="btn btn-primary cat-tab" data-cat="">All Vehicles</button>
+        <button class="btn btn-secondary cat-tab" data-cat="car">🚗 Cars</button>
+        <button class="btn btn-secondary cat-tab" data-cat="bike">🏍️ Motorcycles</button>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex: 1; max-width: 480px;">
+        <input type="text" id="search-input" class="form-control" placeholder="Search by brand or model (e.g. Swift, Nexon, Classic)...">
+        <button id="search-btn" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+
+    <!-- Layout: Filters Sidebar + Grid -->
+    <div style="display: grid; grid-template-columns: 280px 1fr; gap: 2rem;">
+      
+      <!-- Filters Sidebar -->
+      <aside>
+        <div class="card" style="position: sticky; top: 5.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+            <h4 style="margin: 0;">Filters</h4>
+            <button id="reset-filters-btn" class="btn btn-outline btn-sm" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">Reset All</button>
+          </div>
+
+          <!-- Brand Filter -->
+          <div class="form-group">
+            <label class="form-label">Brand</label>
+            <select id="filter-brand" class="form-select">
+              <option value="">All Brands</option>
+            </select>
+          </div>
+
+          <!-- Fuel Type -->
+          <div class="form-group">
+            <label class="form-label">Fuel Type</label>
+            <select id="filter-fuel" class="form-select">
+              <option value="">All Fuel Types</option>
+            </select>
+          </div>
+
+          <!-- Transmission -->
+          <div class="form-group">
+            <label class="form-label">Transmission</label>
+            <select id="filter-trans" class="form-select">
+              <option value="">All Transmissions</option>
+            </select>
+          </div>
+
+          <!-- Minimum Safety Rating -->
+          <div class="form-group">
+            <label class="form-label">Safety Rating (NCAP)</label>
+            <select id="filter-safety" class="form-select">
+              <option value="">Any Rating</option>
+              <option value="3">3★ and above</option>
+              <option value="4">4★ and above</option>
+              <option value="5">5★ Only</option>
+            </select>
+          </div>
+
+          <!-- Price Range Slider -->
+          <div class="form-group">
+            <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 0.25rem;">
+              <span class="form-label" style="margin: 0;">Max Budget</span>
+              <span id="price-slider-val" style="color: var(--accent-cyan); font-weight: 700;">₹ 50 Lakh</span>
+            </div>
+            <input type="range" id="filter-max-price" min="50000" max="5000000" step="50000" value="5000000">
+          </div>
+
+          <!-- Sorting -->
+          <div class="form-group" style="margin-bottom: 0;">
+            <label class="form-label">Sort Order</label>
+            <select id="filter-sort" class="form-select">
+              <option value="price_asc">Price: Low to High</option>
+              <option value="price_desc">Price: High to Low</option>
+              <option value="mileage_desc">Mileage: High to Low</option>
+              <option value="safety_desc">Safety: High to Low</option>
+            </select>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Vehicle Catalog Section -->
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+          <span class="text-muted" id="catalog-count-text">Showing vehicles...</span>
+        </div>
+
+        <div class="grid grid-3" id="vehicles-catalog-grid">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Pagination -->
+        <div id="pagination-controls" style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 3rem;">
+          <!-- Dynamically injected -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script>
+    let currentCategory = "";
+    let currentPage = 1;
+    let selectedToCompare = new Set();
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      // Check query param from hero search
+      const params = AutoWiseUtils.getUrlParams();
+      if (params.q) {
+        document.getElementById("search-input").value = params.q;
+      }
+      if (params.category) {
+        currentCategory = params.category;
+      }
+
+      await loadFilters();
+      await fetchCatalog();
+
+      // Listeners
+      document.querySelectorAll(".cat-tab").forEach(tab => {
+        tab.addEventListener("click", () => {
+          document.querySelectorAll(".cat-tab").forEach(t => {
+            t.classList.remove("btn-primary");
+            t.classList.add("btn-secondary");
+          });
+          tab.classList.remove("btn-secondary");
+          tab.classList.add("btn-primary");
+          currentCategory = tab.dataset.cat;
+          currentPage = 1;
+          fetchCatalog();
+        });
+      });
+
+      document.getElementById("filter-brand").addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+      document.getElementById("filter-fuel").addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+      document.getElementById("filter-trans").addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+      document.getElementById("filter-safety").addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+      document.getElementById("filter-sort").addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+
+      const priceSlider = document.getElementById("filter-max-price");
+      priceSlider.addEventListener("input", (e) => {
+        document.getElementById("price-slider-val").textContent = AutoWiseUtils.formatINR(e.target.value, true);
+      });
+      priceSlider.addEventListener("change", () => { currentPage = 1; fetchCatalog(); });
+
+      document.getElementById("reset-filters-btn").addEventListener("click", () => {
+        document.getElementById("filter-brand").value = "";
+        document.getElementById("filter-fuel").value = "";
+        document.getElementById("filter-trans").value = "";
+        document.getElementById("filter-safety").value = "";
+        document.getElementById("filter-max-price").value = "5000000";
+        document.getElementById("price-slider-val").textContent = "₹ 50 Lakh";
+        document.getElementById("search-input").value = "";
+        currentPage = 1;
+        fetchCatalog();
+      });
+
+      document.getElementById("search-btn").addEventListener("click", () => { currentPage = 1; fetchCatalog(); });
+      document.getElementById("search-input").addEventListener("keypress", (e) => {
+        if (e.key === "Enter") { currentPage = 1; fetchCatalog(); }
+      });
+
+      // Comparison Tray Buttons
+      document.getElementById("compare-tray-btn").addEventListener("click", () => {
+        if (selectedToCompare.size < 2) {
+          AutoWiseUtils.showToast("Select at least 2 vehicles to compare", "info");
+          return;
+        }
+        const ids = Array.from(selectedToCompare).join(",");
+        window.location.href = `/compare.html?ids=${encodeURIComponent(ids)}`;
+      });
+
+      document.getElementById("compare-tray-clear").addEventListener("click", () => {
+        selectedToCompare.clear();
+        updateCompareTray();
+        document.querySelectorAll(".compare-checkbox").forEach(cb => cb.checked = false);
+      });
+    });
+
+    async function loadFilters() {
+      try {
+        const meta = await AutoWiseAPI.getFilterMeta();
+        const brandSelect = document.getElementById("filter-brand");
+        const fuelSelect = document.getElementById("filter-fuel");
+        const transSelect = document.getElementById("filter-trans");
+
+        // Merge brands
+        const allBrands = [...meta.brands.cars, ...meta.brands.bikes].sort();
+        brandSelect.innerHTML = '<option value="">All Brands</option>' + allBrands.map(b => `<option value="${b}">${b}</option>`).join("");
+        fuelSelect.innerHTML = '<option value="">All Fuel Types</option>' + meta.fuel_types.map(f => `<option value="${f}">${f}</option>`).join("");
+        transSelect.innerHTML = '<option value="">All Transmissions</option>' + meta.transmissions.map(t => `<option value="${t}">${t}</option>`).join("");
+      } catch (e) {
+        console.error("Filter load error:", e);
+      }
+    }
+
+    async function fetchCatalog() {
+      const grid = document.getElementById("vehicles-catalog-grid");
+      grid.innerHTML = '<div style="text-align: center; grid-column: 1 / -1; padding: 3rem;"><p class="text-muted">Loading vehicles...</p></div>';
+
+      const searchVal = document.getElementById("search-input").value.trim();
+      const params = {
+        page: currentPage,
+        limit: 9,
+        sort_by: document.getElementById("filter-sort").value
+      };
+
+      if (currentCategory) params.category = currentCategory;
+      const brandVal = document.getElementById("filter-brand").value;
+      if (brandVal) params.brand = brandVal;
+      const fuelVal = document.getElementById("filter-fuel").value;
+      if (fuelVal) params.fuel_type = fuelVal;
+      const transVal = document.getElementById("filter-trans").value;
+      if (transVal) params.transmission = transVal;
+      const safetyVal = document.getElementById("filter-safety").value;
+      if (safetyVal) params.safety_rating = safetyVal;
+      const maxPriceVal = document.getElementById("filter-max-price").value;
+      if (maxPriceVal < 5000000) params.max_price = maxPriceVal;
+
+      try {
+        let res;
+        if (searchVal) {
+          res = await AutoWiseAPI.searchVehicles(searchVal);
+          // format into standard response structure
+          res = { items: res.items, total: res.count, page: 1, total_pages: 1 };
+        } else {
+          res = await AutoWiseAPI.getVehicles(params);
+        }
+
+        document.getElementById("catalog-count-text").textContent = `Showing ${res.items.length} of ${res.total} vehicles`;
+
+        if (res.items.length === 0) {
+          grid.innerHTML = `
+            <div style="text-align: center; grid-column: 1 / -1; padding: 4rem;">
+              <h3 style="margin-bottom: 0.5rem;">No vehicles matched your filters</h3>
+              <p class="text-muted">Try broadening your budget or clearing fuel/brand filters.</p>
+            </div>
+          `;
+          document.getElementById("pagination-controls").innerHTML = "";
+          return;
+        }
+
+        grid.innerHTML = res.items.map(v => `
+          <div class="vehicle-card">
+            <div class="vehicle-card-img-wrapper">
+              <img src="${v.image_url || '/static/images/' + v.category + '/default.jpg'}" alt="${v.brand} ${v.model}" class="vehicle-card-img" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=80'">
+              <span class="vehicle-card-badge badge ${v.category === 'car' ? 'badge-blue' : 'badge-purple'}">${v.body_type || v.category}</span>
+              <button class="vehicle-card-save-btn" onclick="saveVehicle('${v.vehicle_id}', this)" title="Save to Profile">♥</button>
+            </div>
+            <div class="vehicle-card-body">
+              <span class="vehicle-brand">${v.brand}</span>
+              <div class="vehicle-name">${v.model} ${v.variant || ''}</div>
+              <div class="vehicle-variant">${v.fuel_type} • ${v.transmission} • ${v.year}</div>
+
+              <div class="vehicle-specs-grid">
+                <div class="spec-item">
+                  <span class="spec-label">Mileage</span>
+                  <span class="spec-value">${v.mileage_kmpl} kmpl</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Engine</span>
+                  <span class="spec-value">${v.engine_cc ? v.engine_cc + ' cc' : 'EV'}</span>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Safety</span>
+                  <span class="spec-value">${v.safety_rating ? v.safety_rating + ' ★' : 'N/A'}</span>
+                </div>
+              </div>
+
+              <div class="vehicle-price-container">
+                <div>
+                  <span class="spec-label">Ex-Showroom</span>
+                  <div class="vehicle-price">${AutoWiseUtils.formatINR(v.price_ex_showroom, true)}</div>
+                </div>
+                <div style="text-align: right;">
+                  <span class="spec-label">Est. On-Road</span>
+                  <span class="vehicle-price-est">${AutoWiseUtils.formatINR(v.on_road_price_est)}</span>
+                </div>
+              </div>
+
+              <!-- Compare Checkbox Option -->
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; font-size: 0.82rem; color: var(--text-muted);">
+                <input type="checkbox" class="compare-checkbox" id="cb-${v.vehicle_id}" data-id="${v.vehicle_id}" onchange="toggleCompare('${v.vehicle_id}', this)" ${selectedToCompare.has(v.vehicle_id) ? 'checked' : ''}>
+                <label for="cb-${v.vehicle_id}" style="cursor: pointer;">Compare</label>
+              </div>
+
+              <div class="vehicle-card-actions">
+                <a href="/vehicle_detail.html?id=${v.vehicle_id}" class="btn btn-secondary btn-sm">Full Specs</a>
+                <a href="/ownership.html?id=${v.vehicle_id}" class="btn btn-outline btn-sm">TCO Cost</a>
+              </div>
+            </div>
+          </div>
+        `).join("");
+
+        renderPagination(res.page, res.total_pages);
+      } catch (e) {
+        grid.innerHTML = `<div style="text-align: center; grid-column: 1 / -1;"><p class="text-muted">Error: ${e.message}</p></div>`;
+      }
+    }
+
+    function renderPagination(page, totalPages) {
+      const container = document.getElementById("pagination-controls");
+      if (totalPages <= 1) {
+        container.innerHTML = "";
+        return;
+      }
+
+      let html = "";
+      if (page > 1) {
+        html += `<button class="btn btn-outline btn-sm" onclick="changePage(${page - 1})">← Previous</button>`;
+      }
+      for (let p = 1; p <= totalPages; p++) {
+        html += `<button class="btn ${p === page ? 'btn-primary' : 'btn-secondary'} btn-sm" onclick="changePage(${p})">${p}</button>`;
+      }
+      if (page < totalPages) {
+        html += `<button class="btn btn-outline btn-sm" onclick="changePage(${page + 1})">Next →</button>`;
+      }
+      container.innerHTML = html;
+    }
+
+    function changePage(p) {
+      currentPage = p;
+      fetchCatalog();
+      window.scrollTo({ top: 300, behavior: "smooth" });
+    }
+
+    function toggleCompare(vehicleId, checkbox) {
+      if (checkbox.checked) {
+        if (selectedToCompare.size >= 4) {
+          checkbox.checked = false;
+          AutoWiseUtils.showToast("You can compare up to 4 vehicles at a time", "info");
+          return;
+        }
+        selectedToCompare.add(vehicleId);
+      } else {
+        selectedToCompare.delete(vehicleId);
+      }
+      updateCompareTray();
+    }
+
+    function updateCompareTray() {
+      const tray = document.getElementById("compare-tray");
+      const text = document.getElementById("compare-tray-text");
+      if (selectedToCompare.size > 0) {
+        tray.style.display = "flex";
+        text.textContent = `${selectedToCompare.size} vehicle${selectedToCompare.size > 1 ? 's' : ''} selected`;
+      } else {
+        tray.style.display = "none";
+      }
+    }
+
+    async function saveVehicle(vehicleId, btn) {
+      if (!AutoWiseAPI.getToken()) {
+        AutoWiseUtils.showToast("Please log in to save vehicles", "info");
+        setTimeout(() => window.location.href = "/login.html", 1000);
+        return;
+      }
+      try {
+        const res = await AutoWiseAPI.saveVehicle(vehicleId);
+        btn.classList.add("saved");
+        AutoWiseUtils.showToast(res.message, "success");
+      } catch (e) {
+        AutoWiseUtils.showToast(e.message, "error");
+      }
+    }
+  </script>
+</body>
+</html>

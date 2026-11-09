@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: autowise-app
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=AutoWise
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - PORT=8000
+      - HOST=0.0.0.0
+      - SECRET_KEY=autowise-production-super-secret-jwt-key-2026
+      - MONGODB_ENABLED=true
+      - MONGODB_URI=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=autowise_db
+      - USE_LOCAL_FALLBACK_IF_NO_MONGO=true
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:6.0
+    container_name: autowise-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+    restart: unless-stopped
+
+volumes:
+  mongodb_data:
+    driver: local

@@ -1,0 +1,129 @@
+{
+  "model_type": "Car Price Prediction",
+  "champion_algorithm": "XGBoost Regressor",
+  "test_metrics": {
+    "test_r2": 0.9857,
+    "test_mae": 30340.9,
+    "test_rmse": 51786.42,
+    "cv_r2_mean": 0.9845,
+    "cv_mae_mean": 32091.6,
+    "cv_rmse_mean": 49000.58
+  },
+  "residual_std": 51564.07,
+  "categorical_features": [
+    "brand",
+    "model",
+    "fuel_type",
+    "transmission",
+    "seller_type",
+    "owner"
+  ],
+  "numerical_features": [
+    "year",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "seats",
+    "vehicle_age",
+    "km_per_year"
+  ],
+  "top_features": [
+    {
+      "feature": "model",
+      "importance_percentage": 31.68
+    },
+    {
+      "feature": "engine_cc",
+      "importance_percentage": 23.75
+    },
+    {
+      "feature": "fuel_type",
+      "importance_percentage": 13.14
+    },
+    {
+      "feature": "vehicle_age",
+      "importance_percentage": 10.36
+    },
+    {
+      "feature": "year",
+      "importance_percentage": 6.0
+    },
+    {
+      "feature": "brand",
+      "importance_percentage": 5.58
+    },
+    {
+      "feature": "transmission",
+      "importance_percentage": 4.48
+    },
+    {
+      "feature": "owner",
+      "importance_percentage": 2.56
+    },
+    {
+      "feature": "mileage_kmpl",
+      "importance_percentage": 1.01
+    },
+    {
+      "feature": "seats",
+      "importance_percentage": 0.71
+    },
+    {
+      "feature": "km_driven",
+      "importance_percentage": 0.6
+    }
+  ],
+  "benchmarks": {
+    "Linear Regression": {
+      "test_r2": 0.8608,
+      "test_mae": 100410.89,
+      "test_rmse": 161592.97,
+      "cv_r2_mean": 0.8701,
+      "cv_mae_mean": 93701.87,
+      "cv_rmse_mean": 142440.46
+    },
+    "Ridge Regression": {
+      "test_r2": 0.8597,
+      "test_mae": 100682.15,
+      "test_rmse": 162241.68,
+      "cv_r2_mean": 0.8696,
+      "cv_mae_mean": 94152.52,
+      "cv_rmse_mean": 142717.25
+    },
+    "Lasso Regression": {
+      "test_r2": 0.8601,
+      "test_mae": 100592.58,
+      "test_rmse": 162029.83,
+      "cv_r2_mean": 0.8698,
+      "cv_mae_mean": 93946.78,
+      "cv_rmse_mean": 142612.76
+    },
+    "Decision Tree": {
+      "test_r2": 0.9628,
+      "test_mae": 56005.18,
+      "test_rmse": 83570.14,
+      "cv_r2_mean": 0.9361,
+      "cv_mae_mean": 67079.91,
+      "cv_rmse_mean": 98894.31
+    },
+    "Random Forest": {
+      "test_r2": 0.9763,
+      "test_mae": 39722.77,
+      "test_rmse": 66660.4,
+      "cv_r2_mean": 0.9728,
+      "cv_mae_mean": 43456.53,
+      "cv_rmse_mean": 64888.89
+    },
+    "XGBoost Regressor": {
+      "test_r2": 0.9857,
+      "test_mae": 30340.9,
+      "test_rmse": 51786.42,
+      "cv_r2_mean": 0.9845,
+      "cv_mae_mean": 32091.6,
+      "cv_rmse_mean": 49000.58
+    }
+  },
+  "target_currency": "INR",
+  "trained_samples": 2352,
+  "test_samples": 589
+}

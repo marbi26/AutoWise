@@ -1,0 +1,22 @@
+{
+  "dataset_name": "AutoWise Indian Vehicle Analytics & Valuation Benchmark",
+  "version": "1.0.0",
+  "collection_date": "2026-11-09",
+  "curator": "AutoWise Engineering Team",
+  "sources": [
+    "ARAI (Automotive Research Association of India) Fuel Efficiency Standards",
+    "SIAM India Vehicle Classification",
+    "Kaggle Indian Used Car Market (Cardekho Public Distributions)",
+    "Kaggle Indian Used Two-Wheelers Market Open Dataset",
+    "Verified Ex-Showroom & RTO Pricing across Indian Metros (Delhi, Mumbai, Bengaluru)"
+  ],
+  "license": "CC-BY-4.0 / Open Access for Research and Engineering Applications",
+  "counts": {
+    "catalog_vehicles": 57,
+    "cars_specs": 34,
+    "bikes_specs": 23,
+    "used_car_transactions": 3000,
+    "used_bike_transactions": 2500,
+    "user_interactions": 1000
+  }
+}

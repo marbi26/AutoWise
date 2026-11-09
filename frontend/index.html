@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoWise — Intelligent Indian Vehicle Recommendation & Price Prediction</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html" class="active">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions">
+        <!-- Dynamically injected by auth.js -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section style="background: var(--gradient-hero); padding: 5rem 0 4rem 0; border-bottom: 1px solid var(--border-color); text-align: center;">
+    <div class="container">
+      <div style="max-width: 840px; margin: 0 auto;">
+        <span class="badge badge-blue" style="margin-bottom: 1.25rem;">India's Leading Automotive ML Platform</span>
+        <h1 style="margin-bottom: 1.25rem;">
+          Make Confident Vehicle Decisions Powered by <span class="text-gradient">Real Data & Machine Learning</span>
+        </h1>
+        <p style="font-size: 1.15rem; color: var(--text-secondary); margin-bottom: 2.5rem; line-height: 1.7;">
+          Engineered for the Indian automotive market. Get personalized car & bike recommendations based on budget, safety, and driving habits, or predict fair market resale prices with trained XGBoost models.
+        </p>
+
+        <!-- Quick Search Bar -->
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-xl); padding: 0.65rem; max-width: 650px; margin: 0 auto 2rem auto; display: flex; gap: 0.5rem; box-shadow: var(--shadow-lg);">
+          <input type="text" id="hero-search-input" class="form-control" style="border: none; background: transparent; font-size: 1.05rem;" placeholder="Search Swift, Creta, Classic 350, Thar, Nexon...">
+          <button id="hero-search-btn" class="btn btn-primary" style="border-radius: var(--radius-lg);">Search</button>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="/recommendations.html" class="btn btn-primary btn-lg">
+            <span>🎯 Get AI Recommendation</span>
+          </a>
+          <a href="/prediction.html" class="btn btn-secondary btn-lg">
+            <span>📈 Predict Resale Price</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Highlight Ribbon -->
+  <section style="background: var(--bg-secondary); border-bottom: 1px solid var(--border-color); padding: 2rem 0;">
+    <div class="container">
+      <div class="grid grid-4" style="text-align: center;">
+        <div>
+          <h3 style="font-size: 2.2rem; color: var(--accent-cyan);" id="stat-total-vehicles">57+</h3>
+          <p class="text-muted" style="font-size: 0.88rem; font-weight: 600;">Verified Indian Models</p>
+        </div>
+        <div>
+          <h3 style="font-size: 2.2rem; color: var(--accent-green);">0.985</h3>
+          <p class="text-muted" style="font-size: 0.88rem; font-weight: 600;">XGBoost Model R² Score</p>
+        </div>
+        <div>
+          <h3 style="font-size: 2.2rem; color: var(--accent-blue);">100%</h3>
+          <p class="text-muted" style="font-size: 0.88rem; font-weight: 600;">ARAI & NCAP Standards</p>
+        </div>
+        <div>
+          <h3 style="font-size: 2.2rem; color: var(--accent-amber);">5-Year</h3>
+          <p class="text-muted" style="font-size: 0.88rem; font-weight: 600;">Total Ownership Modeling</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Modules Showcase -->
+  <section style="padding: 5rem 0;">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-purple" style="margin-bottom: 0.75rem;">Full-Stack Machine Learning Architecture</span>
+        <h2>Designed to Solve Real-World Automotive Choices</h2>
+        <p>From algorithmic ranking to transparent financial modeling, AutoWise delivers mathematical precision.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <!-- Module 1 -->
+        <div class="card">
+          <div style="font-size: 2.2rem; margin-bottom: 1rem;">🎯</div>
+          <h4 style="margin-bottom: 0.5rem;">Hybrid Recommendation</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+            Blends multi-attribute cosine similarity, KNN specification clustering, and collaborative filtering with cold-start safety.
+          </p>
+          <a href="/recommendations.html" style="color: var(--accent-blue); font-weight: 600; font-size: 0.88rem;">Find Vehicles →</a>
+        </div>
+
+        <!-- Module 2 -->
+        <div class="card">
+          <div style="font-size: 2.2rem; margin-bottom: 1rem;">📈</div>
+          <h4 style="margin-bottom: 0.5rem;">Price Prediction ML</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+            Separate XGBoost and Random Forest pipelines for cars and motorcycles with 95% confidence intervals and feature importance.
+          </p>
+          <a href="/prediction.html" style="color: var(--accent-blue); font-weight: 600; font-size: 0.88rem;">Valuate Vehicle →</a>
+        </div>
+
+        <!-- Module 3 -->
+        <div class="card">
+          <div style="font-size: 2.2rem; margin-bottom: 1rem;">⚖️</div>
+          <h4 style="margin-bottom: 0.5rem;">Multi-Vehicle Comparison</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+            Side-by-side spec audit with automated winner detection and multi-dimensional radar performance scoring across 5 pillars.
+          </p>
+          <a href="/compare.html" style="color: var(--accent-blue); font-weight: 600; font-size: 0.88rem;">Compare Models →</a>
+        </div>
+
+        <!-- Module 4 -->
+        <div class="card">
+          <div style="font-size: 2.2rem; margin-bottom: 1rem;">💰</div>
+          <h4 style="margin-bottom: 0.5rem;">5-Year Ownership TCO</h4>
+          <p class="text-muted" style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+            Calculates actual cost per kilometer accounting for financing, fuel inflation, IRDAI insurance, servicing, and resale value.
+          </p>
+          <a href="/ownership.html" style="color: var(--accent-blue); font-weight: 600; font-size: 0.88rem;">Calculate TCO →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Vehicles Catalog Preview -->
+  <section style="padding: 4rem 0 5rem 0; background: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2.5rem;">
+        <div>
+          <span class="badge badge-green" style="margin-bottom: 0.5rem;">Market Catalog</span>
+          <h2>Popular Indian Vehicles</h2>
+          <p class="text-muted">Top-selling, NCAP-rated cars and two-wheelers in India.</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-primary btn-sm category-filter-btn" data-category="car">Cars</button>
+          <button class="btn btn-secondary btn-sm category-filter-btn" data-category="bike">Bikes</button>
+          <a href="/vehicles.html" class="btn btn-outline btn-sm">View All →</a>
+        </div>
+      </div>
+
+      <!-- Vehicle Cards Grid -->
+      <div class="grid grid-3" id="featured-vehicles-grid">
+        <div style="text-align: center; grid-column: 1 / -1; padding: 3rem;">
+          <p class="text-muted">Loading featured vehicles...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <span>⚡</span> Auto<span class="accent">Wise</span>
+          </div>
+          <p style="font-size: 0.9rem; line-height: 1.6; max-width: 320px;">
+            Intelligent vehicle recommendation, valuation and ownership modeling designed specifically for Indian automobile buyers and engineers.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Platform</h5>
+          <ul>
+            <li><a href="/vehicles.html">Vehicle Catalog</a></li>
+            <li><a href="/recommendations.html">AI Recommendations</a></li>
+            <li><a href="/prediction.html">Price Predictor</a></li>
+            <li><a href="/compare.html">Vehicle Compare</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Analytics & Tools</h5>
+          <ul>
+            <li><a href="/ownership.html">Ownership Calculator</a></li>
+            <li><a href="/admin_analytics.html">Market Analytics</a></li>
+            <li><a href="/dashboard.html">User Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Engineering</h5>
+          <ul>
+            <li><a href="/docs" target="_blank">FastAPI Swagger Docs</a></li>
+            <li><span class="badge badge-blue">Python 3.13</span></li>
+            <li><span class="badge badge-green">XGBoost 3.4</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 AutoWise. Placement Interview Machine Learning Portfolio Project.</div>
+        <div>Built with Python, FastAPI, XGBoost, Scikit-learn, Chart.js & Vanilla ES6.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      // 1. Load initial stats
+      try {
+        const analytics = await AutoWiseAPI.getAnalyticsDashboard();
+        if (analytics && analytics.overview) {
+          document.getElementById("stat-total-vehicles").textContent = `${analytics.overview.total_vehicles}+`;
+        }
+      } catch (e) {
+        console.warn("Analytics fetch error:", e);
+      }
+
+      // 2. Load featured vehicles
+      let currentCategory = "car";
+      async function loadFeatured(category) {
+        const grid = document.getElementById("featured-vehicles-grid");
+        grid.innerHTML = '<div style="text-align: center; grid-column: 1 / -1; padding: 2rem;"><p class="text-muted">Loading...</p></div>';
+        try {
+          const res = await AutoWiseAPI.getVehicles({ category, limit: 6, sort_by: "safety_desc" });
+          if (!res.items || res.items.length === 0) {
+            grid.innerHTML = '<div style="text-align: center; grid-column: 1 / -1;"><p class="text-muted">No vehicles found.</p></div>';
+            return;
+          }
+          grid.innerHTML = res.items.map(v => `
+            <div class="vehicle-card">
+              <div class="vehicle-card-img-wrapper">
+                <img src="${v.image_url || '/static/images/' + v.category + '/default.jpg'}" alt="${v.brand} ${v.model}" class="vehicle-card-img" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600&auto=format&fit=crop&q=80'">
+                <span class="vehicle-card-badge badge ${v.category === 'car' ? 'badge-blue' : 'badge-purple'}">${v.body_type || v.category}</span>
+                <button class="vehicle-card-save-btn" onclick="saveVehicleBookmark('${v.vehicle_id}', this)" title="Save to Profile">♥</button>
+              </div>
+              <div class="vehicle-card-body">
+                <span class="vehicle-brand">${v.brand}</span>
+                <div class="vehicle-name">${v.model} ${v.variant || ''}</div>
+                <div class="vehicle-variant">${v.fuel_type} • ${v.transmission} • ${v.year}</div>
+
+                <div class="vehicle-specs-grid">
+                  <div class="spec-item">
+                    <span class="spec-label">Mileage</span>
+                    <span class="spec-value">${v.mileage_kmpl} kmpl</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">Engine</span>
+                    <span class="spec-value">${v.engine_cc ? v.engine_cc + ' cc' : 'EV'}</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">Safety</span>
+                    <span class="spec-value">${v.safety_rating ? v.safety_rating + ' ★' : 'N/A'}</span>
+                  </div>
+                </div>
+
+                <div class="vehicle-price-container">
+                  <div>
+                    <span class="spec-label">Ex-Showroom</span>
+                    <div class="vehicle-price">${AutoWiseUtils.formatINR(v.price_ex_showroom, true)}</div>
+                  </div>
+                  <div style="text-align: right;">
+                    <span class="spec-label">Est. On-Road</span>
+                    <span class="vehicle-price-est">${AutoWiseUtils.formatINR(v.on_road_price_est)}</span>
+                  </div>
+                </div>
+
+                <div class="vehicle-card-actions">
+                  <a href="/vehicle_detail.html?id=${v.vehicle_id}" class="btn btn-secondary btn-sm">Full Specs</a>
+                  <a href="/ownership.html?id=${v.vehicle_id}" class="btn btn-outline btn-sm">TCO Cost</a>
+                </div>
+              </div>
+            </div>
+          `).join("");
+        } catch (e) {
+          grid.innerHTML = `<div style="text-align: center; grid-column: 1 / -1;"><p class="text-muted">Error loading catalog: ${e.message}</p></div>`;
+        }
+      }
+
+      await loadFeatured("car");
+
+      // Category toggle buttons
+      document.querySelectorAll(".category-filter-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".category-filter-btn").forEach(b => {
+            b.classList.remove("btn-primary");
+            b.classList.add("btn-secondary");
+          });
+          btn.classList.remove("btn-secondary");
+          btn.classList.add("btn-primary");
+          currentCategory = btn.dataset.category;
+          loadFeatured(currentCategory);
+        });
+      });
+
+      // Hero Search
+      const searchInput = document.getElementById("hero-search-input");
+      const searchBtn = document.getElementById("hero-search-btn");
+      function executeSearch() {
+        const val = searchInput.value.trim();
+        if (val) {
+          window.location.href = `/vehicles.html?q=${encodeURIComponent(val)}`;
+        }
+      }
+      searchBtn.addEventListener("click", executeSearch);
+      searchInput.addEventListener("keypress", (e) => {
+        if (e.key === "Enter") executeSearch();
+      });
+    });
+
+    async function saveVehicleBookmark(vehicleId, btn) {
+      if (!AutoWiseAPI.getToken()) {
+        AutoWiseUtils.showToast("Please log in to save vehicles to your profile", "info");
+        setTimeout(() => window.location.href = "/login.html", 1000);
+        return;
+      }
+      try {
+        const res = await AutoWiseAPI.saveVehicle(vehicleId);
+        btn.classList.add("saved");
+        AutoWiseUtils.showToast(res.message, "success");
+      } catch (e) {
+        AutoWiseUtils.showToast(e.message, "error");
+      }
+    }
+  </script>
+</body>
+</html>

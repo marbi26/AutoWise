@@ -1,0 +1,151 @@
+"""
+Generates the comprehensive EDA and Machine Learning Jupyter Notebook for AutoWise.
+"""
+
+import json
+import os
+
+NOTEBOOK_PATH = os.path.join(os.path.dirname(__file__), "..", "ml", "notebooks", "autowise_eda_and_modeling.ipynb")
+
+notebook = {
+    "cells": [
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "# AutoWise: Machine Learning Exploration, EDA & Valuation Models\n",
+                "### End-to-End Analysis for Indian Cars & Two-Wheelers\n",
+                "\n",
+                "**Author:** AutoWise ML Engineering Team  \n",
+                "**Context:** Placement Interview Portfolio Benchmark  \n",
+                "**Dataset:** Indian Automotive Specification & Resale Price Benchmark (Cardekho, ARAI Standards, Open Market)"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": 1,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "import os\n",
+                "import numpy as np\n",
+                "import pandas as pd\n",
+                "import matplotlib.pyplot as plt\n",
+                "import seaborn as sns\n",
+                "import joblib\n",
+                "\n",
+                "from sklearn.metrics import mean_absolute_error, root_mean_squared_error, r2_score\n",
+                "\n",
+                "sns.set_theme(style='whitegrid', palette='muted')\n",
+                "print('Environment and libraries initialized.')"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 1. Load Cleaned Datasets"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": 2,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "cars_df = pd.read_csv('../data/processed/used_cars_cleaned.csv')\n",
+                "bikes_df = pd.read_csv('../data/processed/used_bikes_cleaned.csv')\n",
+                "catalog_df = pd.read_csv('../data/processed/vehicles_catalog_cleaned.csv')\n",
+                "\n",
+                "print(f'Cars dataset shape: {cars_df.shape}')\n",
+                "print(f'Bikes dataset shape: {bikes_df.shape}')\n",
+                "print(f'Catalog specs shape: {catalog_df.shape}')"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 2. Exploratory Data Analysis (EDA)\n",
+                "### Car Price Distribution by Brand and Fuel Type"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": 3,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "display(cars_df.describe().T)\n",
+                "display(cars_df.groupby('brand')['selling_price'].agg(['count', 'mean', 'median', 'std']))"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 3. Model Benchmark Comparisons"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": 4,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "with open('../models/car_model_meta.json') as f:\n",
+                "    car_meta = json.load(f)\n",
+                "with open('../models/bike_model_meta.json') as f:\n",
+                "    bike_meta = json.load(f)\n",
+                "\n",
+                "car_benchmark_df = pd.DataFrame(car_meta['benchmarks']).T\n",
+                "print('--- Car Price Regressor Benchmarks ---')\n",
+                "display(car_benchmark_df)\n",
+                "\n",
+                "bike_benchmark_df = pd.DataFrame(bike_meta['benchmarks']).T\n",
+                "print('--- Bike Price Regressor Benchmarks ---')\n",
+                "display(bike_benchmark_df)"
+            ]
+        },
+        {
+            "cell_type": "markdown",
+            "metadata": {},
+            "source": [
+                "## 4. Feature Importance Analysis"
+            ]
+        },
+        {
+            "cell_type": "code",
+            "execution_count": 5,
+            "metadata": {},
+            "outputs": [],
+            "source": [
+                "car_feat_df = pd.DataFrame(car_meta['top_features'])\n",
+                "print('Top Car Price Determinants:')\n",
+                "display(car_feat_df)\n",
+                "\n",
+                "bike_feat_df = pd.DataFrame(bike_meta['top_features'])\n",
+                "print('Top Bike Price Determinants:')\n",
+                "display(bike_feat_df)"
+            ]
+        }
+    ],
+    "metadata": {
+        "kernelspec": {
+            "display_name": "Python 3",
+            "language": "python",
+            "name": "python3"
+        },
+        "language_info": {
+            "name": "python",
+            "version": "3.13"
+        }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 2
+}
+
+with open(NOTEBOOK_PATH, "w") as f:
+    json.dump(notebook, f, indent=2)
+
+print(f"Jupyter Notebook generated at: {NOTEBOOK_PATH}")

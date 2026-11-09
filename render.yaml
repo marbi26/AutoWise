@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: autowise-web
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: APP_NAME
+        value: AutoWise
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: MONGODB_ENABLED
+        value: "false"
+      - key: USE_LOCAL_FALLBACK_IF_NO_MONGO
+        value: "true"

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile & History — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem; max-width: 900px;">
+    <div style="margin-bottom: 2rem;">
+      <a href="/dashboard.html" class="text-muted" style="font-size: 0.88rem;">← Back to Dashboard</a>
+      <h1 style="margin-top: 0.5rem;">User Account & Audit Logs</h1>
+      <p class="text-muted">Manage your profile credentials and explore complete AI recommendation history.</p>
+    </div>
+
+    <!-- Account Details Card -->
+    <div class="card" style="margin-bottom: 3rem;">
+      <h3 style="margin-bottom: 1.25rem;">Account Credentials</h3>
+      <div class="grid grid-2" style="font-size: 0.95rem;">
+        <div>
+          <span class="text-muted" style="display: block; font-size: 0.82rem;">Full Name</span>
+          <strong id="prof-name">Loading...</strong>
+        </div>
+        <div>
+          <span class="text-muted" style="display: block; font-size: 0.82rem;">Username</span>
+          <strong id="prof-username">Loading...</strong>
+        </div>
+        <div>
+          <span class="text-muted" style="display: block; font-size: 0.82rem;">Email Address</span>
+          <strong id="prof-email">Loading...</strong>
+        </div>
+        <div>
+          <span class="text-muted" style="display: block; font-size: 0.82rem;">Role</span>
+          <span class="badge badge-green" id="prof-role">USER</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommendation Logs Section -->
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem;">
+        <div>
+          <h3>Recommendation History Audit</h3>
+          <p class="text-muted">Past queries, computed similarity vectors, and match scores.</p>
+        </div>
+        <a href="/recommendations.html" class="btn btn-primary btn-sm">+ New Recommendation</a>
+      </div>
+
+      <div id="full-history-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+        <div class="card" style="text-align: center; padding: 3rem;">
+          <p class="text-muted">Loading your recommendation history...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      if (!AutoWiseAuth.requireAuth()) return;
+
+      try {
+        const profile = await AutoWiseAPI.getProfile();
+        document.getElementById("prof-name").textContent = profile.full_name;
+        document.getElementById("prof-username").textContent = profile.username;
+        document.getElementById("prof-email").textContent = profile.email;
+        document.getElementById("prof-role").textContent = (profile.role || "user").toUpperCase();
+      } catch (e) {
+        console.error("Profile error:", e);
+      }
+
+      // Load full history
+      try {
+        const histRes = await AutoWiseAPI.getRecommendationHistory();
+        const container = document.getElementById("full-history-list");
+        if (!histRes.history || histRes.history.length === 0) {
+          container.innerHTML = `
+            <div class="card" style="text-align: center; padding: 3rem; border-style: dashed;">
+              <p class="text-muted">You have no recommendation queries recorded yet.</p>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = histRes.history.map((item, idx) => {
+          const dateStr = item.created_at ? new Date(item.created_at).toLocaleString("en-IN") : "Recent";
+          const q = item.query_parameters || {};
+          const results = item.results || [];
+          return `
+            <div class="card">
+              <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1rem;">
+                <div>
+                  <span class="badge ${item.category === 'car' ? 'badge-blue' : 'badge-purple'}">${item.category.toUpperCase()}</span>
+                  <span class="text-muted" style="font-size: 0.85rem; margin-left: 0.5rem;">${dateStr}</span>
+                </div>
+                <span class="badge badge-green" style="font-size: 0.75rem;">${item.methodology || 'Hybrid Recommender'}</span>
+              </div>
+
+              <!-- Query Criteria Tags -->
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; font-size: 0.82rem;">
+                <span class="badge badge-secondary" style="background: var(--bg-secondary); color: var(--text-secondary);">Budget: ₹${(q.min_budget/100000).toFixed(1)}L - ₹${(q.max_budget/100000).toFixed(1)}L</span>
+                ${q.fuel_types && q.fuel_types.length > 0 ? `<span class="badge badge-secondary" style="background: var(--bg-secondary); color: var(--text-secondary);">Fuel: ${q.fuel_types.join(', ')}</span>` : ''}
+                ${q.safety_priority ? `<span class="badge badge-secondary" style="background: var(--bg-secondary); color: var(--text-secondary);">Safety: ${q.safety_priority}</span>` : ''}
+                ${q.primary_usage ? `<span class="badge badge-secondary" style="background: var(--bg-secondary); color: var(--text-secondary);">Usage: ${q.primary_usage}</span>` : ''}
+              </div>
+
+              <!-- Scored Results -->
+              <div style="font-size: 0.88rem;">
+                <strong style="color: var(--text-secondary); display: block; margin-bottom: 0.5rem;">Top Recommendations Scored:</strong>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                  ${results.map((r, rIdx) => `
+                    <div style="display: flex; justify-content: space-between; align-items: center; background: var(--bg-secondary); padding: 0.5rem 0.75rem; border-radius: var(--radius-sm);">
+                      <div>
+                        <strong>#${rIdx + 1} ${r.vehicle_id}</strong>
+                        <span class="text-muted" style="font-size: 0.8rem; margin-left: 0.5rem;">${r.reasons || ''}</span>
+                      </div>
+                      <span class="match-score-pill" style="font-size: 0.75rem;">${r.match_score}% Match</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (e) {
+        console.error("History load error:", e);
+      }
+    });
+  </script>
+</body>
+</html>

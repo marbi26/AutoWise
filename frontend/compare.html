@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Comparison — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html" class="active">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem;">
+    <!-- Page Header -->
+    <div class="section-header" style="margin-bottom: 2.5rem;">
+      <span class="badge badge-blue" style="margin-bottom: 0.75rem;">Multi-Specification Analysis</span>
+      <h1>Side-by-Side Vehicle Comparison</h1>
+      <p>Compare up to four cars or motorcycles simultaneously across ARAI specs, safety certifications, and performance radar metrics.</p>
+    </div>
+
+    <!-- Vehicle Selectors Bar -->
+    <div class="card" style="margin-bottom: 2.5rem; box-shadow: var(--shadow-md);">
+      <h4 style="margin-bottom: 1rem;">Select Vehicles to Compare</h4>
+      <div class="grid grid-4" id="selector-grid">
+        <div>
+          <label class="form-label">Vehicle 1</label>
+          <select id="select-v1" class="form-select vehicle-selector"></select>
+        </div>
+        <div>
+          <label class="form-label">Vehicle 2</label>
+          <select id="select-v2" class="form-select vehicle-selector"></select>
+        </div>
+        <div>
+          <label class="form-label">Vehicle 3 (Optional)</label>
+          <select id="select-v3" class="form-select vehicle-selector">
+            <option value="">-- None --</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Vehicle 4 (Optional)</label>
+          <select id="select-v4" class="form-select vehicle-selector">
+            <option value="">-- None --</option>
+          </select>
+        </div>
+      </div>
+      <div style="margin-top: 1.25rem; display: flex; justify-content: flex-end;">
+        <button id="run-compare-btn" class="btn btn-primary">Compare Selected Vehicles</button>
+      </div>
+    </div>
+
+    <!-- Comparison View Container -->
+    <div id="comparison-view" style="display: none;">
+      
+      <!-- Radar Chart Card -->
+      <div class="card" style="margin-bottom: 2.5rem;">
+        <h3 style="margin-bottom: 0.5rem;">Performance & Utility Radar Analysis</h3>
+        <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1.5rem;">Normalized 0-100 scores across 5 core automotive dimensions.</p>
+        <div style="height: 380px; position: relative;">
+          <canvas id="comparisonRadarChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Structured Comparison Table -->
+      <div class="comparison-table-wrapper" style="margin-bottom: 2.5rem;">
+        <table class="comparison-table" id="comparison-table-body">
+          <!-- Injected dynamically -->
+        </table>
+      </div>
+
+      <!-- Verdict Card -->
+      <div class="card" style="background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.1) 0%, rgba(22, 32, 50, 0.95) 100%); border-color: rgba(37, 99, 235, 0.3);">
+        <h3 style="margin-bottom: 0.75rem; color: var(--accent-cyan);">Expert Verdict & Tradeoff Summary</h3>
+        <p id="verdict-text" style="font-size: 1.05rem; line-height: 1.7; color: #e2e8f0; margin: 0;"></p>
+      </div>
+
+    </div>
+
+    <!-- Empty Placeholder -->
+    <div id="compare-placeholder" class="card" style="text-align: center; padding: 4rem; border-style: dashed;">
+      <div style="font-size: 3rem; margin-bottom: 1rem;">⚖️</div>
+      <h3>Choose at least two vehicles above</h3>
+      <p class="text-muted" style="margin-top: 0.5rem;">Select from the dropdowns and click 'Compare Selected Vehicles' to build the side-by-side audit.</p>
+    </div>
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script src="/static/js/charts.js"></script>
+  <script>
+    let allCatalogVehicles = [];
+    let radarChartInstance = null;
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const res = await AutoWiseAPI.getVehicles({ limit: 60 });
+        allCatalogVehicles = res.items || [];
+        populateSelectors();
+
+        // Check if query params have pre-selected ids
+        const params = AutoWiseUtils.getUrlParams();
+        if (params.ids) {
+          const ids = params.ids.split(",");
+          if (ids[0]) document.getElementById("select-v1").value = ids[0];
+          if (ids[1]) document.getElementById("select-v2").value = ids[1];
+          if (ids[2]) document.getElementById("select-v3").value = ids[2];
+          if (ids[3]) document.getElementById("select-v4").value = ids[3];
+          if (ids.length >= 2) {
+            executeComparison();
+          }
+        }
+      } catch (e) {
+        console.error("Error loading vehicles for comparison:", e);
+      }
+
+      document.getElementById("run-compare-btn").addEventListener("click", executeComparison);
+    });
+
+    function populateSelectors() {
+      const selectors = ["select-v1", "select-v2", "select-v3", "select-v4"];
+      selectors.forEach((sid, idx) => {
+        const sel = document.getElementById(sid);
+        let html = idx >= 2 ? '<option value="">-- None --</option>' : '';
+        html += allCatalogVehicles.map(v => `<option value="${v.vehicle_id}">${v.brand} ${v.model} (${v.fuel_type})</option>`).join('');
+        sel.innerHTML = html;
+        if (idx === 0 && allCatalogVehicles.length > 0) sel.value = allCatalogVehicles[0].vehicle_id;
+        if (idx === 1 && allCatalogVehicles.length > 1) sel.value = allCatalogVehicles[1].vehicle_id;
+      });
+    }
+
+    async function executeComparison() {
+      const v1 = document.getElementById("select-v1").value;
+      const v2 = document.getElementById("select-v2").value;
+      const v3 = document.getElementById("select-v3").value;
+      const v4 = document.getElementById("select-v4").value;
+
+      const ids = [v1, v2, v3, v4].filter(Boolean);
+      const uniqueIds = Array.from(new Set(ids));
+
+      if (uniqueIds.length < 2) {
+        AutoWiseUtils.showToast("Please choose at least two distinct vehicles to compare", "info");
+        return;
+      }
+
+      const btn = document.getElementById("run-compare-btn");
+      btn.disabled = true;
+      btn.textContent = "Comparing...";
+
+      try {
+        const res = await AutoWiseAPI.compareVehicles(uniqueIds);
+        renderComparison(res);
+      } catch (err) {
+        AutoWiseUtils.showToast(err.message, "error");
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "Compare Selected Vehicles";
+      }
+    }
+
+    function renderComparison(data) {
+      document.getElementById("compare-placeholder").style.display = "none";
+      const view = document.getElementById("comparison-view");
+      view.style.display = "block";
+      view.scrollIntoView({ behavior: "smooth" });
+
+      // 1. Table Render
+      const table = document.getElementById("comparison-table-body");
+      const vehicles = data.vehicles;
+
+      // Table Header with images & names
+      let thead = `
+        <thead>
+          <tr>
+            <th style="width: 25%;">Vehicle Model</th>
+            ${vehicles.map(v => `
+              <th style="width: ${75 / vehicles.length}%;">
+                <div style="font-size: 1.15rem; font-weight: 800; color: #fff;">${v.brand} ${v.model}</div>
+                <div class="text-muted" style="font-size: 0.82rem; font-weight: 400;">${v.variant || ''}</div>
+                <div style="margin-top: 0.5rem;">
+                  <a href="/vehicle_detail.html?id=${v.vehicle_id}" class="btn btn-outline btn-sm" style="font-size: 0.75rem;">View Specs</a>
+                </div>
+              </th>
+            `).join('')}
+          </tr>
+        </thead>
+      `;
+
+      let tbody = "<tbody>";
+      data.comparison_table.forEach(item => {
+        tbody += `<tr><th>${item.parameter}</th>`;
+        vehicles.forEach(v => {
+          const val = item.values[v.vehicle_id];
+          const isWinner = item.winner === v.vehicle_id;
+          tbody += `<td>${isWinner ? `<span class="comparison-winner">${val} ★</span>` : val}</td>`;
+        });
+        tbody += `</tr>`;
+      });
+      tbody += "</tbody>";
+
+      table.innerHTML = thead + tbody;
+
+      // 2. Radar Chart
+      if (radarChartInstance) {
+        radarChartInstance.destroy();
+      }
+      radarChartInstance = AutoWiseCharts.renderComparisonRadar("comparisonRadarChart", data.radar_scores);
+
+      // 3. Verdict
+      document.getElementById("verdict-text").innerHTML = data.summary_verdict;
+    }
+  </script>
+</body>
+</html>

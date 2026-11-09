@@ -1,0 +1,2501 @@
+brand,model,year,selling_price,km_driven,seller_type,owner,mileage_kmpl,engine_cc
+Yamaha,FZ-S FI,2021,67000,41775,Individual,Second Owner,45.6,149.0
+Hero,HF Deluxe,2015,11000,64766,Individual,Third Owner,71.2,97.2
+TVS,Raider 125,2013,17000,57967,Individual,Second Owner,66.7,124.8
+Honda,CB Unicorn,2023,80000,15498,Individual,First Owner,52.1,162.7
+Honda,CB Unicorn,2013,21000,125302,Dealer,Second Owner,49.1,162.7
+Hero,Xpulse 200,2020,60000,49998,Individual,Second Owner,40.0,199.6
+KTM,Duke 200,2019,88000,65502,Individual,First Owner,31.4,199.5
+Royal Enfield,Hunter 350,2019,99000,47570,Individual,First Owner,34.6,349.0
+Honda,Dio,2023,54000,28249,Individual,First Owner,48.3,109.5
+Bajaj,Pulsar 150,2023,87000,20987,Individual,First Owner,45.0,149.5
+Bajaj,Pulsar NS200,2019,59000,52345,Individual,Second Owner,34.4,199.5
+Royal Enfield,Himalayan,2022,162000,32724,Dealer,First Owner,29.1,411.0
+Bajaj,Avenger 220,2021,80000,31821,Dealer,First Owner,37.0,220.0
+Honda,Hness CB350,2015,39000,77573,Individual,Second Owner,33.2,348.0
+KTM,RC 200,2023,170000,14631,Individual,First Owner,32.8,199.5
+Royal Enfield,Hunter 350,2021,116000,41483,Individual,First Owner,37.4,349.0
+Bajaj,Pulsar 150,2012,21000,93203,Individual,Second Owner,43.8,149.5
+Bajaj,Avenger 220,2019,64000,61912,Individual,First Owner,36.2,220.0
+Bajaj,Platina 110,2023,47000,34670,Dealer,First Owner,68.9,115.4
+Royal Enfield,Hunter 350,2022,119000,34786,Individual,First Owner,35.8,349.0
+Bajaj,Avenger 220,2019,49000,69072,Individual,Second Owner,39.5,220.0
+Suzuki,Gixxer 155,2023,96000,26617,Individual,First Owner,43.6,155.0
+Honda,Shine,2021,44000,59196,Individual,First Owner,64.5,124.0
+KTM,Duke 200,2021,116000,30894,Individual,First Owner,33.0,199.5
+Hero,Glamour,2012,15000,119605,Individual,Second Owner,60.3,124.7
+Honda,Dio,2017,13000,76599,Individual,Third Owner,46.9,109.5
+Hero,Splendor Plus,2020,35000,64973,Individual,First Owner,68.0,97.2
+Hero,HF Deluxe,2016,24000,37693,Individual,First Owner,69.2,97.2
+TVS,Jupiter,2019,31000,63348,Individual,First Owner,49.5,109.7
+Honda,CB Unicorn,2015,20000,43253,Individual,Third Owner,52.9,162.7
+Bajaj,Dominar 400,2021,132000,28534,Individual,First Owner,28.7,373.3
+Hero,Glamour,2012,16000,106910,Individual,First Owner,57.0,124.7
+Honda,Activa,2022,52000,30945,Dealer,First Owner,47.9,109.5
+Honda,CB Unicorn,2018,40000,78782,Individual,First Owner,52.6,162.7
+Bajaj,Dominar 400,2020,89000,90636,Individual,First Owner,28.8,373.3
+Yamaha,FZ-S FI,2017,30000,82020,Individual,Second Owner,47.6,149.0
+Yamaha,MT-15,2017,61000,65776,Individual,First Owner,47.6,155.0
+TVS,Jupiter,2014,13000,106876,Individual,Second Owner,53.7,109.7
+Honda,CB Unicorn,2018,31000,75139,Individual,Second Owner,49.7,162.7
+TVS,Apache RTR 200,2022,100000,25710,Individual,First Owner,35.5,197.75
+TVS,Apache RTR 160,2022,83000,30066,Dealer,First Owner,42.7,159.7
+Hero,Xpulse 200,2023,96000,38838,Dealer,First Owner,41.5,199.6
+Bajaj,Pulsar 150,2018,50000,42551,Individual,First Owner,48.0,149.5
+KTM,Duke 200,2022,110000,36468,Dealer,Second Owner,31.5,199.5
+KTM,Duke 390,2020,159000,52131,Individual,First Owner,25.8,373.2
+Bajaj,Platina 110,2019,27000,88791,Individual,First Owner,68.9,115.4
+TVS,Apache RTR 160,2018,42000,38863,Individual,Second Owner,43.2,159.7
+Hero,Glamour,2021,42000,50620,Dealer,Second Owner,58.7,124.7
+Honda,Hness CB350,2022,143000,34638,Individual,First Owner,34.1,348.0
+Honda,Shine,2012,16000,181642,Individual,Second Owner,64.1,124.0
+Royal Enfield,Classic 350,2024,161000,13420,Individual,Second Owner,37.1,349.0
+Bajaj,Platina 110,2020,32000,48525,Individual,First Owner,73.9,115.4
+TVS,Apache RTR 160,2018,40000,61837,Individual,Second Owner,44.0,159.7
+Honda,Activa,2024,59000,18496,Dealer,First Owner,47.9,109.5
+TVS,Apache RTR 200,2016,46000,75268,Individual,First Owner,39.7,197.75
+KTM,RC 200,2013,39000,154680,Individual,First Owner,31.1,199.5
+Royal Enfield,Hunter 350,2017,71000,54087,Individual,First Owner,37.7,349.0
+Yamaha,YZF R15,2023,139000,33665,Individual,First Owner,42.4,155.0
+TVS,Jupiter,2017,26000,70391,Individual,First Owner,49.3,109.7
+Yamaha,YZF R15,2015,34000,97702,Individual,Second Owner,46.8,155.0
+Yamaha,FZ-S FI,2022,81000,25847,Individual,First Owner,46.0,149.0
+Hero,Xpulse 200,2022,82000,19835,Individual,Second Owner,37.5,199.6
+Yamaha,YZF R15,2020,91000,71367,Individual,First Owner,44.9,155.0
+Hero,Xpulse 200,2021,75000,40291,Individual,First Owner,42.0,199.6
+Honda,Hness CB350,2021,117000,48790,Dealer,First Owner,35.6,348.0
+KTM,Duke 390,2020,146000,61488,Individual,First Owner,25.9,373.2
+TVS,Apache RTR 160,2013,29000,60883,Individual,First Owner,44.2,159.7
+Bajaj,Pulsar 150,2016,30000,88157,Individual,First Owner,48.5,149.5
+Royal Enfield,Classic 350,2019,92000,53131,Individual,Second Owner,35.2,349.0
+KTM,Duke 200,2018,73000,51684,Individual,Second Owner,32.9,199.5
+TVS,Apache RTR 200,2015,28000,131674,Individual,First Owner,35.9,197.75
+Royal Enfield,Hunter 350,2019,47000,62862,Dealer,Third Owner,36.0,349.0
+Suzuki,Gixxer 155,2019,55000,68366,Individual,First Owner,44.5,155.0
+Honda,Activa,2019,37000,46383,Individual,First Owner,46.8,109.5
+Royal Enfield,Hunter 350,2018,50000,66181,Individual,Second Owner,35.1,349.0
+TVS,Raider 125,2016,31000,70536,Individual,First Owner,63.2,124.8
+TVS,Apache RTR 200,2021,81000,49936,Individual,First Owner,37.0,197.75
+Bajaj,Pulsar 150,2014,21000,67351,Individual,Second Owner,45.8,149.5
+KTM,Duke 200,2020,82000,56482,Individual,Second Owner,32.2,199.5
+Bajaj,Dominar 400,2016,55000,90091,Individual,First Owner,27.0,373.3
+KTM,Duke 390,2020,171000,44334,Dealer,First Owner,26.6,373.2
+Suzuki,Gixxer 155,2015,24000,131560,Individual,Second Owner,46.7,155.0
+Yamaha,YZF R15,2022,128000,20758,Individual,First Owner,45.4,155.0
+Royal Enfield,Himalayan,2021,145000,46523,Individual,First Owner,29.9,411.0
+TVS,Ntorq 125,2020,37000,50197,Individual,Second Owner,44.1,124.8
+Honda,Dio,2021,35000,42654,Individual,Second Owner,49.8,109.5
+Hero,HF Deluxe,2019,13000,86919,Individual,Third Owner,66.4,97.2
+TVS,Jupiter,2023,55000,44304,Dealer,First Owner,52.3,109.7
+Bajaj,Pulsar 150,2020,57000,69382,Dealer,First Owner,44.2,149.5
+Bajaj,Pulsar NS200,2018,56000,71784,Individual,First Owner,37.6,199.5
+KTM,RC 200,2022,129000,34213,Individual,Second Owner,31.7,199.5
+Bajaj,Platina 110,2018,20000,75393,Individual,Second Owner,67.5,115.4
+KTM,RC 200,2021,109000,89139,Dealer,First Owner,31.3,199.5
+Bajaj,Pulsar 150,2018,46000,43062,Individual,First Owner,45.8,149.5
+Suzuki,Gixxer 155,2016,30000,74610,Individual,Second Owner,42.8,155.0
+Honda,Hness CB350,2019,83000,38252,Individual,Second Owner,34.9,348.0
+Royal Enfield,Bullet 350,2021,116000,19316,Individual,Second Owner,36.0,346.0
+Royal Enfield,Bullet 350,2017,51000,74890,Individual,Second Owner,37.0,346.0
+Royal Enfield,Bullet 350,2022,134000,32725,Individual,First Owner,35.3,346.0
+Bajaj,Pulsar NS200,2019,48000,67710,Individual,Second Owner,35.7,199.5
+Honda,Hness CB350,2016,57000,53680,Individual,Second Owner,33.5,348.0
+Honda,Shine,2023,58000,26843,Dealer,First Owner,60.0,124.0
+Bajaj,Avenger 220,2013,24000,90918,Dealer,First Owner,39.3,220.0
+KTM,Duke 390,2018,116000,80692,Individual,First Owner,27.2,373.2
+Bajaj,Avenger 220,2020,60000,57056,Individual,Second Owner,38.4,220.0
+Suzuki,Gixxer 155,2018,33000,93886,Individual,Second Owner,45.1,155.0
+Royal Enfield,Classic 350,2021,131000,42317,Dealer,First Owner,33.6,349.0
+Honda,Hness CB350,2023,154000,28102,Individual,First Owner,34.0,348.0
+KTM,RC 200,2018,72000,65855,Individual,Second Owner,33.3,199.5
+TVS,Jupiter,2015,13000,146796,Individual,Second Owner,53.8,109.7
+TVS,Apache RTR 160,2013,23000,137864,Individual,Second Owner,42.9,159.7
+Honda,CB Unicorn,2021,65000,25813,Individual,First Owner,48.9,162.7
+Bajaj,Pulsar 150,2020,66000,28789,Individual,First Owner,46.2,149.5
+Honda,Shine,2020,34000,73783,Dealer,First Owner,62.4,124.0
+Bajaj,Pulsar NS200,2023,109000,30469,Individual,First Owner,35.7,199.5
+Bajaj,Pulsar NS200,2022,93000,54589,Individual,First Owner,37.0,199.5
+TVS,Ntorq 125,2021,51000,48632,Individual,First Owner,46.1,124.8
+Suzuki,Access 125,2016,15000,117772,Dealer,Second Owner,51.1,124.0
+Royal Enfield,Bullet 350,2020,112000,24296,Individual,First Owner,36.2,346.0
+Bajaj,Dominar 400,2018,40000,102575,Dealer,Third Owner,29.7,373.3
+Honda,Dio,2014,14000,79105,Individual,Second Owner,49.1,109.5
+Hero,Xpulse 200,2017,31000,93367,Individual,Second Owner,41.1,199.6
+Bajaj,Pulsar NS200,2012,26000,140236,Individual,Second Owner,33.9,199.5
+TVS,Apache RTR 200,2018,43000,68042,Individual,Second Owner,39.3,197.75
+Suzuki,Gixxer 155,2015,25000,102118,Individual,Second Owner,42.1,155.0
+TVS,Raider 125,2022,57000,52277,Individual,First Owner,66.5,124.8
+Suzuki,Access 125,2023,59000,25569,Dealer,First Owner,47.4,124.0
+TVS,Jupiter,2020,40000,46544,Individual,First Owner,49.5,109.7
+Hero,Xpulse 200,2020,69000,52627,Individual,First Owner,38.3,199.6
+Yamaha,FZ-S FI,2012,22000,120706,Individual,Second Owner,42.9,149.0
+Suzuki,Access 125,2022,59000,21787,Individual,First Owner,48.7,124.0
+Royal Enfield,Himalayan,2020,111000,51557,Individual,Second Owner,30.9,411.0
+Royal Enfield,Classic 350,2020,123000,29760,Dealer,First Owner,36.7,349.0
+Honda,CB Unicorn,2019,41000,42762,Individual,Second Owner,52.0,162.7
+Yamaha,MT-15,2016,28000,136488,Individual,Second Owner,47.0,155.0
+Royal Enfield,Bullet 350,2020,95000,60440,Individual,First Owner,34.7,346.0
+TVS,Jupiter,2020,31000,62878,Dealer,Second Owner,48.5,109.7
+Yamaha,MT-15,2019,75000,38028,Individual,Second Owner,46.5,155.0
+Yamaha,FZ-S FI,2019,45000,68238,Dealer,Second Owner,45.5,149.0
+Royal Enfield,Himalayan,2018,65000,98404,Dealer,Second Owner,30.6,411.0
+Honda,Dio,2018,26000,91775,Individual,First Owner,45.6,109.5
+Bajaj,Pulsar 150,2022,77000,29392,Individual,First Owner,49.2,149.5
+Honda,Activa,2016,22000,87312,Individual,First Owner,51.7,109.5
+KTM,RC 200,2020,90000,61476,Individual,Second Owner,31.3,199.5
+Hero,Glamour,2018,36000,45667,Individual,First Owner,60.8,124.7
+Bajaj,Pulsar NS200,2021,80000,37631,Dealer,First Owner,34.6,199.5
+Bajaj,Pulsar 150,2016,22000,98718,Individual,Second Owner,48.6,149.5
+Suzuki,Gixxer 155,2020,74000,31925,Individual,First Owner,43.3,155.0
+Yamaha,FZ-S FI,2022,78000,12785,Individual,First Owner,47.9,149.0
+Yamaha,FZ-S FI,2019,57000,57846,Individual,First Owner,44.8,149.0
+KTM,Duke 200,2018,77000,68314,Individual,First Owner,32.9,199.5
+KTM,RC 200,2019,114000,19540,Dealer,First Owner,30.8,199.5
+Bajaj,Pulsar 150,2014,21000,107305,Individual,First Owner,47.5,149.5
+Hero,Glamour,2021,50000,33398,Dealer,First Owner,57.8,124.7
+Yamaha,YZF R15,2015,47000,86519,Individual,First Owner,42.8,155.0
+KTM,Duke 390,2023,229000,28222,Individual,First Owner,26.0,373.2
+TVS,Jupiter,2019,28000,57244,Individual,Second Owner,51.3,109.7
+Bajaj,Avenger 220,2021,71000,42078,Individual,Second Owner,37.6,220.0
+Honda,Shine,2022,50000,32194,Dealer,First Owner,61.5,124.0
+Bajaj,Pulsar 150,2016,20000,91384,Individual,Second Owner,48.4,149.5
+TVS,Apache RTR 200,2014,25000,112421,Individual,First Owner,39.5,197.75
+Hero,HF Deluxe,2019,20000,84785,Individual,Second Owner,71.1,97.2
+Honda,Hness CB350,2021,108000,37418,Dealer,First Owner,32.6,348.0
+Bajaj,Platina 110,2019,25000,63201,Individual,Second Owner,72.9,115.4
+Honda,Activa,2017,25000,89812,Individual,First Owner,48.7,109.5
+TVS,Apache RTR 200,2018,43000,74434,Dealer,Second Owner,38.6,197.75
+Royal Enfield,Classic 350,2017,75000,66177,Dealer,First Owner,34.7,349.0
+KTM,Duke 200,2018,62000,70034,Dealer,Second Owner,31.6,199.5
+Hero,HF Deluxe,2012,12000,116922,Individual,Third Owner,66.1,97.2
+Hero,Glamour,2019,38000,64755,Dealer,First Owner,60.2,124.7
+Yamaha,FZ-S FI,2021,72000,12926,Individual,First Owner,45.2,149.0
+Suzuki,Gixxer 155,2022,82000,24095,Individual,Second Owner,42.1,155.0
+Royal Enfield,Hunter 350,2019,76000,47760,Individual,Second Owner,36.7,349.0
+TVS,Jupiter,2020,40000,44462,Individual,First Owner,52.4,109.7
+Hero,Glamour,2023,63000,2926,Individual,First Owner,58.6,124.7
+Hero,Splendor Plus,2015,18000,86601,Individual,First Owner,65.5,97.2
+Bajaj,Avenger 220,2015,26000,103507,Individual,Third Owner,38.0,220.0
+Yamaha,MT-15,2021,91000,65327,Individual,First Owner,46.5,155.0
+Suzuki,Access 125,2018,28000,87264,Dealer,First Owner,52.0,124.0
+TVS,Ntorq 125,2023,62000,35766,Individual,First Owner,49.3,124.8
+Yamaha,MT-15,2017,29000,128614,Dealer,Second Owner,46.9,155.0
+Honda,CB Unicorn,2022,69000,44906,Individual,First Owner,51.7,162.7
+TVS,Ntorq 125,2021,50000,35641,Individual,First Owner,48.3,124.8
+Royal Enfield,Himalayan,2016,66000,97634,Individual,First Owner,29.0,411.0
+Royal Enfield,Bullet 350,2014,42000,45872,Dealer,Second Owner,37.8,346.0
+Hero,Glamour,2020,42000,47733,Individual,First Owner,57.0,124.7
+Honda,Dio,2021,45000,31426,Individual,First Owner,48.8,109.5
+Royal Enfield,Bullet 350,2016,69000,58091,Individual,First Owner,37.9,346.0
+Hero,Splendor Plus,2020,32000,82097,Dealer,First Owner,65.6,97.2
+Suzuki,Gixxer 155,2016,31000,111647,Individual,First Owner,46.1,155.0
+Royal Enfield,Classic 350,2017,81000,47976,Individual,First Owner,34.9,349.0
+Bajaj,Pulsar NS200,2017,50000,59507,Dealer,First Owner,34.1,199.5
+TVS,Apache RTR 160,2019,60000,51591,Individual,First Owner,44.8,159.7
+Royal Enfield,Hunter 350,2023,140000,22277,Individual,First Owner,37.2,349.0
+TVS,Apache RTR 160,2019,55000,61046,Individual,First Owner,46.6,159.7
+Hero,HF Deluxe,2023,46000,42559,Individual,First Owner,68.5,97.2
+Hero,HF Deluxe,2024,50000,23420,Individual,First Owner,69.9,97.2
+Bajaj,Pulsar NS200,2018,53000,73917,Individual,First Owner,34.1,199.5
+Hero,Glamour,2017,17000,55295,Individual,Third Owner,60.9,124.7
+KTM,RC 200,2017,49000,87763,Individual,Second Owner,33.4,199.5
+Bajaj,Avenger 220,2015,47000,50200,Individual,First Owner,37.5,220.0
+Bajaj,Pulsar NS200,2023,100000,30873,Dealer,First Owner,35.0,199.5
+Bajaj,Avenger 220,2015,33000,85181,Individual,First Owner,39.2,220.0
+Honda,CB Unicorn,2012,21000,158939,Individual,First Owner,51.4,162.7
+Yamaha,FZ-S FI,2017,28000,96394,Individual,Second Owner,44.6,149.0
+Hero,Xpulse 200,2020,59000,55472,Individual,Second Owner,38.8,199.6
+Royal Enfield,Hunter 350,2018,80000,51438,Dealer,First Owner,37.0,349.0
+Bajaj,Platina 110,2018,23000,85611,Dealer,First Owner,74.7,115.4
+Bajaj,Platina 110,2022,38000,47298,Dealer,Second Owner,69.8,115.4
+Honda,Shine,2019,40000,41692,Individual,First Owner,59.6,124.0
+Bajaj,Dominar 400,2021,114000,71862,Individual,First Owner,29.8,373.3
+Bajaj,Platina 110,2021,40000,41119,Individual,First Owner,71.5,115.4
+Hero,Glamour,2022,57000,41394,Individual,First Owner,58.6,124.7
+Suzuki,Access 125,2016,20000,62728,Individual,Second Owner,48.0,124.0
+TVS,Raider 125,2012,16000,146481,Individual,Second Owner,65.8,124.8
+Bajaj,Dominar 400,2020,110000,66824,Individual,First Owner,29.9,373.3
+Suzuki,Access 125,2021,47000,39792,Individual,First Owner,48.5,124.0
+Suzuki,Access 125,2024,63000,19112,Dealer,First Owner,50.1,124.0
+Yamaha,MT-15,2021,97000,59687,Individual,First Owner,48.8,155.0
+Honda,Shine,2013,15000,98570,Individual,Second Owner,58.0,124.0
+Suzuki,Gixxer 155,2020,64000,73244,Individual,First Owner,44.7,155.0
+TVS,Apache RTR 200,2021,69000,48409,Individual,Second Owner,38.1,197.75
+TVS,Raider 125,2023,64000,20748,Individual,First Owner,66.9,124.8
+Yamaha,YZF R15,2020,70000,37340,Individual,Third Owner,43.3,155.0
+Hero,Splendor Plus,2021,28000,49292,Individual,Third Owner,68.8,97.2
+Royal Enfield,Hunter 350,2015,41000,56852,Individual,Second Owner,37.6,349.0
+Hero,HF Deluxe,2021,39000,30408,Individual,First Owner,67.0,97.2
+Hero,Splendor Plus,2018,27000,40221,Individual,Second Owner,72.7,97.2
+Honda,Hness CB350,2020,88000,52705,Individual,Second Owner,34.9,348.0
+Bajaj,Dominar 400,2018,81000,82300,Dealer,First Owner,27.6,373.3
+Bajaj,Pulsar 150,2015,30000,77940,Individual,First Owner,44.6,149.5
+TVS,Apache RTR 160,2017,41000,82110,Individual,First Owner,41.9,159.7
+Bajaj,Pulsar NS200,2021,78000,51998,Individual,First Owner,36.4,199.5
+Bajaj,Pulsar 150,2018,52000,28967,Dealer,First Owner,48.0,149.5
+Suzuki,Gixxer 155,2020,62000,45389,Individual,Second Owner,46.6,155.0
+KTM,Duke 390,2017,110000,60373,Individual,First Owner,26.0,373.2
+Honda,Dio,2019,32000,58798,Individual,First Owner,44.7,109.5
+Honda,Hness CB350,2024,171000,4492,Individual,First Owner,33.1,348.0
+Bajaj,Platina 110,2017,24000,64948,Individual,First Owner,75.3,115.4
+Royal Enfield,Classic 350,2024,180000,20594,Individual,First Owner,36.9,349.0
+TVS,Ntorq 125,2023,62000,18991,Individual,First Owner,45.3,124.8
+Bajaj,Dominar 400,2019,87000,76817,Individual,First Owner,30.3,373.3
+Bajaj,Pulsar NS200,2019,68000,47831,Individual,First Owner,36.4,199.5
+Hero,Glamour,2022,61000,27631,Individual,First Owner,59.6,124.7
+TVS,Ntorq 125,2015,23000,76922,Individual,First Owner,48.1,124.8
+Bajaj,Pulsar NS200,2023,95000,26297,Individual,Second Owner,33.5,199.5
+Hero,Xpulse 200,2019,57000,74299,Individual,First Owner,38.0,199.6
+Bajaj,Pulsar NS200,2015,39000,77300,Individual,First Owner,37.0,199.5
+Hero,HF Deluxe,2019,29000,20835,Individual,Second Owner,70.0,97.2
+Royal Enfield,Himalayan,2020,101000,108589,Dealer,First Owner,28.3,411.0
+Bajaj,Pulsar 150,2019,30000,53071,Individual,Third Owner,47.5,149.5
+Bajaj,Pulsar NS200,2021,90000,37643,Dealer,First Owner,36.3,199.5
+Bajaj,Pulsar NS200,2020,84000,40516,Individual,First Owner,34.2,199.5
+Hero,Splendor Plus,2018,23000,63742,Individual,Second Owner,72.5,97.2
+TVS,Apache RTR 160,2020,63000,58758,Individual,First Owner,44.0,159.7
+KTM,Duke 200,2021,116000,53764,Individual,First Owner,31.3,199.5
+TVS,Raider 125,2022,49000,24283,Individual,Third Owner,66.4,124.8
+Honda,Dio,2018,29000,55654,Individual,First Owner,45.4,109.5
+Suzuki,Access 125,2024,65000,17477,Individual,First Owner,47.0,124.0
+Suzuki,Access 125,2021,47000,40120,Dealer,First Owner,51.0,124.0
+Honda,Hness CB350,2018,59000,77338,Dealer,Second Owner,35.2,348.0
+TVS,Apache RTR 200,2020,77000,51899,Individual,First Owner,35.6,197.75
+Royal Enfield,Himalayan,2022,153000,19501,Individual,Second Owner,28.4,411.0
+Hero,HF Deluxe,2022,43000,21267,Individual,First Owner,66.5,97.2
+Hero,HF Deluxe,2019,18000,64954,Dealer,Third Owner,71.1,97.2
+Royal Enfield,Bullet 350,2021,120000,43452,Individual,First Owner,34.6,346.0
+Hero,Xpulse 200,2020,69000,57963,Dealer,First Owner,40.3,199.6
+Bajaj,Dominar 400,2014,54000,73064,Individual,First Owner,27.3,373.3
+Bajaj,Dominar 400,2020,111000,37701,Individual,Second Owner,29.3,373.3
+Royal Enfield,Hunter 350,2015,31000,124925,Dealer,First Owner,37.4,349.0
+Yamaha,YZF R15,2016,64000,55719,Individual,First Owner,46.4,155.0
+Suzuki,Gixxer 155,2023,101000,34407,Individual,First Owner,42.1,155.0
+Bajaj,Avenger 220,2019,56000,44274,Individual,Second Owner,36.0,220.0
+Bajaj,Pulsar NS200,2024,123000,15566,Dealer,First Owner,35.6,199.5
+Hero,Splendor Plus,2018,27000,38595,Individual,Second Owner,65.4,97.2
+Yamaha,MT-15,2016,41000,100698,Individual,First Owner,46.7,155.0
+Bajaj,Pulsar NS200,2018,52000,100148,Dealer,First Owner,36.6,199.5
+Bajaj,Pulsar 150,2021,62000,25681,Individual,Second Owner,48.6,149.5
+Hero,Glamour,2019,36000,57011,Individual,First Owner,58.8,124.7
+Yamaha,YZF R15,2019,84000,55000,Individual,First Owner,44.9,155.0
+Honda,Dio,2018,23000,67583,Individual,Second Owner,46.1,109.5
+Hero,Glamour,2014,22000,65761,Individual,First Owner,62.7,124.7
+Honda,CB Unicorn,2019,30000,66321,Individual,Third Owner,51.9,162.7
+TVS,Jupiter,2021,43000,50082,Individual,First Owner,51.1,109.7
+Hero,HF Deluxe,2014,11000,155304,Dealer,First Owner,65.8,97.2
+Suzuki,Gixxer 155,2023,98000,19731,Dealer,First Owner,43.2,155.0
+Hero,Xpulse 200,2018,48000,87381,Individual,First Owner,40.9,199.6
+Bajaj,Dominar 400,2018,49000,58717,Dealer,Third Owner,30.4,373.3
+Bajaj,Platina 110,2013,12000,84441,Dealer,First Owner,71.7,115.4
+Suzuki,Access 125,2017,29000,69158,Individual,First Owner,46.7,124.0
+TVS,Raider 125,2018,31000,53328,Individual,Second Owner,67.6,124.8
+Yamaha,YZF R15,2016,37000,119905,Individual,First Owner,44.2,155.0
+Yamaha,YZF R15,2022,115000,39951,Individual,First Owner,43.9,155.0
+Royal Enfield,Classic 350,2020,110000,73307,Individual,First Owner,36.8,349.0
+Honda,Hness CB350,2020,113000,35568,Individual,First Owner,34.0,348.0
+KTM,RC 200,2016,52000,70443,Dealer,Second Owner,31.4,199.5
+TVS,Jupiter,2018,20000,91300,Individual,Second Owner,49.9,109.7
+Bajaj,Dominar 400,2016,76000,47547,Dealer,First Owner,27.7,373.3
+Bajaj,Platina 110,2021,33000,50999,Dealer,Second Owner,67.0,115.4
+Honda,Dio,2020,34000,65343,Individual,First Owner,45.8,109.5
+Honda,CB Unicorn,2013,20000,102286,Individual,First Owner,52.6,162.7
+Bajaj,Pulsar NS200,2016,26000,101158,Individual,Second Owner,37.6,199.5
+Yamaha,FZ-S FI,2019,41000,76129,Dealer,Second Owner,43.4,149.0
+Honda,Dio,2020,23000,58390,Individual,Third Owner,47.0,109.5
+KTM,Duke 200,2018,63000,70734,Individual,Second Owner,32.8,199.5
+Hero,Glamour,2021,50000,36629,Individual,First Owner,61.0,124.7
+Hero,Xpulse 200,2020,71000,34080,Individual,First Owner,39.8,199.6
+Honda,Activa,2019,23000,90402,Dealer,Second Owner,46.9,109.5
+Royal Enfield,Hunter 350,2019,82000,61734,Individual,First Owner,34.8,349.0
+Yamaha,FZ-S FI,2021,51000,65562,Individual,Second Owner,46.9,149.0
+Bajaj,Platina 110,2021,38000,36084,Individual,First Owner,73.5,115.4
+Honda,Dio,2020,42000,34182,Individual,First Owner,44.9,109.5
+Hero,Splendor Plus,2020,34000,71779,Individual,First Owner,67.0,97.2
+Hero,Glamour,2020,43000,49089,Individual,First Owner,60.2,124.7
+Yamaha,FZ-S FI,2022,80000,36932,Individual,First Owner,45.8,149.0
+Hero,HF Deluxe,2020,34000,46442,Dealer,First Owner,66.3,97.2
+TVS,Apache RTR 200,2023,103000,27037,Dealer,First Owner,38.7,197.75
+Royal Enfield,Bullet 350,2013,33000,101439,Dealer,First Owner,36.4,346.0
+Yamaha,FZ-S FI,2018,47000,78293,Individual,First Owner,46.7,149.0
+Hero,Xpulse 200,2017,26000,94088,Individual,Third Owner,38.2,199.6
+Bajaj,Pulsar NS200,2021,71000,50152,Dealer,Second Owner,36.7,199.5
+Honda,CB Unicorn,2022,59000,47179,Individual,Second Owner,51.8,162.7
+KTM,RC 200,2022,115000,60474,Individual,Second Owner,33.3,199.5
+Hero,HF Deluxe,2013,12000,93093,Individual,Third Owner,70.0,97.2
+Royal Enfield,Bullet 350,2015,45000,88073,Dealer,First Owner,34.5,346.0
+Honda,Shine,2021,36000,59641,Individual,Second Owner,61.1,124.0
+Bajaj,Dominar 400,2020,105000,61911,Individual,First Owner,29.1,373.3
+Bajaj,Pulsar 150,2017,27000,85761,Individual,Second Owner,45.7,149.5
+KTM,RC 200,2013,38000,148016,Individual,Second Owner,30.1,199.5
+Honda,Shine,2018,35000,39069,Individual,First Owner,62.1,124.0
+Honda,CB Unicorn,2019,48000,67877,Dealer,First Owner,54.1,162.7
+Yamaha,FZ-S FI,2016,22000,107471,Individual,Third Owner,44.6,149.0
+Bajaj,Avenger 220,2018,24000,75707,Individual,Third Owner,38.9,220.0
+KTM,Duke 200,2015,42000,63690,Individual,Second Owner,33.5,199.5
+KTM,Duke 390,2012,60000,94813,Individual,First Owner,26.0,373.2
+Suzuki,Access 125,2015,17000,101454,Individual,First Owner,51.7,124.0
+Honda,Shine,2016,15000,86655,Individual,Second Owner,61.6,124.0
+Hero,Xpulse 200,2022,78000,39627,Individual,Second Owner,40.1,199.6
+TVS,Apache RTR 200,2019,57000,72084,Individual,First Owner,35.7,197.75
+Bajaj,Platina 110,2024,55000,16959,Dealer,First Owner,74.7,115.4
+Bajaj,Avenger 220,2020,70000,57557,Individual,First Owner,35.7,220.0
+Hero,HF Deluxe,2017,15000,79454,Individual,Second Owner,67.5,97.2
+Hero,Xpulse 200,2019,36000,62392,Individual,Third Owner,38.4,199.6
+Hero,Glamour,2019,34000,71831,Individual,First Owner,59.1,124.7
+TVS,Ntorq 125,2022,54000,42105,Individual,First Owner,47.8,124.8
+Bajaj,Dominar 400,2017,88000,56106,Individual,First Owner,30.1,373.3
+Honda,Dio,2014,14000,65171,Individual,Second Owner,45.6,109.5
+TVS,Jupiter,2012,15000,71466,Dealer,Second Owner,49.3,109.7
+Yamaha,FZ-S FI,2017,29000,33951,Individual,Third Owner,46.1,149.0
+Yamaha,FZ-S FI,2019,36000,43980,Individual,Third Owner,45.9,149.0
+Honda,Dio,2024,57000,18878,Individual,First Owner,47.4,109.5
+Bajaj,Avenger 220,2015,25000,115862,Individual,Third Owner,38.0,220.0
+Royal Enfield,Classic 350,2020,124000,37700,Individual,First Owner,36.4,349.0
+Yamaha,FZ-S FI,2020,71000,23895,Individual,First Owner,43.1,149.0
+Hero,Glamour,2021,47000,40818,Dealer,First Owner,55.8,124.7
+TVS,Jupiter,2017,23000,53983,Dealer,Second Owner,51.8,109.7
+TVS,Apache RTR 160,2017,40000,82954,Individual,First Owner,44.1,159.7
+Yamaha,FZ-S FI,2022,85000,13938,Individual,First Owner,47.8,149.0
+Suzuki,Access 125,2015,24000,66566,Dealer,First Owner,50.7,124.0
+TVS,Ntorq 125,2014,17000,114366,Dealer,First Owner,47.0,124.8
+KTM,Duke 390,2020,167000,64680,Dealer,First Owner,27.7,373.2
+Honda,Activa,2019,33000,52735,Dealer,First Owner,48.2,109.5
+Royal Enfield,Hunter 350,2014,41000,85959,Individual,First Owner,34.4,349.0
+Hero,Glamour,2019,38000,36393,Individual,First Owner,58.2,124.7
+Bajaj,Dominar 400,2020,79000,81185,Dealer,Second Owner,27.1,373.3
+Hero,Xpulse 200,2022,88000,25519,Individual,First Owner,40.9,199.6
+Royal Enfield,Hunter 350,2016,53000,80494,Dealer,First Owner,36.2,349.0
+Hero,Glamour,2017,23000,105397,Individual,First Owner,58.2,124.7
+TVS,Raider 125,2019,29000,39733,Individual,Third Owner,61.4,124.8
+Yamaha,MT-15,2019,85000,36699,Individual,First Owner,49.0,155.0
+Hero,Splendor Plus,2012,12000,86081,Individual,First Owner,67.9,97.2
+Bajaj,Pulsar NS200,2013,26000,128612,Individual,Second Owner,35.4,199.5
+Royal Enfield,Hunter 350,2020,51000,76292,Individual,Third Owner,34.8,349.0
+KTM,Duke 390,2022,208000,38050,Dealer,First Owner,26.4,373.2
+Bajaj,Avenger 220,2015,25000,140698,Individual,Second Owner,36.2,220.0
+KTM,Duke 200,2024,166000,5342,Individual,First Owner,30.9,199.5
+Yamaha,FZ-S FI,2017,49000,54253,Individual,First Owner,48.3,149.0
+TVS,Ntorq 125,2021,50000,27870,Dealer,First Owner,46.2,124.8
+Bajaj,Platina 110,2021,40000,32567,Individual,First Owner,67.4,115.4
+Honda,CB Unicorn,2016,22000,139658,Individual,First Owner,54.4,162.7
+Royal Enfield,Himalayan,2020,124000,32025,Individual,Second Owner,30.2,411.0
+TVS,Ntorq 125,2019,26000,88485,Individual,Second Owner,48.4,124.8
+Honda,Shine,2018,27000,85826,Individual,First Owner,61.9,124.0
+Bajaj,Pulsar 150,2020,42000,66683,Individual,Second Owner,48.6,149.5
+TVS,Apache RTR 200,2018,56000,71308,Individual,First Owner,35.8,197.75
+Royal Enfield,Hunter 350,2021,113000,49919,Individual,First Owner,34.7,349.0
+KTM,Duke 200,2015,35000,110357,Individual,Second Owner,31.8,199.5
+KTM,Duke 200,2015,37000,118020,Individual,First Owner,30.8,199.5
+TVS,Raider 125,2020,37000,55433,Individual,Second Owner,61.0,124.8
+Yamaha,MT-15,2012,36000,69211,Individual,First Owner,49.7,155.0
+Hero,HF Deluxe,2018,26000,65291,Individual,First Owner,65.7,97.2
+Bajaj,Avenger 220,2019,45000,81483,Individual,Second Owner,38.1,220.0
+Honda,Activa,2017,25000,29861,Dealer,Second Owner,48.7,109.5
+Royal Enfield,Classic 350,2022,130000,44525,Dealer,Second Owner,34.6,349.0
+Honda,Hness CB350,2020,108000,58060,Individual,First Owner,33.2,348.0
+Yamaha,FZ-S FI,2016,36000,98007,Individual,First Owner,43.4,149.0
+Hero,Glamour,2018,22000,81949,Individual,Second Owner,61.3,124.7
+Royal Enfield,Hunter 350,2017,76000,44463,Individual,First Owner,37.5,349.0
+Royal Enfield,Bullet 350,2016,65000,69928,Individual,First Owner,37.6,346.0
+Yamaha,FZ-S FI,2015,23000,93128,Individual,Second Owner,48.2,149.0
+Honda,Hness CB350,2017,65000,92785,Individual,First Owner,34.5,348.0
+TVS,Apache RTR 200,2013,26000,133461,Individual,First Owner,36.0,197.75
+Hero,Splendor Plus,2015,18000,85855,Individual,First Owner,68.5,97.2
+Royal Enfield,Classic 350,2020,119000,29511,Dealer,First Owner,37.8,349.0
+Honda,Shine,2020,32000,68204,Individual,Second Owner,63.3,124.0
+TVS,Raider 125,2021,55000,31392,Individual,First Owner,64.7,124.8
+Honda,Shine,2018,24000,72961,Individual,Second Owner,58.0,124.0
+KTM,Duke 390,2018,112000,82070,Individual,First Owner,26.7,373.2
+Yamaha,FZ-S FI,2022,78000,34879,Individual,First Owner,46.9,149.0
+Honda,CB Unicorn,2013,19000,117428,Individual,Second Owner,48.6,162.7
+Yamaha,FZ-S FI,2020,54000,54414,Individual,Second Owner,44.5,149.0
+Royal Enfield,Classic 350,2023,165000,19289,Dealer,First Owner,34.3,349.0
+Hero,HF Deluxe,2021,40000,32221,Individual,First Owner,69.0,97.2
+KTM,RC 200,2021,119000,34510,Individual,Second Owner,30.9,199.5
+Suzuki,Access 125,2019,39000,41313,Individual,First Owner,51.5,124.0
+KTM,Duke 390,2022,163000,56851,Individual,Second Owner,25.8,373.2
+Honda,Dio,2020,24000,50728,Individual,Third Owner,45.3,109.5
+Yamaha,YZF R15,2021,106000,55502,Individual,First Owner,47.0,155.0
+Royal Enfield,Classic 350,2022,153000,24796,Dealer,First Owner,37.6,349.0
+Bajaj,Platina 110,2022,42000,38757,Individual,First Owner,75.5,115.4
+Yamaha,YZF R15,2022,110000,24241,Dealer,First Owner,46.3,155.0
+Honda,Hness CB350,2019,86000,66841,Individual,First Owner,32.9,348.0
+Suzuki,Access 125,2017,26000,72088,Individual,First Owner,46.6,124.0
+Bajaj,Platina 110,2012,13000,122196,Individual,Third Owner,68.6,115.4
+Royal Enfield,Classic 350,2018,47000,64563,Individual,Third Owner,37.3,349.0
+Yamaha,FZ-S FI,2013,24000,81523,Dealer,First Owner,45.6,149.0
+Honda,Activa,2020,29000,58423,Dealer,Second Owner,50.1,109.5
+Bajaj,Pulsar 150,2017,28000,74481,Individual,Second Owner,45.1,149.5
+Hero,Glamour,2019,22000,62482,Individual,Third Owner,56.8,124.7
+Hero,HF Deluxe,2018,21000,95311,Dealer,First Owner,68.3,97.2
+Royal Enfield,Hunter 350,2013,29000,117266,Individual,Second Owner,34.4,349.0
+TVS,Ntorq 125,2020,45000,40584,Dealer,First Owner,49.2,124.8
+Yamaha,MT-15,2022,108000,37354,Individual,First Owner,44.8,155.0
+TVS,Jupiter,2019,22000,102554,Dealer,Second Owner,54.2,109.7
+Royal Enfield,Bullet 350,2022,130000,38733,Individual,First Owner,35.3,346.0
+Honda,Hness CB350,2020,126000,20237,Individual,First Owner,32.7,348.0
+KTM,RC 200,2020,103000,23750,Dealer,Second Owner,31.8,199.5
+KTM,Duke 200,2021,94000,62087,Individual,Second Owner,32.2,199.5
+Bajaj,Pulsar 150,2016,21000,100205,Individual,Third Owner,49.1,149.5
+Royal Enfield,Bullet 350,2015,31000,125820,Dealer,Second Owner,37.5,346.0
+Hero,Glamour,2021,44000,32140,Dealer,Second Owner,62.0,124.7
+Bajaj,Pulsar 150,2023,82000,29136,Individual,First Owner,47.3,149.5
+Royal Enfield,Himalayan,2022,163000,31656,Individual,First Owner,29.0,411.0
+Honda,Shine,2022,50000,32885,Individual,Second Owner,63.0,124.0
+Honda,Shine,2021,50000,23077,Individual,First Owner,59.7,124.0
+Hero,Splendor Plus,2023,55000,12450,Individual,First Owner,67.9,97.2
+TVS,Apache RTR 200,2017,37000,111416,Dealer,First Owner,38.6,197.75
+Bajaj,Platina 110,2021,43000,42624,Individual,First Owner,68.6,115.4
+Honda,Shine,2020,41000,63792,Individual,First Owner,61.0,124.0
+Hero,Glamour,2022,54000,50045,Individual,First Owner,55.8,124.7
+Honda,Dio,2021,43000,41809,Dealer,First Owner,45.5,109.5
+KTM,Duke 390,2016,86000,81449,Individual,First Owner,26.3,373.2
+Honda,CB Unicorn,2015,29000,67684,Dealer,First Owner,52.6,162.7
+KTM,Duke 390,2017,91000,65159,Individual,Second Owner,26.9,373.2
+Hero,Glamour,2014,17000,92151,Individual,First Owner,62.9,124.7
+TVS,Raider 125,2016,29000,57947,Dealer,First Owner,66.1,124.8
+Royal Enfield,Classic 350,2021,145000,29982,Individual,First Owner,34.1,349.0
+Suzuki,Access 125,2015,16000,76243,Dealer,Second Owner,48.0,124.0
+KTM,RC 200,2021,133000,34061,Individual,First Owner,32.9,199.5
+Hero,Glamour,2021,50000,26733,Dealer,First Owner,57.0,124.7
+KTM,RC 200,2021,124000,27267,Individual,Second Owner,31.6,199.5
+Royal Enfield,Hunter 350,2021,91000,38652,Dealer,Second Owner,37.6,349.0
+Royal Enfield,Classic 350,2017,91000,59221,Individual,First Owner,34.5,349.0
+KTM,Duke 390,2016,57000,115143,Individual,Third Owner,25.4,373.2
+Bajaj,Dominar 400,2024,185000,20898,Individual,First Owner,29.3,373.3
+Honda,Hness CB350,2021,119000,47031,Individual,First Owner,36.2,348.0
+Yamaha,YZF R15,2018,70000,59938,Individual,First Owner,42.4,155.0
+KTM,Duke 200,2020,100000,58103,Individual,First Owner,31.9,199.5
+TVS,Apache RTR 200,2020,61000,55558,Individual,Second Owner,36.1,197.75
+TVS,Apache RTR 200,2018,43000,77957,Dealer,Second Owner,37.6,197.75
+Bajaj,Avenger 220,2024,110000,16516,Dealer,First Owner,36.7,220.0
+KTM,Duke 390,2022,171000,51674,Individual,Second Owner,26.4,373.2
+Honda,Dio,2024,59000,13958,Individual,First Owner,45.4,109.5
+Honda,Hness CB350,2023,152000,22691,Individual,First Owner,36.4,348.0
+Bajaj,Platina 110,2017,16000,75345,Individual,Second Owner,71.5,115.4
+Hero,HF Deluxe,2019,24000,51737,Individual,Second Owner,63.3,97.2
+Royal Enfield,Bullet 350,2019,87000,66634,Individual,First Owner,36.9,346.0
+Hero,Xpulse 200,2023,103000,13366,Individual,First Owner,39.5,199.6
+Hero,HF Deluxe,2012,14000,63982,Individual,First Owner,70.0,97.2
+Bajaj,Pulsar NS200,2023,111000,23162,Dealer,First Owner,35.0,199.5
+Royal Enfield,Hunter 350,2020,84000,71227,Individual,First Owner,37.0,349.0
+Bajaj,Platina 110,2019,29000,66949,Individual,First Owner,75.2,115.4
+Bajaj,Dominar 400,2019,95000,65516,Individual,First Owner,27.3,373.3
+Royal Enfield,Classic 350,2022,148000,40156,Individual,First Owner,37.6,349.0
+Bajaj,Avenger 220,2020,45000,43561,Individual,Third Owner,35.9,220.0
+Yamaha,MT-15,2019,60000,69763,Individual,Second Owner,49.7,155.0
+TVS,Ntorq 125,2019,29000,79263,Individual,Second Owner,48.0,124.8
+Royal Enfield,Hunter 350,2018,69000,72950,Individual,First Owner,37.8,349.0
+Bajaj,Pulsar NS200,2015,27000,151497,Individual,First Owner,37.2,199.5
+Bajaj,Dominar 400,2019,115000,44697,Individual,First Owner,29.6,373.3
+TVS,Apache RTR 200,2022,91000,12316,Individual,First Owner,37.3,197.75
+Honda,Dio,2017,19000,107305,Individual,First Owner,46.2,109.5
+KTM,Duke 390,2022,210000,34264,Individual,First Owner,27.4,373.2
+Suzuki,Access 125,2016,17000,72808,Dealer,Second Owner,51.9,124.0
+Honda,Dio,2013,14000,130805,Individual,Third Owner,47.0,109.5
+Honda,Dio,2019,27000,73475,Individual,Second Owner,48.1,109.5
+Honda,Activa,2015,14000,132026,Dealer,Second Owner,46.7,109.5
+TVS,Ntorq 125,2019,42000,46719,Individual,First Owner,46.3,124.8
+Bajaj,Pulsar 150,2022,80000,24147,Individual,First Owner,45.2,149.5
+Honda,Dio,2017,25000,76509,Individual,First Owner,46.9,109.5
+Honda,CB Unicorn,2019,41000,48549,Individual,Second Owner,54.2,162.7
+TVS,Apache RTR 160,2020,60000,70226,Individual,First Owner,46.8,159.7
+TVS,Raider 125,2022,61000,25382,Dealer,First Owner,63.8,124.8
+TVS,Jupiter,2013,13000,100415,Individual,First Owner,52.4,109.7
+Bajaj,Platina 110,2019,31000,51358,Individual,First Owner,72.8,115.4
+Bajaj,Pulsar NS200,2019,68000,58297,Individual,First Owner,34.2,199.5
+KTM,RC 200,2018,79000,47143,Individual,Second Owner,32.1,199.5
+TVS,Raider 125,2021,40000,30625,Individual,Third Owner,62.1,124.8
+Hero,Glamour,2021,51000,36758,Individual,First Owner,59.3,124.7
+Yamaha,FZ-S FI,2019,51000,51829,Dealer,Second Owner,45.5,149.0
+Honda,CB Unicorn,2015,22000,108369,Individual,First Owner,51.7,162.7
+Bajaj,Pulsar NS200,2018,75000,20477,Individual,First Owner,36.2,199.5
+Suzuki,Access 125,2018,34000,53652,Individual,First Owner,49.2,124.0
+TVS,Apache RTR 200,2018,52000,35163,Individual,Second Owner,37.1,197.75
+KTM,Duke 200,2017,69000,39037,Individual,Second Owner,31.2,199.5
+Honda,Dio,2019,33000,60149,Individual,First Owner,50.0,109.5
+TVS,Ntorq 125,2022,54000,41014,Individual,First Owner,45.6,124.8
+KTM,Duke 390,2021,179000,36280,Individual,First Owner,25.4,373.2
+TVS,Apache RTR 200,2024,109000,8525,Dealer,First Owner,36.5,197.75
+Bajaj,Pulsar NS200,2023,105000,11229,Individual,First Owner,34.4,199.5
+KTM,RC 200,2021,91000,46523,Individual,Third Owner,32.4,199.5
+Royal Enfield,Himalayan,2019,130000,33271,Dealer,First Owner,30.1,411.0
+Hero,Glamour,2012,15000,96024,Individual,Second Owner,58.8,124.7
+TVS,Apache RTR 160,2020,55000,76274,Individual,First Owner,47.0,159.7
+Hero,Splendor Plus,2014,13000,118172,Individual,First Owner,70.1,97.2
+TVS,Apache RTR 200,2022,92000,45889,Individual,First Owner,37.4,197.75
+Suzuki,Access 125,2021,36000,65331,Dealer,Second Owner,50.4,124.0
+KTM,RC 200,2024,173000,16756,Dealer,First Owner,33.1,199.5
+Yamaha,FZ-S FI,2021,80000,24971,Individual,First Owner,47.8,149.0
+Hero,Glamour,2020,38000,42632,Individual,Second Owner,62.4,124.7
+Bajaj,Platina 110,2016,15000,107429,Individual,First Owner,68.4,115.4
+Bajaj,Avenger 220,2019,56000,48020,Dealer,Second Owner,38.8,220.0
+Yamaha,MT-15,2019,69000,64793,Individual,First Owner,49.2,155.0
+KTM,RC 200,2014,38000,128804,Individual,First Owner,32.0,199.5
+TVS,Ntorq 125,2020,39000,56004,Individual,First Owner,46.3,124.8
+TVS,Ntorq 125,2019,31000,64692,Individual,Second Owner,47.6,124.8
+Yamaha,MT-15,2016,43000,59426,Individual,Second Owner,45.8,155.0
+Bajaj,Avenger 220,2021,79000,48058,Individual,First Owner,36.5,220.0
+Royal Enfield,Hunter 350,2021,118000,37517,Dealer,First Owner,35.9,349.0
+Honda,CB Unicorn,2021,60000,54284,Dealer,First Owner,48.8,162.7
+Bajaj,Dominar 400,2020,107000,57812,Individual,First Owner,30.4,373.3
+Hero,Glamour,2015,27000,59931,Individual,First Owner,61.8,124.7
+Suzuki,Gixxer 155,2020,73000,35638,Individual,First Owner,47.0,155.0
+Yamaha,MT-15,2020,88000,51636,Individual,First Owner,49.4,155.0
+Bajaj,Pulsar 150,2017,33000,58551,Individual,Second Owner,45.2,149.5
+Royal Enfield,Bullet 350,2022,115000,42209,Individual,Second Owner,35.2,346.0
+TVS,Apache RTR 200,2016,45000,63583,Individual,First Owner,39.1,197.75
+Honda,Dio,2018,23000,80024,Individual,Second Owner,48.0,109.5
+Honda,CB Unicorn,2013,20000,121541,Individual,Second Owner,53.9,162.7
+Royal Enfield,Hunter 350,2016,31000,66262,Individual,Third Owner,37.1,349.0
+KTM,Duke 200,2019,57000,53517,Individual,Third Owner,32.8,199.5
+KTM,Duke 200,2019,94000,53816,Individual,First Owner,31.9,199.5
+Honda,Activa,2020,38000,62810,Individual,First Owner,51.1,109.5
+Yamaha,MT-15,2017,60000,67150,Dealer,First Owner,46.8,155.0
+Bajaj,Avenger 220,2014,25000,107892,Individual,Second Owner,39.7,220.0
+KTM,RC 200,2021,133000,44396,Individual,First Owner,32.8,199.5
+Hero,HF Deluxe,2021,32000,38176,Individual,Second Owner,66.0,97.2
+KTM,Duke 390,2023,226000,26722,Individual,First Owner,25.3,373.2
+Honda,Dio,2021,44000,27933,Dealer,First Owner,44.7,109.5
+Suzuki,Gixxer 155,2019,31000,82346,Dealer,Third Owner,45.4,155.0
+Hero,Xpulse 200,2016,42000,73292,Dealer,First Owner,37.6,199.6
+TVS,Jupiter,2022,42000,31126,Individual,Second Owner,49.5,109.7
+Hero,HF Deluxe,2020,27000,48011,Individual,Second Owner,67.6,97.2
+Honda,Dio,2020,21000,71009,Dealer,Third Owner,46.4,109.5
+KTM,Duke 390,2021,161000,34720,Individual,Second Owner,28.2,373.2
+KTM,Duke 390,2018,77000,89150,Individual,Second Owner,25.3,373.2
+Bajaj,Avenger 220,2016,28000,85268,Individual,Second Owner,37.4,220.0
+Royal Enfield,Classic 350,2022,159000,40089,Individual,First Owner,37.4,349.0
+Bajaj,Avenger 220,2019,59000,2000,Individual,Second Owner,35.7,220.0
+Hero,Glamour,2013,15000,94630,Individual,Second Owner,56.3,124.7
+TVS,Ntorq 125,2022,53000,36294,Individual,First Owner,45.9,124.8
+TVS,Ntorq 125,2017,27000,87284,Individual,First Owner,47.2,124.8
+TVS,Raider 125,2021,51000,25841,Individual,Second Owner,63.5,124.8
+Hero,Xpulse 200,2015,27000,127008,Individual,Second Owner,38.7,199.6
+Bajaj,Dominar 400,2018,48000,61841,Dealer,Third Owner,30.2,373.3
+Hero,Glamour,2020,45000,36641,Dealer,First Owner,58.7,124.7
+KTM,Duke 200,2022,122000,42994,Individual,First Owner,31.5,199.5
+Honda,Dio,2015,13000,123718,Dealer,Second Owner,48.9,109.5
+TVS,Raider 125,2017,36000,52636,Individual,First Owner,61.7,124.8
+Suzuki,Access 125,2016,15000,44808,Individual,Third Owner,50.5,124.0
+KTM,RC 200,2017,75000,73470,Individual,First Owner,31.4,199.5
+Yamaha,YZF R15,2021,109000,23088,Individual,First Owner,44.1,155.0
+KTM,Duke 200,2021,110000,37806,Individual,First Owner,34.4,199.5
+Bajaj,Pulsar 150,2019,49000,32707,Individual,Second Owner,47.3,149.5
+Yamaha,FZ-S FI,2015,21000,117696,Dealer,First Owner,47.1,149.0
+Suzuki,Gixxer 155,2023,99000,20372,Individual,First Owner,46.1,155.0
+KTM,Duke 390,2019,134000,37532,Individual,Second Owner,26.9,373.2
+Royal Enfield,Classic 350,2016,38000,124898,Individual,Second Owner,37.2,349.0
+Bajaj,Pulsar 150,2017,32000,65155,Individual,Second Owner,48.4,149.5
+Honda,Shine,2018,31000,72339,Individual,First Owner,60.3,124.0
+Bajaj,Pulsar NS200,2021,86000,43435,Dealer,First Owner,34.3,199.5
+Royal Enfield,Hunter 350,2018,54000,22084,Dealer,Third Owner,37.5,349.0
+Hero,Splendor Plus,2018,24000,95457,Individual,First Owner,68.1,97.2
+Honda,Activa,2018,30000,63535,Dealer,First Owner,46.5,109.5
+KTM,Duke 390,2016,52000,117148,Individual,Third Owner,26.0,373.2
+Suzuki,Gixxer 155,2016,52000,26382,Individual,First Owner,46.5,155.0
+TVS,Apache RTR 160,2015,24000,91501,Individual,Third Owner,42.7,159.7
+TVS,Jupiter,2020,41000,35482,Individual,First Owner,52.4,109.7
+Hero,HF Deluxe,2016,18000,88064,Individual,First Owner,68.0,97.2
+Honda,Dio,2014,14000,128977,Dealer,First Owner,48.6,109.5
+Honda,Hness CB350,2020,114000,40111,Individual,First Owner,33.9,348.0
+TVS,Ntorq 125,2019,35000,45261,Dealer,Second Owner,46.6,124.8
+Suzuki,Gixxer 155,2022,80000,13273,Dealer,Second Owner,43.5,155.0
+TVS,Apache RTR 200,2021,68000,49861,Dealer,Second Owner,36.4,197.75
+TVS,Jupiter,2022,49000,44655,Individual,First Owner,53.1,109.7
+Hero,HF Deluxe,2022,38000,44841,Individual,First Owner,68.9,97.2
+Honda,Activa,2020,41000,21473,Individual,First Owner,52.0,109.5
+Bajaj,Pulsar 150,2021,64000,53512,Individual,First Owner,48.6,149.5
+TVS,Ntorq 125,2020,43000,70058,Individual,First Owner,46.1,124.8
+Royal Enfield,Classic 350,2021,139000,44252,Individual,First Owner,34.5,349.0
+Royal Enfield,Bullet 350,2019,86000,66417,Individual,First Owner,37.3,346.0
+Hero,Glamour,2016,22000,92433,Individual,First Owner,62.2,124.7
+KTM,Duke 200,2019,99000,36509,Individual,First Owner,33.2,199.5
+Suzuki,Gixxer 155,2016,23000,106613,Individual,Second Owner,47.0,155.0
+Hero,Glamour,2015,15000,123224,Dealer,Second Owner,58.3,124.7
+TVS,Raider 125,2016,19000,116034,Individual,First Owner,66.0,124.8
+Bajaj,Platina 110,2018,15000,55910,Individual,Third Owner,73.7,115.4
+Honda,Shine,2020,44000,20989,Individual,First Owner,61.4,124.0
+Suzuki,Access 125,2021,43000,50020,Individual,First Owner,49.0,124.0
+TVS,Jupiter,2022,42000,42267,Dealer,Second Owner,50.8,109.7
+Royal Enfield,Himalayan,2023,190000,23895,Individual,First Owner,31.4,411.0
+Bajaj,Dominar 400,2018,75000,92828,Dealer,First Owner,29.1,373.3
+Honda,Shine,2020,36000,43156,Individual,Second Owner,58.9,124.0
+TVS,Raider 125,2022,51000,38645,Individual,Second Owner,63.2,124.8
+Hero,HF Deluxe,2021,38000,41410,Individual,First Owner,70.4,97.2
+Honda,Activa,2019,24000,84682,Individual,Second Owner,46.9,109.5
+Yamaha,FZ-S FI,2019,41000,84344,Individual,Second Owner,45.8,149.0
+Suzuki,Gixxer 155,2022,87000,22258,Dealer,First Owner,43.1,155.0
+Bajaj,Dominar 400,2015,42000,96437,Individual,Third Owner,28.2,373.3
+Bajaj,Avenger 220,2019,60000,28099,Individual,Second Owner,39.9,220.0
+Hero,HF Deluxe,2015,12000,115712,Dealer,First Owner,63.4,97.2
+Yamaha,YZF R15,2020,97000,39128,Individual,First Owner,42.5,155.0
+Yamaha,FZ-S FI,2024,98000,30792,Individual,First Owner,44.6,149.0
+Hero,HF Deluxe,2021,40000,31881,Individual,First Owner,69.1,97.2
+Bajaj,Pulsar NS200,2020,65000,49692,Individual,Second Owner,37.3,199.5
+TVS,Apache RTR 160,2022,81000,27580,Individual,First Owner,47.0,159.7
+Suzuki,Access 125,2023,59000,28102,Individual,First Owner,48.8,124.0
+KTM,Duke 390,2019,106000,37328,Individual,Third Owner,26.2,373.2
+Hero,Xpulse 200,2018,58000,49100,Individual,First Owner,38.6,199.6
+Bajaj,Pulsar NS200,2019,56000,55178,Individual,Second Owner,34.1,199.5
+Hero,Splendor Plus,2018,22000,74933,Individual,Second Owner,65.4,97.2
+Hero,Splendor Plus,2016,22000,81155,Individual,First Owner,72.4,97.2
+Honda,Activa,2023,57000,22165,Individual,First Owner,47.6,109.5
+TVS,Jupiter,2021,45000,35716,Dealer,First Owner,48.5,109.7
+KTM,Duke 390,2019,121000,51114,Dealer,Second Owner,25.6,373.2
+Royal Enfield,Himalayan,2023,185000,21933,Dealer,First Owner,29.1,411.0
+Honda,Dio,2019,32000,13832,Dealer,Second Owner,48.3,109.5
+Hero,Glamour,2018,30000,91215,Individual,First Owner,58.1,124.7
+Honda,Activa,2020,39000,51708,Individual,First Owner,52.4,109.5
+Bajaj,Pulsar 150,2020,60000,30449,Individual,First Owner,49.0,149.5
+Honda,Dio,2013,14000,137408,Individual,Second Owner,45.1,109.5
+Honda,Shine,2018,28000,45397,Individual,Second Owner,60.1,124.0
+TVS,Apache RTR 160,2016,25000,127878,Dealer,First Owner,41.9,159.7
+Bajaj,Pulsar 150,2022,70000,54017,Individual,First Owner,46.9,149.5
+TVS,Jupiter,2017,20000,71103,Individual,Second Owner,48.9,109.7
+TVS,Apache RTR 200,2023,110000,20613,Individual,First Owner,37.2,197.75
+TVS,Raider 125,2024,73000,16404,Individual,Second Owner,60.7,124.8
+Bajaj,Dominar 400,2022,144000,12194,Individual,First Owner,28.3,373.3
+Yamaha,YZF R15,2018,66000,75014,Individual,First Owner,46.5,155.0
+Hero,Xpulse 200,2019,56000,83189,Dealer,First Owner,39.7,199.6
+Yamaha,MT-15,2014,29000,91864,Individual,Second Owner,44.8,155.0
+TVS,Apache RTR 200,2022,100000,32025,Individual,First Owner,35.8,197.75
+Yamaha,YZF R15,2012,33000,126111,Individual,Second Owner,42.3,155.0
+TVS,Apache RTR 160,2017,44000,65401,Individual,First Owner,46.5,159.7
+TVS,Jupiter,2020,38000,51202,Individual,First Owner,53.8,109.7
+Hero,Xpulse 200,2022,86000,32913,Dealer,First Owner,40.4,199.6
+Honda,Dio,2020,37000,59229,Individual,First Owner,45.1,109.5
+Royal Enfield,Classic 350,2012,37000,111753,Dealer,Second Owner,33.9,349.0
+TVS,Jupiter,2018,18000,102615,Individual,Second Owner,53.5,109.7
+TVS,Apache RTR 200,2020,59000,51785,Individual,Second Owner,36.4,197.75
+Bajaj,Avenger 220,2024,92000,24724,Individual,Second Owner,35.9,220.0
+Honda,Activa,2024,60000,21543,Individual,First Owner,52.1,109.5
+KTM,Duke 200,2017,48000,86865,Dealer,Second Owner,32.8,199.5
+TVS,Apache RTR 160,2020,62000,73943,Dealer,First Owner,42.3,159.7
+Yamaha,YZF R15,2014,51000,61713,Individual,First Owner,44.9,155.0
+Honda,Shine,2020,44000,46670,Individual,First Owner,61.4,124.0
+Yamaha,FZ-S FI,2020,56000,37611,Individual,Second Owner,42.9,149.0
+Hero,Xpulse 200,2020,66000,57000,Individual,First Owner,40.7,199.6
+Bajaj,Pulsar 150,2021,67000,30479,Individual,First Owner,49.2,149.5
+Bajaj,Dominar 400,2013,43000,119814,Individual,First Owner,30.3,373.3
+Hero,Splendor Plus,2014,17000,81329,Dealer,First Owner,67.0,97.2
+KTM,RC 200,2019,93000,49821,Individual,Second Owner,33.5,199.5
+Hero,Splendor Plus,2022,46000,57349,Individual,First Owner,73.4,97.2
+Hero,HF Deluxe,2013,12000,123999,Individual,Second Owner,68.7,97.2
+Hero,Xpulse 200,2017,41000,95243,Dealer,First Owner,40.6,199.6
+Honda,Shine,2020,37000,47953,Individual,Second Owner,60.9,124.0
+Hero,HF Deluxe,2017,17000,82171,Individual,Second Owner,67.3,97.2
+Honda,Hness CB350,2021,115000,64595,Individual,First Owner,33.9,348.0
+Bajaj,Pulsar 150,2018,35000,62778,Individual,Second Owner,46.3,149.5
+Honda,Shine,2015,19000,91974,Dealer,First Owner,63.2,124.0
+Hero,Xpulse 200,2024,115000,22597,Individual,First Owner,38.1,199.6
+Bajaj,Pulsar NS200,2018,62000,61144,Dealer,First Owner,33.9,199.5
+Bajaj,Avenger 220,2020,69000,22622,Individual,Second Owner,39.7,220.0
+Suzuki,Gixxer 155,2023,97000,31366,Individual,First Owner,44.5,155.0
+Bajaj,Pulsar 150,2013,19000,124742,Individual,First Owner,45.0,149.5
+KTM,Duke 200,2014,33000,157873,Individual,First Owner,31.0,199.5
+TVS,Ntorq 125,2018,29000,51645,Individual,Second Owner,46.3,124.8
+KTM,Duke 390,2024,220000,23934,Individual,Second Owner,27.5,373.2
+KTM,RC 200,2020,110000,52746,Dealer,First Owner,33.6,199.5
+Bajaj,Avenger 220,2024,105000,10615,Individual,First Owner,36.4,220.0
+Suzuki,Gixxer 155,2023,101000,28968,Individual,First Owner,45.8,155.0
+TVS,Jupiter,2019,36000,38012,Individual,First Owner,52.2,109.7
+KTM,RC 200,2023,168000,17017,Individual,First Owner,30.8,199.5
+Hero,Glamour,2014,15000,121470,Individual,Second Owner,59.1,124.7
+Royal Enfield,Hunter 350,2020,97000,59431,Individual,First Owner,33.9,349.0
+TVS,Ntorq 125,2019,29000,82147,Dealer,Second Owner,48.4,124.8
+Honda,CB Unicorn,2016,20000,85029,Individual,Third Owner,53.8,162.7
+Bajaj,Dominar 400,2015,60000,66052,Dealer,First Owner,27.4,373.3
+KTM,Duke 200,2016,70000,14532,Individual,Second Owner,33.2,199.5
+Yamaha,MT-15,2022,109000,46321,Individual,First Owner,45.6,155.0
+Yamaha,MT-15,2021,86000,67424,Individual,First Owner,45.3,155.0
+Hero,HF Deluxe,2018,19000,81779,Individual,Second Owner,69.6,97.2
+KTM,RC 200,2018,58000,34733,Individual,Third Owner,30.3,199.5
+Bajaj,Pulsar NS200,2020,63000,45484,Individual,Second Owner,35.3,199.5
+KTM,Duke 200,2022,87000,43153,Dealer,Third Owner,31.6,199.5
+Suzuki,Gixxer 155,2018,51000,33372,Dealer,Second Owner,46.3,155.0
+Hero,Glamour,2021,39000,20581,Individual,Third Owner,61.0,124.7
+TVS,Apache RTR 200,2020,63000,36150,Individual,Second Owner,39.7,197.75
+Honda,Hness CB350,2020,114000,49267,Individual,First Owner,34.2,348.0
+Suzuki,Gixxer 155,2023,85000,33777,Dealer,First Owner,42.1,155.0
+TVS,Ntorq 125,2021,37000,32727,Individual,Third Owner,45.1,124.8
+TVS,Jupiter,2019,34000,48413,Individual,First Owner,52.3,109.7
+Bajaj,Dominar 400,2015,52000,95503,Individual,First Owner,27.6,373.3
+KTM,Duke 390,2016,97000,31660,Dealer,Second Owner,28.0,373.2
+KTM,RC 200,2016,43000,86494,Individual,Second Owner,30.4,199.5
+Suzuki,Access 125,2023,58000,28008,Dealer,First Owner,52.3,124.0
+Bajaj,Dominar 400,2021,133000,43139,Individual,First Owner,28.6,373.3
+TVS,Apache RTR 200,2021,85000,44781,Dealer,First Owner,38.9,197.75
+Royal Enfield,Bullet 350,2016,68000,61046,Individual,First Owner,37.0,346.0
+Yamaha,MT-15,2019,38000,81651,Dealer,Third Owner,49.5,155.0
+TVS,Jupiter,2018,28000,81562,Individual,First Owner,53.8,109.7
+Hero,Splendor Plus,2015,13000,116872,Individual,First Owner,70.7,97.2
+Royal Enfield,Bullet 350,2020,89000,43187,Individual,Second Owner,38.7,346.0
+Royal Enfield,Himalayan,2021,140000,53394,Individual,First Owner,31.3,411.0
+TVS,Apache RTR 160,2020,62000,50126,Dealer,First Owner,46.0,159.7
+Royal Enfield,Classic 350,2022,125000,39808,Individual,Second Owner,35.4,349.0
+Yamaha,FZ-S FI,2021,68000,44502,Individual,First Owner,45.5,149.0
+Royal Enfield,Hunter 350,2021,112000,39060,Individual,First Owner,37.3,349.0
+TVS,Apache RTR 160,2021,78000,29142,Individual,First Owner,42.9,159.7
+Yamaha,FZ-S FI,2019,55000,60854,Dealer,First Owner,45.7,149.0
+Bajaj,Avenger 220,2022,94000,37346,Dealer,First Owner,39.1,220.0
+TVS,Apache RTR 200,2021,86000,41718,Individual,First Owner,38.9,197.75
+Yamaha,MT-15,2018,51000,111041,Dealer,First Owner,47.1,155.0
+TVS,Raider 125,2021,49000,31278,Individual,Second Owner,61.3,124.8
+Royal Enfield,Bullet 350,2016,60000,72657,Individual,First Owner,37.4,346.0
+Bajaj,Pulsar 150,2017,37000,80996,Individual,First Owner,48.3,149.5
+KTM,Duke 200,2015,34000,114062,Individual,Third Owner,31.5,199.5
+Royal Enfield,Himalayan,2017,64000,77142,Individual,Second Owner,28.2,411.0
+TVS,Apache RTR 160,2021,73000,37862,Individual,First Owner,42.1,159.7
+Honda,Activa,2022,53000,24153,Dealer,First Owner,48.8,109.5
+KTM,Duke 200,2016,34000,112870,Individual,Third Owner,34.4,199.5
+KTM,RC 200,2023,164000,20634,Individual,First Owner,30.7,199.5
+Honda,Activa,2017,21000,103629,Individual,First Owner,51.9,109.5
+KTM,Duke 390,2018,101000,64452,Dealer,Second Owner,27.8,373.2
+Honda,CB Unicorn,2021,66000,41046,Dealer,First Owner,51.1,162.7
+Hero,HF Deluxe,2017,22000,68002,Individual,First Owner,68.5,97.2
+Hero,Xpulse 200,2017,43000,53851,Dealer,Second Owner,38.4,199.6
+Hero,Splendor Plus,2022,42000,32031,Dealer,Second Owner,68.0,97.2
+Hero,Splendor Plus,2017,25000,75149,Individual,First Owner,67.1,97.2
+TVS,Jupiter,2015,22000,60872,Dealer,First Owner,49.5,109.7
+Honda,Shine,2016,18000,115914,Individual,First Owner,63.9,124.0
+Honda,Activa,2022,47000,49323,Individual,First Owner,50.4,109.5
+Honda,Shine,2019,29000,64975,Dealer,Second Owner,60.4,124.0
+Royal Enfield,Bullet 350,2019,77000,60684,Individual,Second Owner,35.2,346.0
+Hero,Xpulse 200,2020,69000,54869,Individual,First Owner,40.3,199.6
+Royal Enfield,Hunter 350,2017,83000,29885,Dealer,First Owner,37.0,349.0
+Honda,CB Unicorn,2024,79000,20084,Individual,First Owner,52.3,162.7
+Honda,CB Unicorn,2019,53000,32960,Individual,First Owner,51.4,162.7
+Bajaj,Dominar 400,2017,45000,88375,Individual,Second Owner,29.4,373.3
+Honda,Shine,2017,26000,48168,Dealer,Second Owner,61.1,124.0
+Royal Enfield,Hunter 350,2015,32000,78302,Dealer,Second Owner,34.0,349.0
+Bajaj,Avenger 220,2019,65000,48225,Individual,First Owner,37.2,220.0
+TVS,Apache RTR 160,2020,64000,44305,Individual,First Owner,43.6,159.7
+Honda,Shine,2022,54000,43172,Individual,First Owner,64.0,124.0
+Yamaha,YZF R15,2015,42000,50700,Dealer,Second Owner,44.0,155.0
+TVS,Ntorq 125,2019,44000,44159,Dealer,First Owner,48.1,124.8
+Royal Enfield,Bullet 350,2018,97000,29419,Dealer,First Owner,36.0,346.0
+Bajaj,Platina 110,2022,47000,19685,Dealer,First Owner,69.8,115.4
+Bajaj,Avenger 220,2022,81000,12573,Individual,Second Owner,38.7,220.0
+TVS,Raider 125,2017,23000,121246,Individual,First Owner,65.0,124.8
+Royal Enfield,Hunter 350,2019,47000,62660,Individual,Third Owner,33.6,349.0
+TVS,Apache RTR 200,2014,26000,105075,Dealer,Second Owner,36.1,197.75
+TVS,Apache RTR 200,2019,33000,73215,Individual,Third Owner,36.7,197.75
+TVS,Jupiter,2023,53000,33500,Individual,Second Owner,49.2,109.7
+Yamaha,FZ-S FI,2013,22000,141519,Individual,First Owner,45.5,149.0
+TVS,Raider 125,2023,62000,36910,Dealer,First Owner,68.2,124.8
+KTM,Duke 200,2015,35000,93073,Individual,Second Owner,31.9,199.5
+Bajaj,Platina 110,2013,13000,93442,Dealer,First Owner,72.6,115.4
+Hero,Glamour,2018,24000,70879,Individual,Second Owner,61.9,124.7
+Yamaha,YZF R15,2019,51000,100963,Individual,Second Owner,46.6,155.0
+TVS,Ntorq 125,2020,46000,35499,Dealer,First Owner,46.4,124.8
+Royal Enfield,Bullet 350,2017,52000,71059,Dealer,Second Owner,36.1,346.0
+Royal Enfield,Bullet 350,2018,58000,71754,Individual,Second Owner,35.9,346.0
+Bajaj,Platina 110,2021,44000,32286,Individual,First Owner,70.0,115.4
+Hero,Glamour,2019,36000,34909,Dealer,Second Owner,55.9,124.7
+TVS,Apache RTR 160,2016,33000,84718,Individual,First Owner,44.9,159.7
+Royal Enfield,Himalayan,2020,112000,73297,Individual,First Owner,28.6,411.0
+Royal Enfield,Hunter 350,2020,102000,42316,Individual,First Owner,34.2,349.0
+Honda,Shine,2022,45000,34271,Dealer,Second Owner,62.7,124.0
+Bajaj,Pulsar 150,2023,77000,27069,Dealer,First Owner,49.2,149.5
+KTM,Duke 200,2018,40000,61333,Individual,Third Owner,33.9,199.5
+Honda,Activa,2019,32000,45675,Individual,Second Owner,51.6,109.5
+Honda,Shine,2018,38000,28241,Individual,First Owner,63.9,124.0
+Bajaj,Pulsar NS200,2023,102000,31736,Individual,First Owner,36.1,199.5
+Honda,Shine,2015,17000,106525,Individual,First Owner,59.7,124.0
+Hero,Xpulse 200,2022,77000,34214,Individual,Second Owner,39.6,199.6
+Suzuki,Gixxer 155,2016,38000,41373,Individual,Second Owner,41.9,155.0
+Yamaha,FZ-S FI,2022,82000,32025,Individual,First Owner,47.0,149.0
+Hero,Splendor Plus,2014,13000,66209,Individual,Second Owner,68.1,97.2
+Bajaj,Pulsar 150,2024,93000,18686,Individual,First Owner,48.8,149.5
+Yamaha,YZF R15,2021,115000,30928,Individual,First Owner,45.9,155.0
+Hero,Glamour,2017,23000,61218,Individual,Second Owner,56.7,124.7
+TVS,Raider 125,2020,53000,32401,Individual,First Owner,61.3,124.8
+Hero,Glamour,2018,30000,85233,Individual,First Owner,57.5,124.7
+TVS,Ntorq 125,2023,67000,25628,Dealer,First Owner,44.4,124.8
+Honda,CB Unicorn,2020,46000,51790,Individual,Second Owner,51.7,162.7
+Hero,HF Deluxe,2019,25000,38362,Individual,Second Owner,65.2,97.2
+Honda,Activa,2017,29000,59939,Individual,First Owner,48.4,109.5
+Bajaj,Avenger 220,2019,51000,61040,Individual,Second Owner,36.7,220.0
+Hero,Glamour,2024,64000,21005,Dealer,First Owner,58.6,124.7
+KTM,Duke 390,2018,102000,67401,Individual,Second Owner,25.2,373.2
+TVS,Apache RTR 200,2021,82000,33419,Dealer,First Owner,37.5,197.75
+Royal Enfield,Hunter 350,2015,39000,104245,Individual,First Owner,37.4,349.0
+Honda,Shine,2019,27000,16289,Individual,Third Owner,60.6,124.0
+Hero,Xpulse 200,2021,70000,78189,Individual,First Owner,39.6,199.6
+Bajaj,Pulsar NS200,2024,118000,35496,Dealer,First Owner,36.4,199.5
+Honda,CB Unicorn,2019,38000,74460,Dealer,Second Owner,53.6,162.7
+Royal Enfield,Himalayan,2021,122000,38208,Individual,Second Owner,30.9,411.0
+TVS,Apache RTR 200,2015,36000,85446,Individual,First Owner,35.5,197.75
+Bajaj,Pulsar NS200,2023,104000,16551,Individual,First Owner,34.8,199.5
+Bajaj,Platina 110,2016,13000,89557,Dealer,Second Owner,70.8,115.4
+Royal Enfield,Hunter 350,2016,45000,69110,Dealer,Second Owner,37.6,349.0
+Royal Enfield,Bullet 350,2018,42000,58773,Dealer,Third Owner,37.0,346.0
+Yamaha,FZ-S FI,2019,46000,93169,Dealer,First Owner,46.5,149.0
+TVS,Apache RTR 160,2018,31000,91922,Dealer,Second Owner,44.1,159.7
+Hero,Splendor Plus,2021,42000,14177,Individual,Second Owner,69.2,97.2
+Bajaj,Pulsar NS200,2016,27000,62815,Individual,Third Owner,37.0,199.5
+Bajaj,Pulsar NS200,2018,61000,65050,Dealer,First Owner,37.2,199.5
+Suzuki,Gixxer 155,2024,107000,7308,Individual,First Owner,45.2,155.0
+Suzuki,Access 125,2020,41000,45903,Individual,First Owner,51.0,124.0
+Suzuki,Access 125,2018,20000,48004,Individual,Third Owner,52.1,124.0
+Hero,Glamour,2024,69000,18543,Dealer,First Owner,59.0,124.7
+Yamaha,YZF R15,2021,106000,44551,Individual,First Owner,46.0,155.0
+Bajaj,Avenger 220,2017,45000,83800,Individual,First Owner,36.1,220.0
+Yamaha,MT-15,2020,84000,54227,Individual,First Owner,49.8,155.0
+Bajaj,Dominar 400,2019,50000,79032,Individual,Third Owner,27.1,373.3
+Hero,Xpulse 200,2023,96000,35444,Dealer,First Owner,39.0,199.6
+TVS,Apache RTR 160,2016,30000,106749,Dealer,First Owner,43.0,159.7
+Hero,HF Deluxe,2016,19000,83794,Individual,First Owner,65.4,97.2
+TVS,Apache RTR 200,2013,26000,35327,Dealer,Third Owner,35.7,197.75
+Hero,HF Deluxe,2019,28000,42415,Individual,Second Owner,70.3,97.2
+Bajaj,Pulsar 150,2017,40000,66023,Individual,First Owner,49.0,149.5
+TVS,Jupiter,2024,56000,20423,Individual,Second Owner,48.5,109.7
+Hero,Splendor Plus,2017,21000,63346,Individual,Second Owner,72.8,97.2
+Bajaj,Pulsar 150,2017,22000,50509,Individual,Third Owner,46.9,149.5
+Bajaj,Dominar 400,2018,72000,56715,Individual,Second Owner,29.4,373.3
+Royal Enfield,Hunter 350,2024,136000,18279,Dealer,First Owner,34.5,349.0
+Royal Enfield,Classic 350,2021,152000,21589,Individual,First Owner,34.2,349.0
+TVS,Raider 125,2020,47000,43054,Individual,First Owner,64.0,124.8
+Bajaj,Platina 110,2015,12000,74844,Individual,Second Owner,68.4,115.4
+Bajaj,Pulsar NS200,2018,57000,73546,Individual,First Owner,35.9,199.5
+TVS,Jupiter,2017,21000,69741,Individual,Second Owner,48.9,109.7
+Bajaj,Pulsar NS200,2017,49000,71572,Dealer,First Owner,37.3,199.5
+Honda,Shine,2021,48000,29630,Individual,First Owner,64.3,124.0
+Bajaj,Pulsar 150,2021,58000,40151,Individual,Second Owner,48.1,149.5
+KTM,RC 200,2021,138000,54272,Dealer,First Owner,32.6,199.5
+Hero,Glamour,2021,45000,40223,Individual,First Owner,58.1,124.7
+Yamaha,MT-15,2018,42000,41666,Individual,Third Owner,46.0,155.0
+Royal Enfield,Himalayan,2014,42000,108265,Individual,First Owner,29.5,411.0
+Yamaha,YZF R15,2020,103000,23216,Individual,First Owner,42.7,155.0
+Bajaj,Pulsar NS200,2020,62000,46420,Dealer,Second Owner,36.3,199.5
+Hero,HF Deluxe,2015,14000,67974,Individual,Second Owner,64.3,97.2
+Hero,Xpulse 200,2015,27000,125321,Individual,Third Owner,39.3,199.6
+Honda,Dio,2019,24000,78067,Individual,Second Owner,49.0,109.5
+Bajaj,Avenger 220,2016,25000,72787,Individual,Third Owner,39.0,220.0
+TVS,Raider 125,2019,43000,63354,Dealer,First Owner,61.1,124.8
+Honda,Activa,2019,33000,77404,Individual,First Owner,47.8,109.5
+TVS,Raider 125,2020,44000,76730,Individual,First Owner,62.3,124.8
+Honda,Shine,2014,15000,145915,Individual,Second Owner,58.2,124.0
+Honda,Activa,2019,34000,29088,Dealer,Second Owner,50.2,109.5
+KTM,RC 200,2022,146000,25493,Individual,First Owner,32.6,199.5
+Bajaj,Dominar 400,2020,105000,55198,Individual,First Owner,28.9,373.3
+TVS,Ntorq 125,2021,49000,52318,Individual,First Owner,44.7,124.8
+Hero,Xpulse 200,2019,43000,46189,Individual,Third Owner,38.3,199.6
+Honda,Dio,2012,14000,162023,Individual,Third Owner,49.2,109.5
+Royal Enfield,Bullet 350,2019,91000,68276,Dealer,First Owner,34.9,346.0
+Bajaj,Pulsar NS200,2020,68000,63712,Individual,First Owner,36.5,199.5
+TVS,Raider 125,2015,17000,103161,Individual,Second Owner,67.4,124.8
+Honda,Activa,2019,29000,59906,Individual,Second Owner,50.9,109.5
+Suzuki,Gixxer 155,2020,70000,66102,Individual,First Owner,47.2,155.0
+KTM,Duke 200,2018,44000,61685,Individual,Third Owner,33.1,199.5
+TVS,Apache RTR 200,2017,39000,74496,Individual,Second Owner,35.8,197.75
+Bajaj,Avenger 220,2016,25000,79830,Individual,Third Owner,36.1,220.0
+Honda,Hness CB350,2021,116000,45588,Individual,First Owner,35.3,348.0
+Royal Enfield,Hunter 350,2019,71000,94945,Dealer,First Owner,36.2,349.0
+Honda,Hness CB350,2022,146000,26350,Individual,First Owner,33.5,348.0
+Bajaj,Avenger 220,2018,51000,84799,Individual,First Owner,39.7,220.0
+Bajaj,Pulsar NS200,2019,56000,61019,Individual,Second Owner,37.5,199.5
+Hero,Glamour,2017,22000,118267,Individual,First Owner,58.0,124.7
+Bajaj,Platina 110,2019,14000,86667,Dealer,Third Owner,73.1,115.4
+Bajaj,Avenger 220,2024,113000,21164,Individual,First Owner,37.3,220.0
+KTM,Duke 200,2020,95000,36926,Dealer,Second Owner,33.3,199.5
+KTM,Duke 200,2023,158000,20540,Individual,First Owner,31.8,199.5
+KTM,RC 200,2016,40000,104522,Individual,Second Owner,33.3,199.5
+TVS,Raider 125,2014,16000,174025,Individual,Third Owner,65.4,124.8
+Bajaj,Dominar 400,2023,167000,22412,Individual,First Owner,29.9,373.3
+Honda,Shine,2014,16000,104860,Individual,Second Owner,61.7,124.0
+Yamaha,MT-15,2016,49000,82862,Individual,First Owner,47.0,155.0
+KTM,RC 200,2020,108000,67472,Individual,First Owner,31.2,199.5
+Royal Enfield,Himalayan,2022,159000,32049,Dealer,Second Owner,29.4,411.0
+Bajaj,Dominar 400,2016,66000,64780,Dealer,First Owner,30.3,373.3
+TVS,Apache RTR 200,2021,91000,23172,Individual,First Owner,36.2,197.75
+TVS,Raider 125,2017,30000,80489,Individual,First Owner,60.7,124.8
+Royal Enfield,Bullet 350,2017,64000,91777,Individual,First Owner,35.8,346.0
+KTM,Duke 390,2023,234000,23600,Individual,First Owner,26.7,373.2
+Suzuki,Gixxer 155,2019,35000,59818,Dealer,Third Owner,45.1,155.0
+Bajaj,Dominar 400,2021,114000,63127,Individual,First Owner,28.3,373.3
+KTM,Duke 200,2020,106000,42381,Dealer,First Owner,32.8,199.5
+Honda,Hness CB350,2021,115000,47315,Individual,First Owner,34.7,348.0
+Royal Enfield,Bullet 350,2019,93000,46306,Individual,First Owner,35.9,346.0
+Honda,Dio,2018,28000,74543,Individual,First Owner,44.7,109.5
+Hero,HF Deluxe,2024,50000,23102,Individual,First Owner,71.0,97.2
+Hero,Splendor Plus,2017,22000,91940,Individual,First Owner,71.0,97.2
+Royal Enfield,Himalayan,2016,52000,32203,Individual,Third Owner,28.1,411.0
+Bajaj,Avenger 220,2014,25000,74833,Individual,Second Owner,39.5,220.0
+KTM,RC 200,2022,123000,49815,Individual,Second Owner,32.8,199.5
+KTM,RC 200,2020,117000,49465,Individual,First Owner,31.5,199.5
+Bajaj,Pulsar NS200,2019,34000,79530,Individual,Third Owner,36.4,199.5
+TVS,Apache RTR 160,2012,24000,133391,Individual,Second Owner,43.8,159.7
+Royal Enfield,Bullet 350,2014,34000,116673,Individual,First Owner,37.2,346.0
+Yamaha,MT-15,2019,79000,59233,Individual,First Owner,49.8,155.0
+Suzuki,Access 125,2020,41000,46737,Dealer,First Owner,47.9,124.0
+Hero,Glamour,2020,42000,56545,Individual,First Owner,59.8,124.7
+Bajaj,Platina 110,2017,25000,51839,Individual,First Owner,67.2,115.4
+TVS,Ntorq 125,2019,32000,56683,Dealer,Second Owner,46.9,124.8
+Honda,Hness CB350,2015,40000,75849,Dealer,Second Owner,34.9,348.0
+Suzuki,Access 125,2022,46000,29641,Individual,Second Owner,47.2,124.0
+Royal Enfield,Himalayan,2020,144000,34905,Individual,First Owner,29.4,411.0
+KTM,Duke 390,2014,77000,72552,Individual,First Owner,25.4,373.2
+KTM,Duke 200,2021,119000,27032,Dealer,First Owner,31.2,199.5
+TVS,Raider 125,2017,18000,72258,Individual,Third Owner,65.2,124.8
+Bajaj,Pulsar NS200,2018,55000,71256,Individual,First Owner,37.0,199.5
+Bajaj,Dominar 400,2015,40000,88840,Individual,Third Owner,29.3,373.3
+Honda,Hness CB350,2015,38000,103175,Individual,Second Owner,33.0,348.0
+Bajaj,Pulsar NS200,2020,54000,74683,Dealer,Second Owner,34.4,199.5
+Bajaj,Dominar 400,2017,54000,111479,Dealer,First Owner,27.9,373.3
+Yamaha,MT-15,2019,66000,98415,Individual,First Owner,48.8,155.0
+Royal Enfield,Bullet 350,2023,140000,30013,Individual,First Owner,34.8,346.0
+Royal Enfield,Himalayan,2018,96000,65125,Individual,First Owner,29.2,411.0
+Royal Enfield,Bullet 350,2021,116000,31491,Individual,First Owner,37.7,346.0
+Royal Enfield,Bullet 350,2023,143000,33340,Individual,First Owner,37.8,346.0
+TVS,Ntorq 125,2020,50000,23740,Individual,First Owner,45.5,124.8
+Yamaha,MT-15,2015,28000,83173,Individual,Second Owner,47.2,155.0
+Yamaha,YZF R15,2020,93000,49239,Individual,First Owner,44.5,155.0
+Suzuki,Access 125,2018,23000,79078,Dealer,Second Owner,51.7,124.0
+Bajaj,Dominar 400,2020,111000,68077,Individual,First Owner,27.5,373.3
+Hero,Splendor Plus,2021,26000,57346,Individual,Third Owner,72.5,97.2
+Royal Enfield,Hunter 350,2020,107000,33263,Individual,First Owner,36.3,349.0
+Royal Enfield,Bullet 350,2022,131000,42862,Individual,First Owner,36.7,346.0
+Bajaj,Dominar 400,2021,126000,30948,Individual,First Owner,27.2,373.3
+Honda,Shine,2019,33000,50244,Individual,Second Owner,64.0,124.0
+Yamaha,MT-15,2021,98000,41391,Individual,First Owner,48.8,155.0
+Honda,Dio,2023,48000,21310,Individual,Second Owner,48.1,109.5
+Royal Enfield,Hunter 350,2016,55000,77460,Dealer,First Owner,37.0,349.0
+Hero,Splendor Plus,2023,53000,28045,Individual,First Owner,71.0,97.2
+Honda,Activa,2019,31000,82437,Individual,First Owner,46.7,109.5
+TVS,Ntorq 125,2022,51000,18721,Individual,Second Owner,47.0,124.8
+TVS,Apache RTR 200,2022,100000,24394,Individual,First Owner,38.3,197.75
+TVS,Jupiter,2018,27000,81513,Individual,First Owner,53.6,109.7
+Yamaha,FZ-S FI,2018,21000,83041,Individual,Third Owner,48.1,149.0
+TVS,Raider 125,2019,40000,79505,Dealer,First Owner,64.4,124.8
+Suzuki,Access 125,2019,24000,37735,Dealer,Third Owner,49.6,124.0
+TVS,Apache RTR 160,2022,74000,31832,Dealer,First Owner,44.5,159.7
+Honda,Dio,2020,41000,44511,Individual,First Owner,48.8,109.5
+Bajaj,Avenger 220,2021,79000,57687,Individual,First Owner,36.0,220.0
+TVS,Ntorq 125,2020,40000,59116,Individual,First Owner,47.1,124.8
+Yamaha,MT-15,2021,102000,37169,Individual,First Owner,45.9,155.0
+Honda,Hness CB350,2020,112000,35941,Dealer,First Owner,33.2,348.0
+Yamaha,MT-15,2020,87000,35156,Individual,First Owner,45.9,155.0
+KTM,Duke 200,2024,149000,19301,Dealer,First Owner,31.7,199.5
+Hero,Xpulse 200,2017,26000,110926,Dealer,Third Owner,39.2,199.6
+Royal Enfield,Classic 350,2020,80000,39833,Individual,Third Owner,35.3,349.0
+Royal Enfield,Bullet 350,2023,134000,22252,Individual,First Owner,36.3,346.0
+Hero,HF Deluxe,2020,27000,54927,Individual,Second Owner,64.6,97.2
+Yamaha,YZF R15,2014,45000,73714,Dealer,First Owner,42.9,155.0
+Royal Enfield,Hunter 350,2016,56000,79227,Individual,First Owner,37.0,349.0
+Honda,Shine,2019,40000,48173,Individual,First Owner,58.9,124.0
+KTM,Duke 390,2023,241000,20161,Individual,First Owner,27.4,373.2
+Royal Enfield,Hunter 350,2024,151000,21920,Dealer,First Owner,35.2,349.0
+Honda,Activa,2019,34000,62691,Individual,First Owner,48.6,109.5
+Hero,Xpulse 200,2018,50000,42858,Individual,Second Owner,40.9,199.6
+Honda,Hness CB350,2018,37000,90902,Individual,Third Owner,36.7,348.0
+Bajaj,Platina 110,2021,42000,15889,Individual,First Owner,70.0,115.4
+Hero,Splendor Plus,2022,34000,40634,Dealer,Third Owner,66.2,97.2
+Royal Enfield,Hunter 350,2018,75000,71122,Individual,First Owner,36.3,349.0
+TVS,Raider 125,2022,61000,42441,Individual,First Owner,62.9,124.8
+Royal Enfield,Classic 350,2016,35000,100030,Individual,Third Owner,35.9,349.0
+Bajaj,Platina 110,2021,35000,56310,Dealer,First Owner,73.8,115.4
+Royal Enfield,Classic 350,2018,66000,81566,Individual,Second Owner,36.6,349.0
+Hero,Glamour,2017,15000,89374,Individual,Third Owner,58.8,124.7
+Royal Enfield,Himalayan,2020,127000,48300,Individual,First Owner,30.4,411.0
+KTM,Duke 390,2022,201000,46060,Individual,First Owner,27.0,373.2
+Royal Enfield,Classic 350,2018,84000,88362,Individual,First Owner,36.9,349.0
+Honda,CB Unicorn,2017,23000,94821,Individual,Second Owner,54.1,162.7
+Hero,Glamour,2021,48000,52915,Individual,First Owner,62.6,124.7
+Yamaha,YZF R15,2018,79000,47400,Dealer,First Owner,43.2,155.0
+Honda,Activa,2016,15000,83031,Individual,Second Owner,50.1,109.5
+Bajaj,Pulsar 150,2015,20000,116706,Individual,First Owner,47.0,149.5
+Bajaj,Dominar 400,2017,43000,110267,Individual,Second Owner,27.6,373.3
+Bajaj,Pulsar 150,2021,63000,44489,Individual,First Owner,48.8,149.5
+TVS,Jupiter,2013,14000,113901,Individual,First Owner,49.0,109.7
+Honda,Dio,2022,52000,24360,Individual,First Owner,45.8,109.5
+Bajaj,Pulsar NS200,2021,69000,40247,Individual,Second Owner,35.5,199.5
+Honda,Shine,2021,49000,49313,Individual,First Owner,62.7,124.0
+Royal Enfield,Bullet 350,2020,105000,42681,Individual,First Owner,34.7,346.0
+Royal Enfield,Hunter 350,2022,121000,36877,Individual,First Owner,35.1,349.0
+Bajaj,Dominar 400,2017,71000,47373,Dealer,Second Owner,29.1,373.3
+TVS,Raider 125,2013,18000,77140,Individual,Third Owner,66.3,124.8
+KTM,Duke 390,2022,195000,27512,Individual,Second Owner,25.5,373.2
+Hero,Glamour,2021,58000,19933,Individual,First Owner,60.4,124.7
+TVS,Raider 125,2018,24000,82854,Dealer,Second Owner,61.2,124.8
+Bajaj,Pulsar 150,2019,50000,61293,Individual,First Owner,44.9,149.5
+Bajaj,Avenger 220,2014,23000,105025,Individual,Second Owner,38.0,220.0
+Bajaj,Platina 110,2020,35000,53223,Individual,First Owner,73.7,115.4
+Royal Enfield,Bullet 350,2018,61000,54809,Individual,Second Owner,34.8,346.0
+Honda,CB Unicorn,2019,29000,52212,Dealer,Third Owner,49.6,162.7
+TVS,Apache RTR 160,2018,35000,111275,Individual,First Owner,43.4,159.7
+Yamaha,FZ-S FI,2018,21000,94477,Individual,Third Owner,48.0,149.0
+TVS,Jupiter,2019,16000,77222,Individual,Third Owner,50.7,109.7
+TVS,Raider 125,2015,17000,107560,Individual,First Owner,63.3,124.8
+Suzuki,Gixxer 155,2013,23000,104949,Individual,Third Owner,44.7,155.0
+TVS,Jupiter,2021,42000,63363,Individual,First Owner,53.1,109.7
+Suzuki,Gixxer 155,2019,57000,59119,Individual,First Owner,45.8,155.0
+Bajaj,Platina 110,2018,15000,108187,Individual,Second Owner,74.7,115.4
+KTM,Duke 390,2020,162000,70356,Individual,First Owner,25.3,373.2
+KTM,RC 200,2018,93000,52018,Individual,First Owner,33.4,199.5
+TVS,Apache RTR 160,2016,23000,89549,Individual,Second Owner,46.7,159.7
+Bajaj,Platina 110,2020,35000,44748,Dealer,First Owner,70.6,115.4
+Yamaha,YZF R15,2021,103000,55157,Individual,First Owner,42.5,155.0
+TVS,Raider 125,2018,18000,83373,Dealer,Third Owner,65.7,124.8
+TVS,Apache RTR 160,2022,71000,4538,Individual,Second Owner,44.9,159.7
+Hero,Glamour,2021,47000,56019,Dealer,First Owner,60.8,124.7
+Hero,HF Deluxe,2021,41000,23606,Dealer,First Owner,66.0,97.2
+Hero,Splendor Plus,2013,14000,90151,Dealer,Second Owner,71.4,97.2
+Royal Enfield,Classic 350,2019,102000,60154,Individual,First Owner,35.7,349.0
+TVS,Raider 125,2021,58000,30428,Individual,First Owner,67.9,124.8
+TVS,Apache RTR 160,2020,53000,50669,Individual,Second Owner,44.6,159.7
+Yamaha,FZ-S FI,2020,61000,58758,Individual,First Owner,44.1,149.0
+Hero,HF Deluxe,2019,27000,58316,Dealer,First Owner,64.6,97.2
+Bajaj,Dominar 400,2017,75000,71972,Dealer,First Owner,27.8,373.3
+Royal Enfield,Himalayan,2017,65000,113069,Individual,First Owner,30.4,411.0
+Royal Enfield,Bullet 350,2019,80000,51124,Individual,Second Owner,37.2,346.0
+Royal Enfield,Hunter 350,2019,48000,67710,Individual,Third Owner,34.3,349.0
+Royal Enfield,Classic 350,2019,114000,39064,Individual,First Owner,34.8,349.0
+Hero,Glamour,2021,47000,42985,Dealer,First Owner,57.2,124.7
+Honda,CB Unicorn,2018,38000,82549,Individual,First Owner,49.3,162.7
+Hero,Xpulse 200,2016,26000,113376,Individual,Second Owner,41.9,199.6
+Honda,CB Unicorn,2023,82000,21635,Individual,First Owner,52.7,162.7
+TVS,Raider 125,2021,58000,23099,Dealer,First Owner,61.1,124.8
+Hero,Glamour,2016,15000,105537,Individual,Second Owner,57.1,124.7
+KTM,Duke 390,2024,248000,20013,Individual,First Owner,27.3,373.2
+Bajaj,Platina 110,2019,27000,32295,Individual,Second Owner,72.5,115.4
+TVS,Raider 125,2013,16000,84033,Individual,Second Owner,64.8,124.8
+Bajaj,Platina 110,2017,29000,36776,Individual,First Owner,75.0,115.4
+Bajaj,Pulsar NS200,2015,54000,16624,Individual,First Owner,33.6,199.5
+Hero,Splendor Plus,2024,60000,19020,Dealer,First Owner,66.5,97.2
+TVS,Jupiter,2017,12000,107723,Dealer,Third Owner,49.1,109.7
+Royal Enfield,Bullet 350,2024,155000,4482,Individual,First Owner,37.1,346.0
+Hero,Splendor Plus,2018,30000,59944,Dealer,First Owner,65.9,97.2
+Bajaj,Platina 110,2022,47000,26959,Individual,First Owner,68.3,115.4
+Suzuki,Access 125,2021,47000,22939,Dealer,Second Owner,52.0,124.0
+Honda,Dio,2021,44000,19407,Individual,First Owner,47.3,109.5
+Yamaha,FZ-S FI,2020,66000,45877,Individual,First Owner,44.2,149.0
+TVS,Jupiter,2022,45000,47051,Individual,First Owner,49.0,109.7
+Yamaha,FZ-S FI,2020,57000,66897,Dealer,First Owner,46.8,149.0
+KTM,Duke 390,2017,103000,89132,Individual,First Owner,26.1,373.2
+TVS,Apache RTR 200,2017,47000,90928,Dealer,First Owner,35.4,197.75
+KTM,RC 200,2023,155000,27154,Individual,First Owner,33.2,199.5
+Royal Enfield,Hunter 350,2018,70000,75524,Individual,First Owner,35.2,349.0
+KTM,Duke 200,2012,35000,111517,Individual,Second Owner,32.5,199.5
+Honda,Hness CB350,2014,38000,124959,Individual,First Owner,35.0,348.0
+KTM,RC 200,2021,107000,63401,Individual,First Owner,31.0,199.5
+Royal Enfield,Hunter 350,2022,76000,60483,Dealer,Third Owner,35.2,349.0
+Yamaha,MT-15,2019,47000,62166,Individual,Third Owner,44.8,155.0
+KTM,RC 200,2023,169000,17292,Individual,First Owner,30.4,199.5
+Royal Enfield,Hunter 350,2016,41000,75040,Individual,Second Owner,35.8,349.0
+TVS,Apache RTR 200,2017,28000,110055,Individual,Second Owner,37.7,197.75
+Royal Enfield,Hunter 350,2020,88000,70809,Dealer,First Owner,35.9,349.0
+Hero,Splendor Plus,2020,36000,57308,Dealer,First Owner,70.2,97.2
+Royal Enfield,Bullet 350,2019,44000,83821,Dealer,Third Owner,35.0,346.0
+Bajaj,Platina 110,2019,26000,55929,Individual,Second Owner,67.1,115.4
+KTM,RC 200,2022,129000,37494,Individual,Second Owner,30.7,199.5
+TVS,Apache RTR 160,2018,47000,72725,Individual,First Owner,46.0,159.7
+KTM,Duke 390,2022,166000,36278,Individual,Second Owner,25.4,373.2
+KTM,RC 200,2020,83000,76949,Dealer,Second Owner,29.8,199.5
+KTM,Duke 200,2015,52000,81737,Individual,First Owner,31.0,199.5
+Hero,Splendor Plus,2015,14000,115635,Individual,First Owner,71.4,97.2
+Bajaj,Pulsar 150,2019,44000,49768,Individual,Second Owner,45.9,149.5
+Yamaha,FZ-S FI,2019,36000,92601,Individual,Second Owner,47.8,149.0
+Royal Enfield,Himalayan,2024,203000,17165,Individual,First Owner,28.7,411.0
+Bajaj,Avenger 220,2015,23000,119322,Dealer,Second Owner,37.0,220.0
+KTM,RC 200,2014,38000,126255,Individual,Second Owner,32.8,199.5
+Honda,Activa,2016,14000,149315,Dealer,Second Owner,49.3,109.5
+KTM,Duke 390,2017,123000,55362,Individual,First Owner,26.5,373.2
+Honda,Shine,2018,22000,92274,Individual,Second Owner,57.8,124.0
+Bajaj,Dominar 400,2024,171000,20010,Individual,First Owner,29.7,373.3
+Hero,HF Deluxe,2019,22000,66653,Dealer,Second Owner,68.8,97.2
+KTM,Duke 200,2019,83000,67925,Individual,First Owner,32.4,199.5
+Honda,Activa,2017,22000,98684,Individual,First Owner,47.5,109.5
+Honda,CB Unicorn,2017,35000,79492,Individual,First Owner,53.5,162.7
+Bajaj,Pulsar 150,2020,61000,48127,Dealer,First Owner,47.6,149.5
+Yamaha,MT-15,2021,81000,55439,Individual,Second Owner,49.7,155.0
+Suzuki,Access 125,2016,22000,58699,Individual,Second Owner,51.8,124.0
+TVS,Jupiter,2019,29000,47618,Individual,Second Owner,52.0,109.7
+Honda,Shine,2024,61000,18258,Dealer,First Owner,62.4,124.0
+TVS,Ntorq 125,2023,60000,19050,Dealer,First Owner,47.4,124.8
+Honda,CB Unicorn,2015,28000,77395,Individual,First Owner,50.4,162.7
+Bajaj,Platina 110,2019,26000,41018,Individual,Second Owner,68.6,115.4
+Hero,Xpulse 200,2023,95000,16849,Individual,Second Owner,41.2,199.6
+Suzuki,Access 125,2020,24000,70273,Individual,Third Owner,49.1,124.0
+Hero,Glamour,2022,52000,46597,Individual,First Owner,56.0,124.7
+Royal Enfield,Himalayan,2020,142000,36055,Individual,First Owner,30.3,411.0
+KTM,Duke 390,2015,57000,112607,Individual,Third Owner,26.9,373.2
+TVS,Apache RTR 160,2021,72000,42773,Individual,First Owner,46.1,159.7
+Royal Enfield,Classic 350,2020,105000,46984,Individual,Second Owner,36.3,349.0
+Royal Enfield,Bullet 350,2022,141000,28227,Individual,First Owner,37.5,346.0
+Bajaj,Platina 110,2023,48000,36609,Dealer,First Owner,73.2,115.4
+Bajaj,Pulsar 150,2012,21000,131317,Dealer,Second Owner,49.2,149.5
+Hero,Glamour,2017,17000,87179,Dealer,Third Owner,59.6,124.7
+Bajaj,Pulsar 150,2021,57000,29239,Individual,Second Owner,48.9,149.5
+Bajaj,Pulsar 150,2015,21000,92803,Individual,Second Owner,47.6,149.5
+Hero,HF Deluxe,2017,22000,67673,Individual,First Owner,65.7,97.2
+Bajaj,Pulsar 150,2020,49000,29099,Individual,Second Owner,48.3,149.5
+KTM,RC 200,2019,98000,62983,Individual,First Owner,31.1,199.5
+TVS,Apache RTR 200,2020,65000,34545,Individual,Second Owner,38.9,197.75
+Hero,Xpulse 200,2019,36000,61829,Individual,Third Owner,37.9,199.6
+KTM,Duke 200,2022,135000,20523,Individual,First Owner,32.2,199.5
+Hero,Glamour,2017,31000,49739,Individual,First Owner,59.4,124.7
+TVS,Apache RTR 160,2012,23000,118125,Individual,Second Owner,44.2,159.7
+KTM,RC 200,2020,106000,66249,Individual,First Owner,30.0,199.5
+TVS,Jupiter,2022,49000,46009,Dealer,First Owner,52.5,109.7
+Bajaj,Pulsar NS200,2023,113000,18030,Individual,First Owner,34.1,199.5
+Hero,Splendor Plus,2023,51000,32226,Individual,First Owner,68.1,97.2
+Honda,Activa,2020,38000,59584,Individual,First Owner,50.2,109.5
+Honda,Dio,2018,28000,60144,Individual,First Owner,48.4,109.5
+Hero,HF Deluxe,2024,48000,12276,Individual,Second Owner,63.7,97.2
+Royal Enfield,Hunter 350,2017,51000,54811,Individual,Second Owner,35.8,349.0
+KTM,Duke 390,2015,57000,86176,Individual,Second Owner,26.7,373.2
+Hero,Splendor Plus,2022,54000,14740,Individual,First Owner,67.1,97.2
+Honda,Hness CB350,2023,153000,24752,Individual,First Owner,35.1,348.0
+TVS,Apache RTR 200,2015,33000,53994,Individual,Second Owner,38.5,197.75
+Honda,Shine,2023,58000,18845,Dealer,First Owner,63.9,124.0
+Hero,Splendor Plus,2024,57000,8778,Individual,Second Owner,71.1,97.2
+Yamaha,FZ-S FI,2020,54000,62893,Individual,Second Owner,43.1,149.0
+Bajaj,Pulsar NS200,2020,63000,67238,Dealer,Second Owner,37.2,199.5
+Bajaj,Pulsar 150,2019,39000,73894,Individual,Second Owner,48.8,149.5
+TVS,Apache RTR 160,2015,26000,68378,Dealer,Second Owner,42.3,159.7
+Bajaj,Avenger 220,2012,25000,79778,Individual,Second Owner,35.8,220.0
+Royal Enfield,Bullet 350,2022,128000,29058,Individual,First Owner,38.3,346.0
+Royal Enfield,Bullet 350,2019,71000,64765,Dealer,Second Owner,35.9,346.0
+Royal Enfield,Classic 350,2022,151000,10489,Individual,Second Owner,36.1,349.0
+Royal Enfield,Classic 350,2017,62000,66738,Dealer,Second Owner,36.0,349.0
+Hero,Xpulse 200,2019,58000,37937,Individual,Second Owner,38.2,199.6
+Honda,Shine,2022,54000,41098,Individual,First Owner,59.7,124.0
+KTM,Duke 200,2021,110000,61047,Individual,First Owner,32.8,199.5
+Bajaj,Pulsar 150,2015,21000,91230,Individual,Second Owner,47.8,149.5
+Royal Enfield,Hunter 350,2016,59000,72024,Dealer,First Owner,36.5,349.0
+Hero,HF Deluxe,2015,11000,132590,Individual,First Owner,63.9,97.2
+Hero,HF Deluxe,2013,12000,114445,Dealer,Second Owner,63.4,97.2
+TVS,Ntorq 125,2019,39000,64728,Individual,First Owner,43.9,124.8
+Honda,Hness CB350,2022,122000,32489,Individual,First Owner,33.5,348.0
+Bajaj,Avenger 220,2022,96000,33410,Individual,First Owner,37.6,220.0
+Bajaj,Pulsar 150,2024,88000,11127,Dealer,First Owner,46.2,149.5
+Hero,HF Deluxe,2013,11000,116987,Individual,First Owner,71.0,97.2
+Bajaj,Dominar 400,2023,162000,31478,Individual,First Owner,28.6,373.3
+Honda,CB Unicorn,2019,49000,52860,Dealer,First Owner,51.8,162.7
+Royal Enfield,Bullet 350,2019,71000,54822,Individual,Second Owner,38.3,346.0
+Honda,Shine,2019,31000,51097,Individual,Second Owner,59.0,124.0
+TVS,Ntorq 125,2020,43000,63698,Individual,First Owner,46.8,124.8
+Bajaj,Avenger 220,2014,26000,117812,Individual,First Owner,37.2,220.0
+Bajaj,Pulsar 150,2018,44000,65490,Dealer,First Owner,44.5,149.5
+Honda,CB Unicorn,2019,42000,94677,Individual,First Owner,48.6,162.7
+Bajaj,Avenger 220,2022,90000,27426,Individual,First Owner,39.8,220.0
+TVS,Jupiter,2023,56000,14630,Individual,First Owner,54.0,109.7
+TVS,Jupiter,2021,41000,60354,Individual,First Owner,51.2,109.7
+Royal Enfield,Bullet 350,2021,94000,44434,Individual,Second Owner,36.0,346.0
+Yamaha,MT-15,2020,86000,22283,Individual,Second Owner,46.5,155.0
+Royal Enfield,Bullet 350,2017,34000,68894,Individual,Third Owner,37.6,346.0
+TVS,Apache RTR 160,2020,63000,59109,Dealer,First Owner,46.0,159.7
+Honda,Dio,2016,18000,51617,Dealer,Second Owner,46.4,109.5
+TVS,Ntorq 125,2014,15000,130983,Dealer,First Owner,48.7,124.8
+Bajaj,Platina 110,2016,13000,134749,Individual,First Owner,67.9,115.4
+TVS,Ntorq 125,2019,39000,53874,Individual,First Owner,44.3,124.8
+Yamaha,FZ-S FI,2019,45000,73181,Dealer,Second Owner,46.3,149.0
+Honda,Hness CB350,2017,66000,81486,Individual,First Owner,36.4,348.0
+Yamaha,FZ-S FI,2022,83000,22863,Individual,First Owner,46.5,149.0
+Honda,Hness CB350,2021,108000,17013,Individual,Second Owner,34.4,348.0
+Suzuki,Access 125,2020,41000,55075,Dealer,First Owner,49.8,124.0
+TVS,Apache RTR 160,2022,65000,35985,Individual,Second Owner,42.7,159.7
+Hero,Xpulse 200,2015,25000,106785,Individual,Third Owner,40.8,199.6
+Hero,Splendor Plus,2017,19000,70781,Individual,Second Owner,70.0,97.2
+Royal Enfield,Hunter 350,2022,112000,26047,Individual,Second Owner,33.8,349.0
+KTM,Duke 390,2020,154000,61487,Dealer,First Owner,27.6,373.2
+Honda,Dio,2020,40000,39289,Dealer,First Owner,48.0,109.5
+Hero,Splendor Plus,2019,36000,41258,Individual,First Owner,67.3,97.2
+Hero,HF Deluxe,2018,29000,51776,Dealer,First Owner,69.6,97.2
+Royal Enfield,Bullet 350,2020,96000,53196,Individual,First Owner,36.2,346.0
+TVS,Apache RTR 200,2019,39000,51990,Individual,Third Owner,37.0,197.75
+Yamaha,YZF R15,2020,95000,62086,Individual,First Owner,44.8,155.0
+TVS,Apache RTR 160,2019,43000,64235,Individual,Second Owner,45.2,159.7
+Hero,Xpulse 200,2021,65000,61912,Individual,Second Owner,39.6,199.6
+Royal Enfield,Bullet 350,2023,142000,23907,Individual,First Owner,36.7,346.0
+KTM,RC 200,2024,181000,31282,Individual,First Owner,31.2,199.5
+Hero,Splendor Plus,2017,26000,69147,Dealer,First Owner,69.0,97.2
+Suzuki,Access 125,2022,36000,38594,Individual,Third Owner,47.4,124.0
+Honda,CB Unicorn,2014,20000,130924,Dealer,First Owner,52.3,162.7
+KTM,Duke 200,2019,84000,74949,Individual,First Owner,33.4,199.5
+TVS,Ntorq 125,2015,16000,83379,Individual,Second Owner,47.3,124.8
+KTM,Duke 390,2021,192000,50968,Individual,First Owner,27.3,373.2
+Hero,Xpulse 200,2023,97000,27487,Individual,First Owner,41.1,199.6
+KTM,RC 200,2013,38000,85777,Individual,Second Owner,30.5,199.5
+Royal Enfield,Bullet 350,2017,63000,47716,Individual,Second Owner,36.4,346.0
+Royal Enfield,Classic 350,2020,106000,44231,Individual,Second Owner,34.5,349.0
+TVS,Raider 125,2020,52000,38554,Individual,First Owner,65.1,124.8
+Bajaj,Pulsar NS200,2015,27000,122567,Individual,First Owner,33.8,199.5
+Royal Enfield,Bullet 350,2015,33000,118079,Individual,Second Owner,38.4,346.0
+KTM,Duke 200,2020,93000,66579,Dealer,First Owner,32.2,199.5
+Hero,HF Deluxe,2022,43000,12121,Dealer,First Owner,64.9,97.2
+Royal Enfield,Himalayan,2023,193000,20531,Individual,First Owner,31.4,411.0
+Honda,Shine,2020,38000,72712,Individual,First Owner,63.6,124.0
+Bajaj,Dominar 400,2020,102000,64493,Individual,First Owner,27.2,373.3
+Hero,Xpulse 200,2020,47000,71655,Individual,Second Owner,38.2,199.6
+Royal Enfield,Himalayan,2021,126000,38934,Individual,Second Owner,28.0,411.0
+Royal Enfield,Hunter 350,2023,125000,32242,Individual,First Owner,34.9,349.0
+KTM,RC 200,2020,131000,18351,Individual,First Owner,32.8,199.5
+Yamaha,MT-15,2019,80000,44839,Dealer,First Owner,49.4,155.0
+Yamaha,FZ-S FI,2017,31000,80384,Individual,Second Owner,47.7,149.0
+Bajaj,Pulsar 150,2017,27000,77333,Individual,Second Owner,46.6,149.5
+Yamaha,YZF R15,2014,31000,135199,Individual,Second Owner,42.7,155.0
+Hero,Splendor Plus,2024,57000,23738,Dealer,First Owner,68.0,97.2
+Royal Enfield,Bullet 350,2020,115000,33466,Individual,First Owner,37.6,346.0
+Honda,Dio,2022,49000,33429,Individual,First Owner,45.4,109.5
+Yamaha,MT-15,2023,123000,31877,Individual,First Owner,48.5,155.0
+Royal Enfield,Classic 350,2021,112000,47769,Individual,Second Owner,35.0,349.0
+Honda,Hness CB350,2021,117000,37867,Dealer,First Owner,36.7,348.0
+Honda,CB Unicorn,2017,20000,93372,Individual,Third Owner,49.9,162.7
+TVS,Raider 125,2020,47000,54137,Individual,First Owner,65.7,124.8
+Bajaj,Platina 110,2018,12000,91024,Individual,Third Owner,67.6,115.4
+TVS,Raider 125,2018,37000,73858,Individual,First Owner,60.8,124.8
+TVS,Apache RTR 200,2022,93000,28712,Individual,First Owner,39.5,197.75
+Bajaj,Platina 110,2016,12000,100942,Individual,Third Owner,74.2,115.4
+Bajaj,Pulsar 150,2019,53000,44293,Dealer,First Owner,46.2,149.5
+TVS,Raider 125,2017,16000,123573,Individual,Second Owner,67.3,124.8
+Royal Enfield,Bullet 350,2019,63000,88579,Individual,Second Owner,37.3,346.0
+Bajaj,Avenger 220,2019,55000,46317,Dealer,Second Owner,38.7,220.0
+Bajaj,Avenger 220,2019,61000,61559,Individual,First Owner,39.6,220.0
+Hero,Splendor Plus,2019,28000,57122,Individual,Second Owner,69.1,97.2
+Hero,Xpulse 200,2021,80000,41168,Individual,First Owner,38.3,199.6
+Royal Enfield,Bullet 350,2023,142000,33205,Individual,First Owner,35.1,346.0
+Bajaj,Avenger 220,2018,42000,79840,Individual,Second Owner,37.9,220.0
+KTM,Duke 390,2019,69000,87632,Individual,Third Owner,25.3,373.2
+Yamaha,FZ-S FI,2024,101000,19292,Individual,First Owner,46.6,149.0
+Suzuki,Gixxer 155,2020,66000,49891,Individual,First Owner,45.6,155.0
+Bajaj,Platina 110,2021,37000,47566,Dealer,First Owner,69.3,115.4
+TVS,Ntorq 125,2017,23000,114965,Individual,First Owner,44.7,124.8
+Honda,Hness CB350,2021,117000,45575,Dealer,First Owner,35.1,348.0
+Hero,Xpulse 200,2019,35000,65856,Individual,Third Owner,40.7,199.6
+TVS,Jupiter,2015,14000,73319,Individual,Second Owner,53.7,109.7
+Honda,Hness CB350,2024,166000,16653,Individual,First Owner,35.7,348.0
+Yamaha,MT-15,2014,30000,159391,Individual,Second Owner,44.9,155.0
+Suzuki,Gixxer 155,2017,34000,72463,Individual,Second Owner,46.5,155.0
+Royal Enfield,Classic 350,2014,37000,154508,Individual,Second Owner,35.4,349.0
+KTM,RC 200,2020,74000,53075,Individual,Third Owner,31.6,199.5
+Hero,Xpulse 200,2020,77000,44627,Individual,First Owner,37.8,199.6
+Bajaj,Platina 110,2013,14000,111816,Dealer,Second Owner,75.5,115.4
+Hero,Splendor Plus,2023,51000,30585,Individual,First Owner,67.4,97.2
+TVS,Apache RTR 200,2013,26000,94466,Individual,Second Owner,38.0,197.75
+Honda,CB Unicorn,2021,52000,47527,Individual,Second Owner,52.6,162.7
+KTM,Duke 200,2019,85000,26265,Individual,Second Owner,32.4,199.5
+TVS,Jupiter,2014,14000,100570,Individual,Second Owner,51.4,109.7
+Yamaha,MT-15,2019,53000,81484,Individual,Second Owner,49.0,155.0
+TVS,Jupiter,2017,22000,101246,Individual,First Owner,48.6,109.7
+TVS,Apache RTR 200,2024,121000,28962,Dealer,First Owner,38.1,197.75
+Honda,Shine,2022,50000,32575,Dealer,First Owner,60.9,124.0
+Bajaj,Platina 110,2020,38000,42331,Dealer,First Owner,67.6,115.4
+TVS,Ntorq 125,2022,59000,12864,Individual,First Owner,48.6,124.8
+Honda,CB Unicorn,2017,22000,49679,Individual,Third Owner,51.8,162.7
+Honda,Hness CB350,2020,102000,77243,Individual,First Owner,33.0,348.0
+Honda,Activa,2021,43000,42122,Individual,First Owner,49.4,109.5
+Yamaha,YZF R15,2020,67000,68012,Individual,Second Owner,43.1,155.0
+Bajaj,Platina 110,2016,15000,109416,Individual,First Owner,68.5,115.4
+Royal Enfield,Classic 350,2018,63000,84195,Individual,Second Owner,35.4,349.0
+Royal Enfield,Bullet 350,2020,105000,49104,Individual,First Owner,34.9,346.0
+Yamaha,MT-15,2016,35000,83397,Individual,Second Owner,49.4,155.0
+Hero,Glamour,2019,24000,46500,Individual,Third Owner,58.5,124.7
+Royal Enfield,Classic 350,2018,71000,68187,Individual,Second Owner,36.0,349.0
+Hero,Xpulse 200,2020,79000,38416,Dealer,First Owner,39.0,199.6
+Royal Enfield,Hunter 350,2021,112000,26434,Dealer,First Owner,36.4,349.0
+Yamaha,YZF R15,2019,47000,66435,Dealer,Third Owner,44.8,155.0
+Royal Enfield,Classic 350,2019,114000,36334,Dealer,First Owner,34.9,349.0
+Royal Enfield,Himalayan,2021,142000,39783,Individual,First Owner,29.6,411.0
+Royal Enfield,Classic 350,2020,104000,42709,Individual,Second Owner,36.9,349.0
+Suzuki,Access 125,2018,33000,51943,Dealer,First Owner,52.3,124.0
+TVS,Ntorq 125,2022,55000,28014,Individual,First Owner,47.4,124.8
+Yamaha,MT-15,2019,63000,70142,Individual,Second Owner,45.4,155.0
+Bajaj,Dominar 400,2020,139000,15856,Individual,First Owner,29.4,373.3
+Yamaha,FZ-S FI,2021,66000,13181,Individual,Second Owner,47.4,149.0
+Yamaha,FZ-S FI,2019,52000,77399,Individual,First Owner,44.7,149.0
+TVS,Apache RTR 200,2014,25000,96948,Individual,Second Owner,36.7,197.75
+Hero,HF Deluxe,2015,16000,71015,Dealer,First Owner,70.2,97.2
+TVS,Raider 125,2020,51000,40055,Individual,First Owner,61.0,124.8
+TVS,Apache RTR 200,2014,26000,21289,Dealer,Third Owner,36.8,197.75
+Yamaha,FZ-S FI,2021,65000,72137,Dealer,First Owner,47.5,149.0
+Royal Enfield,Bullet 350,2020,97000,62423,Individual,First Owner,38.3,346.0
+TVS,Apache RTR 160,2020,60000,48752,Dealer,First Owner,43.2,159.7
+KTM,Duke 200,2021,123000,26123,Individual,First Owner,32.0,199.5
+TVS,Raider 125,2013,16000,103781,Individual,Second Owner,64.4,124.8
+Hero,Splendor Plus,2023,54000,28186,Individual,First Owner,67.1,97.2
+TVS,Jupiter,2017,14000,118411,Dealer,Second Owner,52.2,109.7
+Bajaj,Platina 110,2020,34000,45167,Dealer,First Owner,74.1,115.4
+Hero,Xpulse 200,2022,80000,26184,Individual,Second Owner,39.6,199.6
+Honda,Shine,2024,62000,25608,Individual,First Owner,58.1,124.0
+Hero,Xpulse 200,2022,80000,16633,Dealer,Second Owner,39.1,199.6
+KTM,RC 200,2018,60000,81991,Individual,Second Owner,30.3,199.5
+Hero,Glamour,2018,32000,76289,Individual,First Owner,59.2,124.7
+Hero,HF Deluxe,2019,22000,75555,Dealer,Second Owner,68.5,97.2
+Suzuki,Access 125,2015,18000,95016,Individual,First Owner,47.1,124.0
+Hero,Splendor Plus,2023,55000,16756,Individual,First Owner,72.8,97.2
+KTM,RC 200,2023,149000,41445,Dealer,First Owner,31.6,199.5
+Suzuki,Access 125,2015,15000,71212,Dealer,Third Owner,46.9,124.0
+Yamaha,YZF R15,2023,113000,40516,Individual,Second Owner,45.8,155.0
+Royal Enfield,Bullet 350,2019,67000,59259,Individual,Second Owner,38.3,346.0
+TVS,Ntorq 125,2016,15000,124326,Individual,Second Owner,47.5,124.8
+Bajaj,Avenger 220,2024,110000,12269,Individual,First Owner,38.0,220.0
+Suzuki,Access 125,2020,42000,22121,Individual,First Owner,50.7,124.0
+KTM,RC 200,2022,141000,29643,Individual,First Owner,33.3,199.5
+Royal Enfield,Classic 350,2024,191000,20058,Dealer,First Owner,35.7,349.0
+Suzuki,Access 125,2022,53000,33504,Dealer,First Owner,49.7,124.0
+Honda,Dio,2019,32000,60912,Individual,First Owner,49.1,109.5
+Yamaha,MT-15,2021,94000,46789,Individual,First Owner,47.3,155.0
+KTM,RC 200,2017,77000,75701,Individual,First Owner,30.7,199.5
+Bajaj,Avenger 220,2021,72000,33924,Individual,Second Owner,36.0,220.0
+Hero,Xpulse 200,2017,49000,32662,Individual,Second Owner,38.4,199.6
+Suzuki,Access 125,2013,14000,98373,Individual,First Owner,48.0,124.0
+Hero,HF Deluxe,2019,27000,53102,Individual,Second Owner,69.3,97.2
+Suzuki,Gixxer 155,2017,25000,64517,Individual,Third Owner,45.8,155.0
+TVS,Apache RTR 160,2016,30000,105727,Individual,First Owner,43.4,159.7
+Yamaha,FZ-S FI,2022,74000,8339,Dealer,Second Owner,44.9,149.0
+Honda,Activa,2019,39000,20157,Individual,First Owner,50.4,109.5
+Hero,HF Deluxe,2020,31000,73936,Individual,First Owner,67.3,97.2
+Royal Enfield,Himalayan,2021,156000,34421,Individual,First Owner,28.6,411.0
+KTM,RC 200,2020,86000,69169,Dealer,Second Owner,32.1,199.5
+Royal Enfield,Himalayan,2021,161000,32602,Individual,First Owner,29.9,411.0
+Honda,Hness CB350,2019,100000,49435,Individual,First Owner,35.1,348.0
+Hero,Splendor Plus,2019,27000,63060,Dealer,Second Owner,68.4,97.2
+Hero,Glamour,2014,17000,49677,Dealer,Second Owner,57.0,124.7
+TVS,Jupiter,2013,14000,152760,Individual,Second Owner,50.8,109.7
+Yamaha,YZF R15,2020,82000,46372,Individual,Second Owner,43.4,155.0
+Honda,Activa,2019,37000,49688,Individual,First Owner,47.7,109.5
+Bajaj,Pulsar 150,2019,43000,47667,Dealer,Second Owner,47.4,149.5
+KTM,Duke 200,2021,105000,57568,Individual,First Owner,33.3,199.5
+KTM,Duke 390,2012,54000,86713,Individual,First Owner,27.1,373.2
+TVS,Apache RTR 200,2024,123000,16360,Individual,First Owner,38.4,197.75
+Hero,Xpulse 200,2020,77000,50299,Individual,First Owner,39.7,199.6
+TVS,Raider 125,2018,31000,95112,Individual,First Owner,63.3,124.8
+Hero,HF Deluxe,2015,12000,102896,Individual,Second Owner,63.8,97.2
+Honda,Activa,2018,35000,21920,Dealer,First Owner,48.6,109.5
+Yamaha,MT-15,2017,58000,61866,Individual,First Owner,50.0,155.0
+Hero,Glamour,2019,34000,28645,Individual,Second Owner,58.0,124.7
+Honda,Activa,2021,37000,60946,Dealer,Second Owner,49.8,109.5
+Bajaj,Dominar 400,2021,120000,44285,Individual,First Owner,27.7,373.3
+KTM,Duke 200,2021,98000,53414,Individual,Second Owner,32.6,199.5
+Hero,Splendor Plus,2019,29000,50838,Individual,Second Owner,67.6,97.2
+Royal Enfield,Classic 350,2018,67000,88975,Individual,Second Owner,34.4,349.0
+Bajaj,Pulsar 150,2013,21000,98546,Individual,Second Owner,46.2,149.5
+Yamaha,MT-15,2016,29000,88100,Individual,Third Owner,49.0,155.0
+Hero,Glamour,2022,52000,49649,Individual,First Owner,56.8,124.7
+TVS,Ntorq 125,2018,28000,72091,Individual,Second Owner,44.1,124.8
+Bajaj,Pulsar 150,2017,29000,66781,Dealer,Second Owner,44.0,149.5
+Bajaj,Avenger 220,2019,51000,61284,Individual,Second Owner,37.9,220.0
+Yamaha,YZF R15,2018,59000,92909,Individual,First Owner,47.0,155.0
+Bajaj,Dominar 400,2013,40000,91858,Individual,Second Owner,30.3,373.3
+Honda,Shine,2019,30000,63471,Individual,Second Owner,61.5,124.0
+Hero,Splendor Plus,2020,40000,22064,Individual,Second Owner,71.7,97.2
+TVS,Apache RTR 160,2018,24000,86972,Individual,Third Owner,42.9,159.7
+TVS,Ntorq 125,2022,49000,45060,Individual,Second Owner,49.1,124.8
+Royal Enfield,Himalayan,2020,132000,47441,Individual,First Owner,30.5,411.0
+Yamaha,YZF R15,2019,79000,81619,Individual,First Owner,42.0,155.0
+Honda,Dio,2014,13000,60901,Individual,Second Owner,47.9,109.5
+KTM,RC 200,2020,74000,37963,Individual,Third Owner,31.2,199.5
+Honda,Dio,2022,46000,44935,Dealer,First Owner,49.0,109.5
+Bajaj,Pulsar 150,2021,60000,31416,Individual,Second Owner,45.5,149.5
+Hero,Splendor Plus,2023,59000,18221,Individual,First Owner,69.8,97.2
+Royal Enfield,Bullet 350,2012,34000,122469,Individual,First Owner,35.6,346.0
+Royal Enfield,Bullet 350,2023,150000,30926,Individual,First Owner,35.0,346.0
+Honda,Shine,2022,56000,24951,Dealer,First Owner,60.7,124.0
+Hero,Splendor Plus,2021,41000,24979,Individual,Second Owner,70.3,97.2
+Honda,Hness CB350,2017,56000,68493,Individual,Second Owner,35.1,348.0
+Hero,HF Deluxe,2023,48000,21149,Individual,First Owner,65.2,97.2
+Bajaj,Platina 110,2017,22000,77034,Individual,First Owner,68.9,115.4
+TVS,Ntorq 125,2013,17000,75844,Individual,Second Owner,47.1,124.8
+TVS,Raider 125,2021,52000,29474,Individual,First Owner,66.9,124.8
+KTM,RC 200,2019,99000,67181,Dealer,First Owner,33.3,199.5
+Suzuki,Access 125,2022,38000,23479,Individual,Third Owner,49.7,124.0
+Honda,Dio,2016,22000,81993,Individual,First Owner,46.6,109.5
+Hero,Splendor Plus,2021,43000,39883,Individual,First Owner,68.0,97.2
+TVS,Apache RTR 160,2017,33000,75656,Individual,Second Owner,45.6,159.7
+TVS,Apache RTR 160,2018,42000,79009,Dealer,First Owner,46.1,159.7
+Honda,Shine,2016,24000,78825,Individual,First Owner,64.7,124.0
+Suzuki,Gixxer 155,2018,46000,44392,Dealer,Second Owner,44.5,155.0
+Hero,Xpulse 200,2012,25000,84975,Individual,First Owner,38.9,199.6
+KTM,Duke 200,2020,108000,47987,Individual,First Owner,31.4,199.5
+Hero,Glamour,2020,40000,69330,Individual,First Owner,61.5,124.7
+TVS,Jupiter,2019,26000,59795,Individual,Second Owner,51.3,109.7
+Bajaj,Pulsar 150,2022,71000,35658,Individual,First Owner,47.4,149.5
+Bajaj,Avenger 220,2019,60000,31872,Individual,Second Owner,35.9,220.0
+Suzuki,Access 125,2020,36000,53016,Dealer,Second Owner,50.9,124.0
+Yamaha,MT-15,2019,75000,66373,Individual,First Owner,46.3,155.0
+Yamaha,MT-15,2016,30000,103917,Individual,Third Owner,48.0,155.0
+Honda,Dio,2016,18000,64152,Individual,Second Owner,49.6,109.5
+Royal Enfield,Himalayan,2015,41000,113332,Individual,Second Owner,30.6,411.0
+Bajaj,Avenger 220,2017,26000,57900,Individual,Third Owner,37.1,220.0
+Honda,Activa,2019,29000,62193,Individual,Second Owner,49.1,109.5
+KTM,Duke 200,2019,81000,49870,Individual,Second Owner,32.7,199.5
+TVS,Raider 125,2021,49000,57686,Individual,First Owner,65.7,124.8
+TVS,Apache RTR 160,2012,23000,124965,Individual,First Owner,43.1,159.7
+Bajaj,Pulsar NS200,2021,80000,57586,Individual,First Owner,35.0,199.5
+Yamaha,FZ-S FI,2016,29000,115266,Individual,First Owner,44.0,149.0
+Hero,Glamour,2022,57000,21652,Dealer,First Owner,60.2,124.7
+Royal Enfield,Bullet 350,2015,57000,67070,Individual,First Owner,35.9,346.0
+Hero,Xpulse 200,2013,26000,101913,Individual,First Owner,41.1,199.6
+Honda,Activa,2021,48000,46606,Dealer,First Owner,52.3,109.5
+TVS,Raider 125,2015,24000,79016,Individual,First Owner,63.5,124.8
+TVS,Apache RTR 200,2020,70000,33019,Individual,Second Owner,38.2,197.75
+Royal Enfield,Classic 350,2017,85000,60221,Individual,First Owner,36.3,349.0
+Bajaj,Avenger 220,2023,105000,25912,Individual,First Owner,35.9,220.0
+Honda,Dio,2024,61000,19211,Individual,First Owner,49.1,109.5
+TVS,Raider 125,2020,50000,45924,Individual,First Owner,65.1,124.8
+Hero,Xpulse 200,2019,32000,81316,Individual,Third Owner,40.4,199.6
+Hero,Xpulse 200,2022,90000,34111,Individual,First Owner,37.3,199.6
+Honda,Shine,2017,26000,78250,Individual,First Owner,60.1,124.0
+Hero,Glamour,2021,49000,12552,Individual,First Owner,56.5,124.7
+Royal Enfield,Himalayan,2014,43000,129801,Individual,Second Owner,29.8,411.0
+Bajaj,Pulsar 150,2020,55000,50344,Individual,First Owner,43.8,149.5
+TVS,Apache RTR 200,2019,57000,47124,Dealer,Second Owner,39.7,197.75
+Suzuki,Gixxer 155,2022,72000,22757,Individual,Second Owner,45.1,155.0
+Honda,Hness CB350,2013,34000,78302,Individual,Second Owner,35.1,348.0
+Yamaha,YZF R15,2023,129000,24823,Individual,First Owner,45.3,155.0
+Bajaj,Pulsar NS200,2016,36000,95037,Individual,First Owner,36.7,199.5
+Hero,Glamour,2018,22000,43281,Individual,Third Owner,58.2,124.7
+Hero,Glamour,2015,16000,119928,Individual,First Owner,60.8,124.7
+Bajaj,Dominar 400,2023,149000,24359,Individual,First Owner,30.1,373.3
+Royal Enfield,Hunter 350,2021,95000,32054,Individual,Second Owner,33.5,349.0
+TVS,Jupiter,2014,21000,65243,Dealer,First Owner,51.4,109.7
+Yamaha,YZF R15,2019,42000,78430,Dealer,Third Owner,46.6,155.0
+Royal Enfield,Bullet 350,2021,95000,46877,Dealer,Second Owner,34.5,346.0
+Bajaj,Platina 110,2015,18000,73745,Individual,First Owner,74.7,115.4
+Bajaj,Platina 110,2024,53000,18467,Dealer,First Owner,74.7,115.4
+Honda,Activa,2016,14000,105148,Dealer,Third Owner,51.1,109.5
+TVS,Apache RTR 160,2022,82000,33912,Individual,First Owner,43.1,159.7
+Royal Enfield,Bullet 350,2019,76000,45687,Individual,Second Owner,35.8,346.0
+KTM,RC 200,2019,53000,71290,Individual,Third Owner,30.7,199.5
+Honda,Activa,2013,14000,87738,Individual,Third Owner,51.9,109.5
+Bajaj,Avenger 220,2020,63000,76643,Dealer,First Owner,38.0,220.0
+Royal Enfield,Bullet 350,2019,60000,81115,Individual,Second Owner,35.3,346.0
+Royal Enfield,Classic 350,2015,49000,94433,Dealer,First Owner,35.8,349.0
+Honda,Dio,2018,20000,87412,Individual,Second Owner,50.1,109.5
+Yamaha,YZF R15,2017,44000,124445,Individual,First Owner,45.7,155.0
+Bajaj,Pulsar NS200,2022,94000,34827,Individual,First Owner,37.5,199.5
+Honda,Dio,2012,14000,105420,Dealer,Third Owner,49.6,109.5
+KTM,RC 200,2020,92000,58130,Individual,Second Owner,30.2,199.5
+Honda,CB Unicorn,2021,62000,54043,Individual,First Owner,53.4,162.7
+Honda,Activa,2014,15000,106464,Dealer,Third Owner,47.3,109.5
+Suzuki,Access 125,2022,54000,37232,Individual,First Owner,49.9,124.0
+Suzuki,Access 125,2023,57000,32291,Individual,First Owner,47.2,124.0
+Yamaha,FZ-S FI,2019,51000,40548,Individual,Second Owner,47.7,149.0
+Yamaha,MT-15,2017,63000,71939,Individual,First Owner,44.7,155.0
+Hero,Glamour,2018,41000,28349,Individual,First Owner,60.7,124.7
+TVS,Apache RTR 200,2017,34000,80166,Dealer,Second Owner,35.6,197.75
+Yamaha,YZF R15,2019,82000,71182,Individual,First Owner,47.1,155.0
+Hero,HF Deluxe,2013,11000,103374,Individual,Second Owner,65.4,97.2
+Royal Enfield,Classic 350,2024,197000,10796,Individual,First Owner,34.7,349.0
+Yamaha,MT-15,2018,51000,73147,Dealer,Second Owner,49.9,155.0
+TVS,Raider 125,2021,52000,53557,Individual,First Owner,62.2,124.8
+Hero,HF Deluxe,2014,15000,36257,Individual,Second Owner,63.8,97.2
+Royal Enfield,Himalayan,2018,83000,69187,Individual,Second Owner,27.9,411.0
+TVS,Apache RTR 160,2020,68000,36582,Individual,First Owner,44.1,159.7
+Suzuki,Gixxer 155,2022,91000,27056,Dealer,First Owner,44.0,155.0
+Suzuki,Gixxer 155,2019,58000,64302,Individual,First Owner,45.8,155.0
+Hero,HF Deluxe,2021,36000,39295,Individual,First Owner,63.4,97.2
+Royal Enfield,Hunter 350,2013,30000,138946,Dealer,Second Owner,36.1,349.0
+TVS,Apache RTR 200,2021,79000,59241,Individual,First Owner,38.4,197.75
+Honda,Hness CB350,2020,93000,74026,Individual,First Owner,33.0,348.0
+Hero,Glamour,2018,34000,62768,Individual,First Owner,60.5,124.7
+Honda,CB Unicorn,2015,22000,131955,Individual,First Owner,53.6,162.7
+KTM,Duke 390,2021,196000,34963,Dealer,First Owner,27.4,373.2
+Yamaha,FZ-S FI,2024,96000,10892,Individual,First Owner,42.9,149.0
+Honda,Dio,2017,18000,84747,Dealer,Second Owner,49.9,109.5
+Honda,Dio,2022,43000,32403,Individual,Second Owner,49.0,109.5
+Royal Enfield,Hunter 350,2021,94000,42635,Individual,Second Owner,36.3,349.0
+Honda,Shine,2024,60000,15578,Individual,Second Owner,62.2,124.0
+Yamaha,MT-15,2022,93000,46920,Dealer,Second Owner,49.0,155.0
+Royal Enfield,Classic 350,2018,51000,59469,Dealer,Third Owner,34.1,349.0
+Yamaha,YZF R15,2023,131000,24906,Individual,First Owner,45.9,155.0
+TVS,Raider 125,2015,17000,119972,Individual,Second Owner,65.8,124.8
+Honda,Dio,2018,34000,27392,Individual,First Owner,45.4,109.5
+Royal Enfield,Bullet 350,2022,120000,50778,Individual,First Owner,34.9,346.0
+Hero,HF Deluxe,2019,18000,53111,Dealer,Third Owner,65.3,97.2
+Honda,Hness CB350,2017,53000,72586,Individual,Second Owner,36.5,348.0
+Honda,CB Unicorn,2019,36000,72695,Individual,Second Owner,51.1,162.7
+Royal Enfield,Himalayan,2017,73000,60226,Individual,Second Owner,30.3,411.0
+Hero,Glamour,2020,39000,54179,Individual,First Owner,58.7,124.7
+Suzuki,Access 125,2022,52000,30851,Individual,First Owner,52.4,124.0
+KTM,Duke 200,2020,98000,49129,Individual,First Owner,32.6,199.5
+Hero,Xpulse 200,2024,95000,20553,Individual,Second Owner,39.5,199.6
+KTM,Duke 390,2016,78000,100930,Individual,First Owner,26.2,373.2
+Suzuki,Access 125,2020,42000,54954,Individual,First Owner,52.0,124.0
+Honda,Dio,2016,19000,100128,Dealer,First Owner,45.2,109.5
+TVS,Raider 125,2016,21000,107549,Individual,First Owner,63.3,124.8
+Royal Enfield,Classic 350,2021,93000,46301,Individual,Third Owner,35.3,349.0
+Hero,Glamour,2021,50000,44495,Individual,First Owner,56.8,124.7
+KTM,Duke 390,2022,203000,37297,Dealer,First Owner,26.7,373.2
+KTM,Duke 200,2018,64000,65622,Individual,Second Owner,32.4,199.5
+Hero,Glamour,2018,21000,102152,Individual,Second Owner,60.9,124.7
+KTM,Duke 390,2014,75000,80147,Individual,First Owner,25.7,373.2
+Royal Enfield,Himalayan,2013,39000,119673,Dealer,Second Owner,28.4,411.0
+Royal Enfield,Bullet 350,2017,67000,64188,Individual,First Owner,35.1,346.0
+Hero,Xpulse 200,2021,80000,43009,Individual,First Owner,40.4,199.6
+Suzuki,Access 125,2019,28000,106258,Individual,First Owner,50.0,124.0
+Suzuki,Gixxer 155,2023,99000,33646,Individual,First Owner,42.8,155.0
+Bajaj,Avenger 220,2012,25000,84190,Dealer,Third Owner,37.6,220.0
+TVS,Jupiter,2017,13000,64797,Individual,Third Owner,49.7,109.7
+Yamaha,FZ-S FI,2017,30000,81649,Dealer,Second Owner,44.7,149.0
+Honda,CB Unicorn,2013,19000,112772,Dealer,First Owner,53.1,162.7
+Honda,Dio,2023,55000,24230,Individual,First Owner,45.0,109.5
+Bajaj,Avenger 220,2019,62000,68086,Individual,First Owner,36.9,220.0
+Hero,Splendor Plus,2013,13000,108280,Individual,Second Owner,72.8,97.2
+Honda,Activa,2023,52000,30885,Individual,First Owner,48.4,109.5
+Hero,HF Deluxe,2019,27000,62184,Dealer,First Owner,69.4,97.2
+Bajaj,Avenger 220,2018,59000,62388,Individual,First Owner,36.0,220.0
+Royal Enfield,Himalayan,2022,158000,4110,Individual,Second Owner,29.6,411.0
+Honda,Hness CB350,2015,70000,41674,Individual,First Owner,33.6,348.0
+Suzuki,Gixxer 155,2019,41000,84978,Individual,Second Owner,42.8,155.0
+Royal Enfield,Hunter 350,2016,48000,64464,Individual,Second Owner,37.4,349.0
+Yamaha,MT-15,2018,52000,74680,Individual,Second Owner,44.7,155.0
+Suzuki,Access 125,2016,15000,118980,Individual,Third Owner,49.3,124.0
+KTM,RC 200,2022,134000,43668,Dealer,First Owner,32.4,199.5
+Hero,Glamour,2020,42000,49821,Individual,First Owner,59.5,124.7
+Honda,CB Unicorn,2017,19000,110458,Individual,Second Owner,52.4,162.7
+Suzuki,Gixxer 155,2022,89000,25537,Dealer,First Owner,47.1,155.0
+Royal Enfield,Hunter 350,2012,31000,111332,Individual,First Owner,37.5,349.0
+Yamaha,FZ-S FI,2018,43000,88814,Individual,First Owner,42.9,149.0
+Yamaha,YZF R15,2020,99000,53887,Individual,First Owner,44.8,155.0
+Honda,CB Unicorn,2016,26000,68837,Individual,Second Owner,50.5,162.7
+KTM,Duke 200,2021,103000,46938,Individual,Second Owner,31.6,199.5
+Hero,Splendor Plus,2020,33000,34458,Individual,Second Owner,69.9,97.2
+Yamaha,MT-15,2024,121000,26556,Individual,Second Owner,46.7,155.0
+Bajaj,Platina 110,2020,37000,35881,Dealer,First Owner,67.6,115.4
+Royal Enfield,Bullet 350,2021,112000,52445,Individual,First Owner,38.2,346.0
+Royal Enfield,Bullet 350,2022,131000,20096,Individual,First Owner,35.3,346.0
+TVS,Jupiter,2012,14000,70566,Dealer,First Owner,50.0,109.7
+Royal Enfield,Himalayan,2016,57000,18666,Individual,Third Owner,28.5,411.0
+Bajaj,Avenger 220,2012,25000,97902,Dealer,First Owner,38.9,220.0
+Hero,Splendor Plus,2023,54000,32048,Individual,First Owner,70.5,97.2
+Honda,Dio,2022,51000,23733,Dealer,First Owner,44.7,109.5
+Royal Enfield,Bullet 350,2019,67000,113578,Individual,First Owner,36.0,346.0
+Bajaj,Pulsar 150,2018,23000,61866,Individual,Third Owner,48.5,149.5
+Hero,Splendor Plus,2024,62000,13613,Dealer,First Owner,65.3,97.2
+TVS,Ntorq 125,2023,62000,34933,Individual,First Owner,46.4,124.8
+TVS,Apache RTR 160,2023,84000,31321,Individual,First Owner,47.0,159.7
+Hero,Splendor Plus,2020,24000,50244,Individual,Third Owner,67.3,97.2
+Honda,CB Unicorn,2014,19000,68603,Individual,Second Owner,51.2,162.7
+Bajaj,Platina 110,2017,12000,84212,Individual,Third Owner,74.4,115.4
+Hero,Xpulse 200,2022,95000,26610,Individual,First Owner,38.6,199.6
+Hero,Xpulse 200,2021,85000,31568,Dealer,First Owner,40.2,199.6
+Honda,Activa,2020,41000,38373,Individual,First Owner,50.1,109.5
+Bajaj,Avenger 220,2015,29000,65496,Individual,Second Owner,38.6,220.0
+Honda,Hness CB350,2023,157000,30804,Individual,First Owner,35.9,348.0
+Suzuki,Access 125,2019,28000,65330,Individual,Second Owner,50.9,124.0
+TVS,Jupiter,2021,44000,43341,Individual,First Owner,51.6,109.7
+TVS,Apache RTR 200,2023,108000,17012,Individual,First Owner,36.6,197.75
+Suzuki,Gixxer 155,2022,81000,32972,Individual,First Owner,42.5,155.0
+Honda,Dio,2022,46000,25931,Individual,First Owner,45.6,109.5
+Royal Enfield,Hunter 350,2022,121000,28882,Individual,First Owner,36.2,349.0
+KTM,Duke 200,2021,117000,48830,Dealer,First Owner,32.4,199.5
+Suzuki,Gixxer 155,2021,75000,45481,Dealer,First Owner,43.2,155.0
+Bajaj,Avenger 220,2019,62000,63253,Individual,First Owner,36.6,220.0
+TVS,Ntorq 125,2015,15000,147416,Dealer,First Owner,46.6,124.8
+KTM,RC 200,2019,107000,32553,Dealer,First Owner,31.7,199.5
+Honda,Dio,2016,16000,75890,Dealer,Second Owner,50.2,109.5
+Honda,Shine,2020,43000,27998,Dealer,First Owner,64.5,124.0
+Bajaj,Avenger 220,2022,91000,35470,Individual,First Owner,38.4,220.0
+Hero,HF Deluxe,2017,16000,83328,Individual,Second Owner,68.2,97.2
+Bajaj,Pulsar NS200,2017,42000,59789,Dealer,Second Owner,36.0,199.5
+Honda,CB Unicorn,2021,45000,42698,Individual,Third Owner,53.1,162.7
+Yamaha,FZ-S FI,2019,41000,82067,Individual,Second Owner,43.0,149.0
+Royal Enfield,Bullet 350,2020,98000,61455,Individual,First Owner,36.5,346.0
+Honda,Dio,2017,20000,72350,Dealer,Second Owner,47.5,109.5
+Hero,Glamour,2020,43000,38100,Individual,First Owner,59.9,124.7
+Royal Enfield,Bullet 350,2014,35000,109484,Individual,First Owner,34.9,346.0
+Royal Enfield,Bullet 350,2022,125000,35255,Dealer,First Owner,35.7,346.0
+Honda,Hness CB350,2019,44000,84910,Individual,Third Owner,36.7,348.0
+Honda,Dio,2021,39000,48475,Dealer,First Owner,46.0,109.5
+Bajaj,Pulsar NS200,2019,69000,47070,Dealer,First Owner,36.5,199.5
+Honda,Hness CB350,2019,103000,32681,Individual,First Owner,33.8,348.0
+Bajaj,Platina 110,2021,38000,59756,Dealer,First Owner,71.7,115.4
+KTM,Duke 390,2016,71000,70769,Dealer,Second Owner,25.4,373.2
+Bajaj,Avenger 220,2015,24000,110938,Individual,Second Owner,38.5,220.0
+KTM,Duke 200,2015,36000,100759,Individual,Second Owner,34.6,199.5
+Hero,Xpulse 200,2022,75000,47523,Individual,Second Owner,37.4,199.6
+Bajaj,Platina 110,2020,38000,29369,Dealer,First Owner,74.7,115.4
+TVS,Ntorq 125,2021,52000,33008,Individual,First Owner,46.8,124.8
+Bajaj,Dominar 400,2014,53000,81028,Individual,First Owner,27.3,373.3
+Bajaj,Dominar 400,2021,128000,37250,Dealer,First Owner,27.3,373.3
+Royal Enfield,Hunter 350,2020,56000,57718,Dealer,Third Owner,37.2,349.0
+Suzuki,Access 125,2023,58000,15344,Dealer,First Owner,47.1,124.0
+Bajaj,Pulsar 150,2018,39000,65000,Individual,Second Owner,46.5,149.5
+TVS,Jupiter,2022,45000,17852,Individual,Second Owner,51.6,109.7
+Royal Enfield,Hunter 350,2021,95000,79014,Individual,First Owner,35.9,349.0
+Bajaj,Pulsar NS200,2020,82000,32226,Individual,First Owner,33.9,199.5
+KTM,Duke 200,2020,104000,41526,Individual,First Owner,33.4,199.5
+TVS,Apache RTR 160,2021,61000,35713,Dealer,Second Owner,43.1,159.7
+Hero,Splendor Plus,2016,13000,140743,Individual,Third Owner,72.3,97.2
+Hero,Splendor Plus,2022,44000,30561,Individual,Second Owner,66.4,97.2
+TVS,Raider 125,2017,17000,101422,Dealer,Third Owner,68.1,124.8
+Hero,Splendor Plus,2022,52000,12382,Dealer,First Owner,69.8,97.2
+Honda,Activa,2022,52000,16768,Individual,First Owner,49.2,109.5
+Hero,Glamour,2014,16000,78807,Dealer,Second Owner,61.6,124.7
+Hero,Glamour,2022,52000,29561,Individual,First Owner,61.3,124.7
+TVS,Apache RTR 200,2019,61000,74198,Individual,First Owner,36.8,197.75
+TVS,Raider 125,2023,68000,21575,Individual,First Owner,62.1,124.8
+TVS,Apache RTR 160,2017,22000,126800,Individual,Second Owner,44.1,159.7
+Royal Enfield,Bullet 350,2024,167000,24741,Individual,First Owner,38.0,346.0
+Royal Enfield,Bullet 350,2017,69000,70989,Individual,First Owner,37.8,346.0
+Suzuki,Gixxer 155,2018,24000,77079,Individual,Third Owner,43.1,155.0
+Hero,Splendor Plus,2018,25000,40068,Dealer,Second Owner,73.1,97.2
+TVS,Ntorq 125,2022,59000,21704,Dealer,First Owner,45.4,124.8
+TVS,Raider 125,2019,35000,93805,Individual,First Owner,62.4,124.8
+Honda,Hness CB350,2020,112000,46269,Individual,First Owner,34.4,348.0
+TVS,Jupiter,2020,36000,77871,Individual,First Owner,49.3,109.7
+Hero,Xpulse 200,2018,50000,90286,Dealer,First Owner,39.6,199.6
+Honda,Hness CB350,2022,121000,21473,Dealer,Second Owner,34.7,348.0
+Royal Enfield,Classic 350,2016,37000,54244,Individual,Third Owner,36.6,349.0
+Bajaj,Pulsar 150,2023,80000,23116,Individual,First Owner,46.6,149.5
+Honda,Dio,2022,47000,35072,Dealer,First Owner,46.1,109.5
+TVS,Raider 125,2015,18000,76049,Dealer,Third Owner,60.6,124.8
+Bajaj,Pulsar 150,2020,61000,32739,Individual,First Owner,46.1,149.5
+Yamaha,MT-15,2017,29000,90411,Individual,Third Owner,50.1,155.0
+Bajaj,Dominar 400,2015,39000,81581,Individual,Second Owner,27.1,373.3
+Hero,Splendor Plus,2017,15000,109131,Individual,Second Owner,67.1,97.2
+Yamaha,FZ-S FI,2012,22000,104838,Individual,First Owner,46.6,149.0
+Hero,Xpulse 200,2017,24000,55999,Individual,Third Owner,40.8,199.6
+Honda,Shine,2012,16000,78282,Individual,Second Owner,64.6,124.0
+TVS,Ntorq 125,2018,36000,54561,Dealer,First Owner,46.8,124.8
+Bajaj,Pulsar 150,2022,78000,26649,Individual,First Owner,47.0,149.5
+Suzuki,Access 125,2021,47000,46758,Individual,First Owner,48.4,124.0
+TVS,Raider 125,2022,61000,35169,Individual,First Owner,60.8,124.8
+Suzuki,Access 125,2022,53000,28631,Individual,First Owner,51.7,124.0
+KTM,RC 200,2022,126000,20474,Individual,Second Owner,30.2,199.5
+KTM,RC 200,2022,138000,43720,Individual,First Owner,33.0,199.5
+KTM,RC 200,2023,159000,21379,Dealer,First Owner,31.0,199.5
+Suzuki,Gixxer 155,2023,103000,26578,Dealer,First Owner,46.7,155.0
+Hero,Xpulse 200,2018,55000,61067,Individual,First Owner,37.9,199.6
+KTM,RC 200,2016,69000,37937,Individual,Second Owner,30.9,199.5
+Royal Enfield,Himalayan,2019,106000,61780,Individual,First Owner,30.0,411.0
+Hero,HF Deluxe,2014,18000,66844,Individual,First Owner,70.4,97.2
+Bajaj,Pulsar NS200,2021,72000,43550,Individual,Second Owner,33.7,199.5
+Hero,Splendor Plus,2019,27000,67075,Individual,Second Owner,70.3,97.2
+Bajaj,Avenger 220,2020,70000,52195,Individual,First Owner,39.2,220.0
+Yamaha,YZF R15,2017,73000,51283,Individual,First Owner,42.6,155.0
+Bajaj,Pulsar 150,2021,57000,47887,Individual,Second Owner,46.1,149.5
+Yamaha,YZF R15,2014,34000,82741,Individual,Second Owner,42.2,155.0
+Hero,HF Deluxe,2022,44000,24526,Individual,First Owner,66.0,97.2
+Royal Enfield,Himalayan,2018,108000,11974,Individual,Second Owner,29.7,411.0
+Bajaj,Dominar 400,2021,113000,50790,Individual,Second Owner,30.3,373.3
+Royal Enfield,Himalayan,2021,162000,32659,Individual,First Owner,28.5,411.0
+Royal Enfield,Hunter 350,2020,90000,15923,Individual,Second Owner,35.5,349.0
+Hero,Splendor Plus,2019,27000,61822,Individual,Second Owner,67.0,97.2
+Yamaha,FZ-S FI,2016,20000,83601,Individual,Third Owner,47.1,149.0
+Hero,Glamour,2022,58000,34563,Individual,First Owner,62.6,124.7
+Royal Enfield,Bullet 350,2024,156000,10030,Dealer,First Owner,34.7,346.0
+KTM,RC 200,2019,103000,60806,Dealer,First Owner,30.1,199.5
+Hero,Xpulse 200,2018,56000,55582,Individual,First Owner,40.4,199.6
+Hero,Glamour,2015,14000,100803,Individual,Third Owner,58.8,124.7
+Royal Enfield,Classic 350,2013,45000,79206,Individual,First Owner,33.9,349.0
+KTM,Duke 200,2021,98000,57345,Individual,Second Owner,34.6,199.5
+TVS,Apache RTR 160,2016,25000,47443,Individual,Third Owner,45.1,159.7
+Royal Enfield,Hunter 350,2019,99000,26546,Individual,First Owner,34.3,349.0
+Hero,Glamour,2020,44000,38490,Individual,First Owner,62.0,124.7
+Royal Enfield,Bullet 350,2014,31000,170286,Dealer,First Owner,34.5,346.0
+Bajaj,Dominar 400,2022,144000,31663,Individual,First Owner,27.2,373.3
+Hero,HF Deluxe,2024,47000,17643,Individual,Second Owner,69.6,97.2
+Bajaj,Dominar 400,2024,181000,8877,Dealer,First Owner,29.2,373.3
+Honda,Dio,2020,39000,47898,Individual,First Owner,48.8,109.5
+Hero,Glamour,2015,16000,112663,Individual,Second Owner,59.4,124.7
+Royal Enfield,Himalayan,2021,144000,56851,Dealer,First Owner,29.0,411.0
+Suzuki,Gixxer 155,2018,58000,61168,Individual,First Owner,45.7,155.0
+Hero,Xpulse 200,2018,50000,84972,Individual,First Owner,41.8,199.6
+Bajaj,Platina 110,2014,12000,78376,Dealer,Third Owner,67.2,115.4
+Hero,Glamour,2017,21000,82588,Individual,Second Owner,62.9,124.7
+Suzuki,Gixxer 155,2019,35000,56929,Individual,Third Owner,45.8,155.0
+TVS,Apache RTR 160,2013,23000,138659,Individual,First Owner,46.2,159.7
+Royal Enfield,Bullet 350,2021,113000,38840,Individual,First Owner,37.2,346.0
+Royal Enfield,Bullet 350,2022,134000,28149,Dealer,First Owner,37.3,346.0
+KTM,Duke 390,2020,119000,74072,Individual,Second Owner,27.8,373.2
+Suzuki,Gixxer 155,2017,34000,118014,Individual,First Owner,43.7,155.0
+Honda,Activa,2016,14000,74640,Dealer,Third Owner,46.7,109.5
+Bajaj,Dominar 400,2017,47000,93191,Individual,Second Owner,28.0,373.3
+Royal Enfield,Himalayan,2022,156000,45312,Dealer,First Owner,29.6,411.0
+KTM,Duke 390,2023,199000,31753,Individual,Second Owner,25.5,373.2
+Royal Enfield,Bullet 350,2024,148000,22981,Dealer,First Owner,35.0,346.0
+TVS,Ntorq 125,2020,43000,69593,Dealer,First Owner,47.4,124.8
+KTM,Duke 390,2018,64000,77961,Individual,Third Owner,25.7,373.2
+Suzuki,Access 125,2022,50000,35785,Individual,Second Owner,47.3,124.0
+Royal Enfield,Hunter 350,2018,71000,63765,Individual,First Owner,35.3,349.0
+Bajaj,Pulsar NS200,2022,94000,57110,Individual,First Owner,36.6,199.5
+KTM,RC 200,2016,52000,103054,Individual,First Owner,33.6,199.5
+KTM,RC 200,2021,125000,33170,Dealer,First Owner,31.4,199.5
+Yamaha,FZ-S FI,2020,59000,70860,Individual,First Owner,43.3,149.0
+TVS,Apache RTR 160,2018,37000,65948,Individual,Second Owner,45.1,159.7
+Hero,Xpulse 200,2017,49000,69027,Individual,First Owner,38.5,199.6
+Bajaj,Pulsar 150,2020,53000,63699,Dealer,First Owner,48.9,149.5
+Honda,Dio,2022,44000,11111,Individual,Second Owner,49.8,109.5
+Honda,Shine,2019,33000,64912,Individual,First Owner,58.3,124.0
+Yamaha,YZF R15,2018,97000,14050,Individual,First Owner,46.3,155.0
+Yamaha,MT-15,2023,133000,11784,Individual,First Owner,45.5,155.0
+Honda,Dio,2019,27000,75638,Individual,Second Owner,46.8,109.5
+Suzuki,Gixxer 155,2019,48000,49858,Dealer,Second Owner,42.5,155.0
+TVS,Raider 125,2023,70000,30016,Individual,First Owner,64.6,124.8
+TVS,Jupiter,2020,41000,30917,Individual,First Owner,54.6,109.7
+Honda,Hness CB350,2022,126000,45078,Individual,First Owner,32.6,348.0
+Royal Enfield,Classic 350,2018,89000,78035,Individual,First Owner,36.2,349.0
+Bajaj,Avenger 220,2023,99000,28328,Dealer,First Owner,39.7,220.0
+Honda,CB Unicorn,2019,29000,58001,Individual,Third Owner,54.1,162.7
+Bajaj,Platina 110,2015,17000,80178,Individual,First Owner,67.5,115.4
+Bajaj,Pulsar 150,2021,58000,43536,Individual,Second Owner,46.9,149.5
+Honda,Hness CB350,2013,39000,111709,Individual,Third Owner,34.3,348.0
+Hero,HF Deluxe,2017,18000,91535,Individual,First Owner,65.4,97.2
+Royal Enfield,Bullet 350,2016,54000,84483,Dealer,First Owner,37.9,346.0
+Yamaha,YZF R15,2017,51000,59169,Individual,Second Owner,42.4,155.0
+Bajaj,Dominar 400,2021,126000,36985,Individual,First Owner,29.4,373.3
+TVS,Apache RTR 200,2019,66000,50304,Individual,First Owner,39.5,197.75
+Hero,HF Deluxe,2022,33000,59071,Individual,Second Owner,65.8,97.2
+Royal Enfield,Hunter 350,2019,56000,38733,Dealer,Third Owner,34.3,349.0
+Bajaj,Pulsar 150,2017,20000,93985,Individual,Third Owner,45.3,149.5
+Bajaj,Avenger 220,2018,44000,70908,Dealer,Second Owner,38.9,220.0
+TVS,Apache RTR 160,2018,32000,84532,Individual,Second Owner,41.9,159.7
+KTM,Duke 390,2019,116000,97348,Individual,First Owner,27.4,373.2
+Bajaj,Pulsar 150,2019,41000,60142,Dealer,Second Owner,47.3,149.5
+Yamaha,MT-15,2021,88000,44297,Dealer,Second Owner,49.4,155.0
+Royal Enfield,Bullet 350,2016,31000,61607,Individual,Third Owner,37.2,346.0
+KTM,Duke 390,2021,194000,32813,Individual,First Owner,28.1,373.2
+TVS,Ntorq 125,2023,62000,26878,Individual,First Owner,48.2,124.8
+Bajaj,Avenger 220,2020,64000,39040,Dealer,Second Owner,38.0,220.0
+Yamaha,FZ-S FI,2021,70000,53675,Dealer,First Owner,45.1,149.0
+Suzuki,Gixxer 155,2024,94000,10163,Dealer,Second Owner,43.6,155.0
+Royal Enfield,Classic 350,2018,88000,65396,Dealer,First Owner,35.2,349.0
+TVS,Apache RTR 200,2022,90000,33478,Individual,First Owner,39.6,197.75
+Royal Enfield,Bullet 350,2018,65000,55919,Individual,Second Owner,36.8,346.0
+Bajaj,Avenger 220,2016,25000,84007,Individual,Third Owner,36.7,220.0
+Honda,Activa,2020,39000,45400,Individual,First Owner,49.4,109.5
+Honda,Hness CB350,2018,77000,79129,Individual,First Owner,34.3,348.0
+Royal Enfield,Himalayan,2019,91000,67587,Individual,Second Owner,28.5,411.0
+Honda,CB Unicorn,2017,40000,55380,Individual,First Owner,49.1,162.7
+Yamaha,YZF R15,2017,69000,58007,Dealer,First Owner,45.2,155.0
+Hero,HF Deluxe,2022,28000,38829,Dealer,Third Owner,64.7,97.2
+Hero,Glamour,2022,51000,47680,Dealer,First Owner,58.8,124.7
+Honda,Shine,2020,40000,64581,Individual,First Owner,64.5,124.0
+KTM,Duke 390,2016,95000,79989,Individual,First Owner,25.5,373.2
+Bajaj,Dominar 400,2020,101000,62162,Individual,First Owner,27.8,373.3
+Yamaha,MT-15,2022,110000,38971,Individual,First Owner,46.9,155.0
+KTM,Duke 200,2017,62000,96091,Individual,First Owner,33.5,199.5
+TVS,Apache RTR 160,2021,61000,52836,Individual,Second Owner,45.6,159.7
+TVS,Ntorq 125,2018,34000,78833,Dealer,First Owner,44.1,124.8
+TVS,Jupiter,2016,25000,56760,Dealer,First Owner,54.0,109.7
+Suzuki,Access 125,2020,34000,66266,Individual,First Owner,49.1,124.0
+Bajaj,Avenger 220,2018,29000,61439,Individual,Third Owner,36.3,220.0
+Royal Enfield,Classic 350,2016,62000,86820,Dealer,First Owner,36.1,349.0
+Hero,Glamour,2013,16000,111523,Individual,First Owner,56.9,124.7
+TVS,Ntorq 125,2017,29000,38355,Individual,Second Owner,47.4,124.8
+TVS,Jupiter,2019,16000,82098,Individual,Third Owner,51.2,109.7
+Honda,Activa,2021,43000,56288,Individual,First Owner,48.1,109.5
+Bajaj,Pulsar 150,2017,26000,84041,Dealer,Second Owner,44.6,149.5
+Bajaj,Pulsar NS200,2019,63000,40385,Individual,Second Owner,37.0,199.5
+TVS,Jupiter,2016,17000,78792,Individual,Second Owner,53.1,109.7
+Honda,Hness CB350,2022,147000,30424,Individual,First Owner,36.4,348.0
+Bajaj,Avenger 220,2014,24000,123769,Individual,Second Owner,37.4,220.0
+Hero,Splendor Plus,2021,41000,47102,Individual,First Owner,69.1,97.2
+Royal Enfield,Bullet 350,2016,60000,64592,Dealer,First Owner,35.4,346.0
+TVS,Jupiter,2016,25000,67887,Individual,First Owner,48.4,109.7
+Royal Enfield,Hunter 350,2014,32000,82471,Dealer,Second Owner,37.2,349.0
+Bajaj,Pulsar NS200,2019,51000,73619,Individual,Second Owner,36.9,199.5
+Hero,HF Deluxe,2020,30000,68421,Dealer,First Owner,69.2,97.2
+Hero,Glamour,2023,58000,29416,Individual,First Owner,62.2,124.7
+TVS,Apache RTR 200,2019,66000,29053,Individual,Second Owner,35.9,197.75
+Bajaj,Dominar 400,2017,43000,92982,Individual,Third Owner,27.1,373.3
+Honda,Activa,2020,40000,33638,Individual,First Owner,48.1,109.5
+Yamaha,YZF R15,2015,48000,43947,Dealer,Second Owner,44.2,155.0
+Honda,Shine,2019,39000,49692,Individual,First Owner,62.2,124.0
+KTM,Duke 200,2022,116000,32330,Individual,Second Owner,32.7,199.5
+Hero,Splendor Plus,2013,14000,102087,Individual,First Owner,66.0,97.2
+Honda,Hness CB350,2020,118000,31642,Dealer,First Owner,33.8,348.0
+TVS,Jupiter,2018,28000,77009,Individual,First Owner,50.6,109.7
+Royal Enfield,Bullet 350,2017,48000,94062,Dealer,Second Owner,38.8,346.0
+Royal Enfield,Hunter 350,2020,78000,62559,Individual,Second Owner,34.3,349.0
+Bajaj,Platina 110,2023,48000,14677,Individual,First Owner,67.0,115.4
+TVS,Raider 125,2021,51000,49352,Individual,First Owner,65.4,124.8
+Yamaha,FZ-S FI,2022,86000,19481,Dealer,First Owner,44.3,149.0
+Bajaj,Avenger 220,2019,63000,62182,Individual,First Owner,35.7,220.0
+KTM,Duke 200,2015,48000,91168,Individual,First Owner,31.8,199.5
+TVS,Jupiter,2023,56000,38842,Individual,First Owner,54.5,109.7
+Yamaha,YZF R15,2022,105000,38438,Individual,Second Owner,43.4,155.0
+Yamaha,YZF R15,2023,134000,22448,Individual,First Owner,45.1,155.0
+Bajaj,Platina 110,2019,22000,33995,Individual,Third Owner,67.7,115.4
+Royal Enfield,Bullet 350,2016,31000,117359,Individual,Third Owner,36.6,346.0
+Honda,CB Unicorn,2017,33000,54171,Individual,Second Owner,50.3,162.7
+TVS,Raider 125,2023,61000,28331,Individual,Second Owner,63.0,124.8
+Honda,CB Unicorn,2020,43000,61057,Individual,Second Owner,49.3,162.7
+TVS,Raider 125,2019,26000,50781,Dealer,Third Owner,64.1,124.8
+KTM,Duke 390,2022,212000,33467,Individual,First Owner,26.8,373.2
+Yamaha,FZ-S FI,2020,68000,37932,Dealer,First Owner,45.7,149.0
+Bajaj,Platina 110,2022,44000,31573,Dealer,First Owner,75.4,115.4
+Honda,Shine,2019,20000,69578,Individual,Third Owner,60.5,124.0
+Honda,CB Unicorn,2022,74000,24837,Dealer,First Owner,48.7,162.7
+Royal Enfield,Bullet 350,2023,144000,28943,Dealer,First Owner,36.6,346.0
+Hero,Xpulse 200,2021,71000,30857,Dealer,Second Owner,39.2,199.6
+TVS,Apache RTR 160,2020,60000,55322,Dealer,First Owner,42.1,159.7
+Yamaha,FZ-S FI,2016,22000,104853,Individual,Third Owner,48.1,149.0
+TVS,Jupiter,2023,55000,17163,Individual,First Owner,51.3,109.7
+Royal Enfield,Bullet 350,2015,63000,60587,Individual,First Owner,36.2,346.0
+Royal Enfield,Bullet 350,2018,48000,94236,Dealer,Second Owner,38.8,346.0
+Honda,Dio,2018,22000,75329,Individual,Second Owner,47.1,109.5
+Honda,Dio,2021,40000,58051,Individual,First Owner,45.6,109.5
+KTM,Duke 390,2016,50000,95898,Individual,Third Owner,28.3,373.2
+Bajaj,Pulsar 150,2015,24000,93114,Individual,First Owner,48.4,149.5
+KTM,Duke 200,2013,36000,86821,Individual,First Owner,33.8,199.5
+Honda,Dio,2015,14000,154162,Individual,Third Owner,47.3,109.5
+KTM,RC 200,2016,75000,40128,Individual,First Owner,30.5,199.5
+TVS,Raider 125,2019,36000,51506,Individual,Second Owner,62.1,124.8
+Honda,Shine,2021,50000,38502,Individual,First Owner,63.3,124.0
+Suzuki,Gixxer 155,2019,59000,57111,Individual,First Owner,46.9,155.0
+Honda,Activa,2013,13000,140673,Individual,Second Owner,49.4,109.5
+Royal Enfield,Bullet 350,2019,83000,63496,Individual,First Owner,35.1,346.0
+Honda,Activa,2020,22000,67831,Dealer,Third Owner,49.8,109.5
+Yamaha,YZF R15,2013,33000,99868,Individual,Second Owner,46.0,155.0
+Honda,CB Unicorn,2019,56000,34745,Individual,First Owner,52.8,162.7
+Hero,HF Deluxe,2018,18000,75797,Individual,Second Owner,65.6,97.2
+Honda,Hness CB350,2015,39000,118627,Individual,Third Owner,32.9,348.0
+Yamaha,YZF R15,2019,45000,67019,Dealer,Third Owner,45.4,155.0
+Royal Enfield,Hunter 350,2019,67000,85401,Individual,First Owner,34.3,349.0
+Honda,CB Unicorn,2020,53000,51527,Individual,First Owner,52.9,162.7
+Suzuki,Access 125,2015,20000,41529,Individual,Second Owner,49.7,124.0
+Honda,Hness CB350,2019,91000,61403,Individual,First Owner,33.5,348.0
+Honda,Hness CB350,2015,41000,81970,Individual,Second Owner,36.0,348.0
+KTM,Duke 390,2020,152000,64389,Dealer,First Owner,25.9,373.2
+Honda,Dio,2016,19000,99097,Individual,First Owner,48.6,109.5
+Bajaj,Dominar 400,2013,40000,108210,Individual,Second Owner,28.8,373.3
+Royal Enfield,Hunter 350,2015,40000,106578,Individual,First Owner,34.8,349.0
+KTM,Duke 200,2019,82000,78472,Individual,First Owner,33.8,199.5
+Suzuki,Access 125,2016,15000,80069,Individual,Second Owner,51.3,124.0
+Bajaj,Dominar 400,2015,47000,105866,Individual,First Owner,29.7,373.3
+TVS,Ntorq 125,2019,34000,50942,Individual,Second Owner,46.3,124.8
+Royal Enfield,Bullet 350,2020,102000,41279,Individual,First Owner,37.8,346.0
+Honda,Dio,2017,19000,72462,Individual,Second Owner,46.6,109.5
+Bajaj,Avenger 220,2015,25000,101424,Individual,Second Owner,36.3,220.0
+Hero,Splendor Plus,2014,14000,125470,Individual,First Owner,66.1,97.2
+Yamaha,YZF R15,2023,133000,16042,Individual,First Owner,41.9,155.0
+TVS,Raider 125,2022,61000,33045,Individual,First Owner,61.3,124.8
+Royal Enfield,Hunter 350,2017,58000,83360,Dealer,First Owner,33.6,349.0
+Bajaj,Pulsar 150,2018,38000,90094,Individual,First Owner,44.3,149.5
+KTM,RC 200,2017,70000,85436,Individual,First Owner,31.1,199.5
+Royal Enfield,Bullet 350,2021,111000,38919,Individual,First Owner,37.2,346.0
+Royal Enfield,Classic 350,2020,98000,56588,Dealer,Second Owner,35.6,349.0
+Bajaj,Dominar 400,2015,42000,72217,Individual,Second Owner,29.0,373.3
+Yamaha,FZ-S FI,2013,22000,82019,Individual,Second Owner,45.3,149.0
+Hero,Glamour,2018,20000,100556,Individual,Second Owner,59.6,124.7
+Yamaha,YZF R15,2012,34000,99213,Individual,Second Owner,44.9,155.0
+Bajaj,Dominar 400,2021,124000,50934,Individual,First Owner,28.6,373.3
+Royal Enfield,Himalayan,2019,120000,50715,Individual,First Owner,28.5,411.0
+TVS,Ntorq 125,2021,43000,56274,Individual,Second Owner,46.2,124.8
+Suzuki,Access 125,2019,25000,51561,Dealer,Third Owner,47.8,124.0
+Royal Enfield,Classic 350,2017,64000,97999,Individual,First Owner,37.3,349.0
+Bajaj,Platina 110,2017,12000,115632,Individual,Second Owner,67.8,115.4
+Yamaha,MT-15,2021,93000,58899,Dealer,First Owner,47.6,155.0
+Royal Enfield,Himalayan,2018,89000,85122,Individual,First Owner,28.2,411.0
+Honda,Hness CB350,2016,36000,103263,Individual,Second Owner,32.6,348.0
+Honda,Activa,2023,57000,23189,Individual,First Owner,51.1,109.5
+Hero,HF Deluxe,2018,21000,64584,Individual,Second Owner,66.4,97.2
+Honda,CB Unicorn,2017,31000,67095,Individual,Second Owner,51.5,162.7
+Bajaj,Dominar 400,2020,132000,28230,Individual,First Owner,28.6,373.3
+Royal Enfield,Classic 350,2021,115000,38378,Individual,Second Owner,37.5,349.0
+Bajaj,Avenger 220,2022,76000,44392,Individual,Second Owner,39.2,220.0
+Royal Enfield,Himalayan,2012,42000,81212,Individual,First Owner,28.8,411.0
+Yamaha,YZF R15,2022,105000,39981,Dealer,Second Owner,42.8,155.0
+Hero,Xpulse 200,2015,27000,108429,Individual,First Owner,41.9,199.6
+Bajaj,Avenger 220,2022,90000,24441,Individual,First Owner,37.5,220.0
+TVS,Apache RTR 200,2023,101000,28367,Individual,First Owner,38.7,197.75
+KTM,Duke 390,2018,134000,57909,Dealer,First Owner,25.9,373.2
+Honda,Hness CB350,2019,91000,20184,Individual,Second Owner,35.2,348.0
+Hero,Glamour,2015,19000,47594,Dealer,Second Owner,57.2,124.7
+Suzuki,Gixxer 155,2019,47000,74039,Dealer,Second Owner,43.8,155.0
+Honda,Activa,2017,14000,62947,Individual,Third Owner,48.9,109.5
+TVS,Jupiter,2023,57000,24049,Individual,First Owner,52.3,109.7
+KTM,Duke 390,2021,164000,41211,Individual,Second Owner,25.8,373.2
+Hero,Xpulse 200,2024,109000,22168,Dealer,First Owner,37.3,199.6
+Honda,Activa,2018,27000,43097,Dealer,Second Owner,49.3,109.5
+Honda,CB Unicorn,2019,38000,67717,Individual,Second Owner,53.1,162.7
+Bajaj,Pulsar NS200,2020,78000,65095,Individual,First Owner,36.2,199.5
+Honda,Activa,2018,26000,79443,Individual,First Owner,50.4,109.5
+TVS,Apache RTR 160,2023,92000,16214,Individual,First Owner,44.7,159.7
+TVS,Apache RTR 160,2020,65000,61109,Dealer,First Owner,45.1,159.7
+Royal Enfield,Hunter 350,2019,80000,43651,Individual,Second Owner,34.6,349.0
+TVS,Apache RTR 200,2023,99000,28388,Dealer,First Owner,35.5,197.75
+Suzuki,Access 125,2020,44000,57159,Dealer,First Owner,52.2,124.0
+Yamaha,YZF R15,2017,47000,66313,Individual,Second Owner,46.8,155.0
+Bajaj,Platina 110,2022,41000,43265,Dealer,First Owner,74.8,115.4
+Royal Enfield,Hunter 350,2021,113000,24624,Individual,First Owner,34.4,349.0
+Honda,CB Unicorn,2018,27000,94209,Individual,Second Owner,48.8,162.7
+Honda,Shine,2013,15000,134590,Dealer,Second Owner,59.2,124.0
+Honda,Activa,2021,45000,40570,Individual,First Owner,48.4,109.5
+Royal Enfield,Himalayan,2021,148000,43210,Dealer,First Owner,28.6,411.0
+TVS,Apache RTR 160,2016,26000,115376,Individual,First Owner,46.1,159.7
+Bajaj,Pulsar NS200,2019,59000,49137,Dealer,Second Owner,37.5,199.5
+TVS,Apache RTR 200,2022,91000,46490,Individual,First Owner,36.7,197.75
+KTM,Duke 390,2023,236000,22097,Individual,First Owner,27.9,373.2
+Yamaha,FZ-S FI,2024,103000,24866,Individual,First Owner,48.0,149.0
+Hero,Splendor Plus,2020,37000,50905,Individual,First Owner,70.0,97.2
+Hero,HF Deluxe,2023,46000,8363,Dealer,First Owner,65.2,97.2
+TVS,Ntorq 125,2017,19000,90217,Dealer,Second Owner,48.6,124.8
+Bajaj,Avenger 220,2018,34000,95969,Individual,Second Owner,39.0,220.0
+Honda,Dio,2018,15000,67010,Individual,Third Owner,47.8,109.5
+Hero,Splendor Plus,2017,24000,84515,Dealer,First Owner,69.1,97.2
+TVS,Jupiter,2022,47000,43518,Dealer,First Owner,52.0,109.7
+Hero,Glamour,2020,38000,75693,Dealer,First Owner,60.3,124.7
+KTM,RC 200,2016,71000,25025,Individual,Second Owner,32.1,199.5
+Hero,Splendor Plus,2020,36000,59615,Individual,First Owner,68.4,97.2
+Hero,Splendor Plus,2013,13000,101297,Dealer,First Owner,66.6,97.2
+Bajaj,Pulsar NS200,2021,89000,27845,Individual,First Owner,36.2,199.5
+Hero,Xpulse 200,2018,50000,45610,Individual,Second Owner,41.9,199.6
+KTM,Duke 390,2013,72000,62458,Individual,First Owner,25.3,373.2
+KTM,Duke 390,2015,56000,95973,Individual,Second Owner,26.9,373.2
+Suzuki,Access 125,2022,40000,31187,Individual,Third Owner,48.9,124.0
+TVS,Ntorq 125,2023,66000,25156,Individual,First Owner,47.8,124.8
+Royal Enfield,Hunter 350,2019,76000,52444,Individual,Second Owner,34.8,349.0
+Suzuki,Access 125,2019,23000,55427,Individual,Third Owner,48.8,124.0
+Bajaj,Platina 110,2020,35000,57847,Dealer,First Owner,67.5,115.4
+Yamaha,FZ-S FI,2021,74000,25246,Individual,First Owner,44.6,149.0
+KTM,Duke 390,2022,199000,38405,Individual,First Owner,26.2,373.2
+Yamaha,FZ-S FI,2018,38000,72855,Individual,Second Owner,48.0,149.0
+Bajaj,Pulsar 150,2019,57000,36103,Individual,First Owner,47.7,149.5
+Hero,Xpulse 200,2018,54000,26503,Individual,Second Owner,41.3,199.6
+Honda,Hness CB350,2014,37000,86789,Individual,Third Owner,33.3,348.0
+Bajaj,Platina 110,2022,38000,42782,Individual,Second Owner,67.3,115.4
+TVS,Raider 125,2023,68000,23118,Individual,First Owner,65.8,124.8
+Honda,Shine,2021,37000,51598,Individual,Second Owner,61.8,124.0
+Bajaj,Pulsar NS200,2021,57000,52279,Individual,Third Owner,36.5,199.5
+TVS,Raider 125,2021,40000,30585,Individual,Third Owner,67.2,124.8
+Royal Enfield,Hunter 350,2018,55000,66293,Individual,Second Owner,34.6,349.0
+KTM,Duke 200,2021,118000,45479,Dealer,First Owner,32.0,199.5
+TVS,Raider 125,2020,48000,34927,Dealer,First Owner,65.5,124.8
+Yamaha,MT-15,2019,80000,43841,Individual,First Owner,48.5,155.0
+Bajaj,Pulsar NS200,2019,35000,70801,Dealer,Third Owner,37.7,199.5
+Royal Enfield,Classic 350,2020,128000,36633,Individual,First Owner,36.7,349.0
+Yamaha,FZ-S FI,2016,23000,134459,Individual,First Owner,43.7,149.0
+Hero,HF Deluxe,2015,12000,109201,Dealer,Second Owner,69.4,97.2
+Bajaj,Avenger 220,2015,31000,58420,Dealer,Second Owner,37.7,220.0
+Honda,Shine,2016,15000,105754,Individual,Second Owner,58.9,124.0
+TVS,Ntorq 125,2020,42000,63297,Individual,First Owner,47.4,124.8
+Hero,Xpulse 200,2018,34000,91794,Individual,Second Owner,39.4,199.6
+Royal Enfield,Himalayan,2018,43000,84856,Dealer,Third Owner,30.8,411.0
+Suzuki,Gixxer 155,2022,92000,32832,Individual,First Owner,42.5,155.0
+Royal Enfield,Hunter 350,2017,46000,116378,Individual,First Owner,36.9,349.0
+TVS,Jupiter,2022,34000,38862,Individual,Third Owner,49.3,109.7
+Royal Enfield,Hunter 350,2014,34000,107747,Dealer,First Owner,35.0,349.0
+Honda,Shine,2015,15000,98516,Individual,Second Owner,58.9,124.0
+Suzuki,Gixxer 155,2021,73000,39622,Individual,First Owner,45.5,155.0
+Yamaha,FZ-S FI,2018,39000,60091,Individual,Second Owner,43.1,149.0
+KTM,RC 200,2019,117000,34585,Individual,First Owner,31.0,199.5
+Royal Enfield,Hunter 350,2023,140000,29262,Individual,First Owner,37.1,349.0
+Royal Enfield,Himalayan,2020,123000,62930,Individual,First Owner,28.7,411.0
+Hero,HF Deluxe,2013,16000,56330,Individual,First Owner,66.3,97.2
+Bajaj,Pulsar NS200,2015,27000,104397,Individual,Second Owner,36.4,199.5
+Bajaj,Platina 110,2019,30000,20143,Individual,Second Owner,69.8,115.4
+Honda,CB Unicorn,2016,19000,125879,Individual,Third Owner,53.7,162.7
+Yamaha,FZ-S FI,2020,65000,42766,Individual,First Owner,46.0,149.0
+Bajaj,Dominar 400,2016,50000,104402,Dealer,First Owner,28.2,373.3
+Honda,CB Unicorn,2014,23000,46358,Individual,Second Owner,54.1,162.7
+KTM,RC 200,2024,182000,19119,Individual,First Owner,33.0,199.5
+Honda,Activa,2015,14000,108463,Individual,Second Owner,49.0,109.5
+Bajaj,Avenger 220,2022,69000,61522,Individual,Second Owner,36.3,220.0
+Bajaj,Platina 110,2018,18000,81222,Individual,Second Owner,71.4,115.4
+Bajaj,Avenger 220,2014,25000,95542,Individual,Second Owner,37.6,220.0
+Bajaj,Dominar 400,2022,138000,43940,Individual,First Owner,27.6,373.3
+Suzuki,Access 125,2015,15000,125648,Individual,Third Owner,47.3,124.0
+Honda,Dio,2016,13000,53515,Dealer,Third Owner,46.2,109.5
+Suzuki,Gixxer 155,2014,25000,74726,Dealer,Third Owner,46.1,155.0
+Royal Enfield,Hunter 350,2018,66000,78637,Individual,First Owner,35.2,349.0
+Royal Enfield,Hunter 350,2018,40000,63804,Individual,Third Owner,33.9,349.0
+Royal Enfield,Classic 350,2024,192000,24612,Dealer,First Owner,34.4,349.0
+Honda,CB Unicorn,2019,37000,70079,Individual,Second Owner,48.7,162.7
+TVS,Jupiter,2013,15000,114052,Individual,Third Owner,50.6,109.7
+Hero,Glamour,2023,62000,31092,Individual,First Owner,56.5,124.7
+TVS,Apache RTR 160,2019,62000,38259,Dealer,First Owner,44.5,159.7
+TVS,Apache RTR 160,2023,85000,23349,Individual,First Owner,47.1,159.7
+TVS,Raider 125,2018,42000,33937,Individual,First Owner,63.6,124.8
+Honda,Dio,2018,18000,101119,Individual,Second Owner,46.1,109.5
+TVS,Apache RTR 160,2020,46000,72776,Individual,Second Owner,42.5,159.7
+Honda,Hness CB350,2015,39000,115210,Dealer,First Owner,34.6,348.0
+Yamaha,MT-15,2020,101000,21943,Individual,First Owner,44.9,155.0
+Bajaj,Pulsar 150,2021,59000,41390,Dealer,Second Owner,46.3,149.5
+KTM,Duke 390,2015,56000,105202,Individual,Third Owner,25.3,373.2
+Royal Enfield,Himalayan,2022,186000,19945,Individual,First Owner,30.7,411.0
+TVS,Jupiter,2021,44000,45665,Dealer,First Owner,50.2,109.7
+Royal Enfield,Hunter 350,2022,94000,41714,Individual,Second Owner,33.6,349.0
+TVS,Apache RTR 160,2017,39000,46628,Dealer,Second Owner,46.8,159.7
+Suzuki,Gixxer 155,2020,66000,70754,Individual,First Owner,46.1,155.0
+KTM,RC 200,2013,38000,67604,Individual,Second Owner,30.5,199.5
+Royal Enfield,Bullet 350,2022,127000,35458,Individual,First Owner,35.3,346.0
+Bajaj,Pulsar 150,2019,51000,61861,Dealer,First Owner,44.7,149.5
+Yamaha,MT-15,2020,72000,49107,Individual,Second Owner,48.3,155.0
+TVS,Jupiter,2018,34000,43975,Dealer,First Owner,51.7,109.7
+Honda,Dio,2018,27000,58868,Individual,First Owner,48.4,109.5
+Hero,HF Deluxe,2018,25000,73455,Individual,First Owner,67.0,97.2
+Yamaha,FZ-S FI,2023,89000,25052,Individual,First Owner,46.6,149.0
+Royal Enfield,Classic 350,2019,117000,29497,Individual,First Owner,35.1,349.0
+Hero,Glamour,2019,33000,38527,Dealer,Second Owner,60.3,124.7
+TVS,Ntorq 125,2016,16000,94085,Individual,Third Owner,49.0,124.8
+Bajaj,Avenger 220,2018,32000,59357,Individual,Third Owner,36.3,220.0
+Honda,Hness CB350,2016,63000,77655,Individual,First Owner,36.2,348.0
+Honda,Activa,2020,40000,56798,Individual,First Owner,48.6,109.5
+Suzuki,Access 125,2017,15000,106401,Individual,Second Owner,51.5,124.0
+TVS,Raider 125,2017,35000,57264,Individual,First Owner,62.3,124.8
+TVS,Jupiter,2017,25000,78545,Individual,First Owner,50.7,109.7
+Yamaha,FZ-S FI,2020,55000,44472,Individual,Second Owner,44.0,149.0
+Royal Enfield,Bullet 350,2020,102000,53984,Individual,First Owner,37.6,346.0
+Yamaha,FZ-S FI,2024,96000,8722,Individual,First Owner,47.5,149.0
+Honda,Shine,2023,60000,16499,Dealer,First Owner,59.0,124.0
+Royal Enfield,Hunter 350,2021,98000,45849,Individual,First Owner,34.2,349.0
+Honda,Hness CB350,2017,57000,104927,Individual,First Owner,36.2,348.0
+Royal Enfield,Himalayan,2015,41000,149977,Individual,Second Owner,30.7,411.0
+Royal Enfield,Bullet 350,2022,122000,37252,Individual,First Owner,37.9,346.0
+TVS,Ntorq 125,2020,40000,63138,Individual,First Owner,44.9,124.8
+Royal Enfield,Classic 350,2016,52000,72200,Individual,Second Owner,37.8,349.0
+Bajaj,Platina 110,2015,14000,62503,Dealer,Second Owner,69.5,115.4
+Suzuki,Access 125,2022,44000,35387,Individual,Second Owner,50.2,124.0
+Hero,Xpulse 200,2021,76000,60054,Dealer,First Owner,40.9,199.6
+Honda,CB Unicorn,2014,21000,111054,Individual,First Owner,54.0,162.7
+TVS,Apache RTR 200,2020,78000,46245,Individual,First Owner,35.5,197.75
+Hero,Xpulse 200,2020,72000,53757,Individual,First Owner,41.1,199.6
+Bajaj,Platina 110,2021,38000,60666,Individual,First Owner,69.0,115.4
+Hero,Splendor Plus,2020,40000,61412,Dealer,First Owner,72.5,97.2
+TVS,Jupiter,2020,41000,29756,Individual,First Owner,52.1,109.7
+TVS,Jupiter,2022,46000,17988,Individual,Second Owner,53.1,109.7
+TVS,Jupiter,2019,37000,49947,Individual,First Owner,52.2,109.7
+Suzuki,Gixxer 155,2021,74000,54480,Individual,First Owner,45.4,155.0
+Honda,Hness CB350,2021,115000,51083,Individual,First Owner,36.0,348.0
+Yamaha,YZF R15,2019,92000,44221,Individual,First Owner,43.9,155.0
+KTM,RC 200,2017,70000,81363,Dealer,First Owner,32.2,199.5
+Bajaj,Pulsar NS200,2018,47000,58968,Individual,Second Owner,34.8,199.5
+Hero,HF Deluxe,2022,30000,24292,Individual,Third Owner,67.5,97.2
+Royal Enfield,Bullet 350,2020,92000,58573,Individual,First Owner,35.2,346.0
+Bajaj,Platina 110,2012,13000,118348,Individual,Second Owner,70.0,115.4
+Honda,Activa,2021,43000,44371,Individual,First Owner,51.9,109.5
+Honda,Dio,2021,43000,44285,Individual,First Owner,45.7,109.5
+Bajaj,Platina 110,2024,54000,19192,Individual,First Owner,73.5,115.4
+Bajaj,Pulsar 150,2019,48000,32667,Dealer,Second Owner,46.8,149.5
+KTM,RC 200,2012,40000,118313,Individual,First Owner,33.4,199.5
+Yamaha,MT-15,2020,75000,44455,Individual,Second Owner,47.9,155.0
+TVS,Apache RTR 200,2015,28000,107086,Individual,Second Owner,38.9,197.75
+Yamaha,YZF R15,2023,115000,30981,Individual,Second Owner,43.7,155.0
+Royal Enfield,Bullet 350,2018,76000,68614,Individual,First Owner,36.7,346.0
+KTM,Duke 200,2018,55000,85870,Dealer,Second Owner,34.1,199.5
+KTM,Duke 200,2015,60000,64004,Individual,First Owner,34.2,199.5
+Bajaj,Pulsar NS200,2020,72000,70759,Dealer,First Owner,37.1,199.5
+Bajaj,Platina 110,2019,15000,80361,Individual,Third Owner,72.3,115.4
+Hero,Glamour,2018,37000,49251,Individual,First Owner,60.3,124.7
+Royal Enfield,Hunter 350,2020,95000,60931,Individual,First Owner,37.8,349.0
+TVS,Raider 125,2020,39000,46874,Individual,Second Owner,66.5,124.8
+Honda,CB Unicorn,2020,55000,64327,Individual,First Owner,50.9,162.7
+TVS,Raider 125,2020,46000,72820,Individual,First Owner,67.3,124.8
+Yamaha,MT-15,2021,97000,30416,Dealer,First Owner,49.5,155.0
+Suzuki,Gixxer 155,2014,25000,108742,Dealer,Second Owner,45.9,155.0
+TVS,Apache RTR 160,2024,94000,21511,Individual,First Owner,43.4,159.7
+Bajaj,Dominar 400,2019,89000,74732,Individual,First Owner,27.3,373.3
+Suzuki,Access 125,2019,38000,53057,Individual,First Owner,46.8,124.0
+Hero,Splendor Plus,2012,14000,25072,Dealer,Second Owner,72.6,97.2
+Bajaj,Platina 110,2018,20000,77272,Individual,Second Owner,71.8,115.4
+Bajaj,Pulsar 150,2022,57000,16900,Individual,Third Owner,44.6,149.5
+Hero,HF Deluxe,2020,38000,36464,Dealer,First Owner,64.7,97.2
+TVS,Jupiter,2016,14000,57566,Individual,Third Owner,51.7,109.7
+Hero,Glamour,2021,46000,56378,Individual,First Owner,56.7,124.7
+TVS,Jupiter,2017,14000,105090,Dealer,Third Owner,48.8,109.7
+Hero,Splendor Plus,2022,52000,23191,Individual,First Owner,68.5,97.2
+Hero,Splendor Plus,2015,17000,103229,Individual,First Owner,71.6,97.2
+TVS,Ntorq 125,2018,29000,51884,Individual,Second Owner,48.4,124.8
+Hero,HF Deluxe,2021,31000,47136,Individual,Second Owner,65.2,97.2
+Suzuki,Gixxer 155,2015,52000,15391,Individual,First Owner,44.1,155.0
+Royal Enfield,Hunter 350,2012,36000,71812,Individual,First Owner,35.7,349.0
+Hero,HF Deluxe,2023,46000,24775,Individual,First Owner,69.0,97.2
+Honda,Hness CB350,2021,120000,43758,Individual,First Owner,33.9,348.0
+KTM,RC 200,2016,45000,90307,Individual,Second Owner,33.1,199.5
+Honda,Dio,2017,26000,66404,Individual,First Owner,46.9,109.5
+Hero,HF Deluxe,2014,13000,63327,Dealer,Second Owner,67.4,97.2
+Suzuki,Gixxer 155,2015,26000,108615,Individual,First Owner,46.5,155.0
+Hero,HF Deluxe,2017,15000,86499,Dealer,Second Owner,71.1,97.2
+Royal Enfield,Bullet 350,2020,78000,53395,Individual,Second Owner,34.8,346.0
+Royal Enfield,Classic 350,2019,123000,12318,Dealer,First Owner,35.0,349.0
+KTM,RC 200,2017,53000,79178,Individual,Second Owner,32.3,199.5
+Hero,Xpulse 200,2016,33000,63640,Individual,Second Owner,37.9,199.6
+Honda,Activa,2017,20000,75746,Individual,Second Owner,51.3,109.5
+Hero,HF Deluxe,2019,19000,51626,Dealer,Third Owner,67.0,97.2
+Hero,Glamour,2017,23000,75380,Individual,Second Owner,56.6,124.7
+TVS,Jupiter,2021,47000,49061,Dealer,First Owner,53.4,109.7
+TVS,Jupiter,2019,22000,58620,Individual,Third Owner,53.1,109.7
+Yamaha,MT-15,2024,128000,30041,Individual,First Owner,50.2,155.0
+Honda,Hness CB350,2020,65000,52713,Dealer,Third Owner,35.2,348.0
+KTM,Duke 200,2020,100000,64790,Individual,First Owner,33.1,199.5
+KTM,Duke 390,2019,145000,45313,Individual,First Owner,26.1,373.2
+Bajaj,Platina 110,2021,27000,32648,Individual,Third Owner,69.4,115.4
+Hero,Xpulse 200,2023,98000,23493,Individual,First Owner,37.8,199.6
+Hero,Glamour,2019,29000,68420,Individual,Second Owner,59.7,124.7
+Royal Enfield,Himalayan,2019,137000,18764,Individual,First Owner,31.2,411.0
+Royal Enfield,Classic 350,2021,122000,63684,Individual,First Owner,37.1,349.0
+KTM,Duke 390,2020,120000,68336,Individual,Second Owner,27.6,373.2
+TVS,Ntorq 125,2018,25000,77059,Individual,Second Owner,44.2,124.8
+KTM,RC 200,2012,38000,200513,Individual,Second Owner,32.3,199.5
+KTM,RC 200,2021,121000,31136,Individual,First Owner,33.3,199.5
+KTM,Duke 390,2020,167000,51781,Individual,First Owner,26.1,373.2
+Hero,Xpulse 200,2016,24000,105182,Individual,Second Owner,40.3,199.6
+Suzuki,Gixxer 155,2019,35000,59498,Individual,Third Owner,45.2,155.0
+TVS,Jupiter,2019,22000,58555,Individual,Third Owner,52.0,109.7
+TVS,Jupiter,2020,38000,62808,Individual,First Owner,53.2,109.7
+KTM,Duke 200,2015,37000,73838,Individual,Second Owner,34.5,199.5
+TVS,Raider 125,2017,22000,82185,Individual,Second Owner,65.8,124.8
+KTM,Duke 390,2012,55000,120748,Individual,First Owner,25.4,373.2
+Royal Enfield,Classic 350,2019,114000,48716,Dealer,First Owner,37.6,349.0
+Yamaha,FZ-S FI,2015,22000,107738,Individual,Third Owner,44.0,149.0
+Honda,Hness CB350,2014,37000,79815,Individual,Second Owner,34.0,348.0
+KTM,Duke 200,2013,37000,68506,Dealer,Third Owner,33.9,199.5
+TVS,Apache RTR 200,2016,25000,117130,Individual,Second Owner,36.3,197.75
+Honda,Hness CB350,2021,98000,39994,Individual,Second Owner,35.1,348.0
+TVS,Apache RTR 160,2015,28000,100787,Individual,First Owner,42.7,159.7
+Royal Enfield,Himalayan,2018,110000,52195,Dealer,First Owner,31.2,411.0
+Bajaj,Platina 110,2020,36000,39529,Individual,First Owner,73.6,115.4
+Yamaha,FZ-S FI,2016,22000,66540,Individual,Third Owner,43.2,149.0
+Hero,Glamour,2014,15000,122663,Dealer,First Owner,58.7,124.7
+TVS,Ntorq 125,2018,33000,64427,Dealer,First Owner,46.7,124.8
+Suzuki,Access 125,2018,29000,44589,Individual,Second Owner,51.5,124.0
+Bajaj,Pulsar NS200,2018,27000,74994,Dealer,Third Owner,35.7,199.5
+Bajaj,Pulsar 150,2021,52000,58200,Individual,Second Owner,47.3,149.5
+Bajaj,Avenger 220,2017,25000,84888,Individual,Third Owner,36.9,220.0
+TVS,Ntorq 125,2022,53000,35333,Individual,First Owner,45.4,124.8
+Honda,Activa,2019,32000,70450,Individual,First Owner,50.3,109.5
+Honda,CB Unicorn,2019,41000,56565,Individual,Second Owner,52.8,162.7
+Hero,HF Deluxe,2019,25000,94316,Individual,First Owner,70.7,97.2
+Hero,Splendor Plus,2015,14000,109490,Individual,First Owner,72.7,97.2
+Royal Enfield,Bullet 350,2014,35000,107438,Individual,First Owner,37.5,346.0
+Bajaj,Avenger 220,2013,25000,110900,Dealer,First Owner,36.9,220.0
+Hero,Glamour,2020,42000,53056,Dealer,First Owner,59.3,124.7
+TVS,Apache RTR 200,2021,83000,48029,Individual,First Owner,35.8,197.75
+Bajaj,Dominar 400,2023,164000,25507,Individual,First Owner,29.5,373.3
+Hero,HF Deluxe,2023,48000,12743,Individual,First Owner,64.4,97.2
+Hero,Splendor Plus,2019,29000,41012,Individual,Second Owner,71.6,97.2
+Yamaha,FZ-S FI,2014,25000,86272,Individual,First Owner,43.3,149.0
+KTM,RC 200,2015,36000,92675,Individual,Second Owner,31.5,199.5
+Bajaj,Pulsar 150,2014,21000,52829,Individual,Second Owner,44.8,149.5
+Suzuki,Gixxer 155,2015,24000,44298,Individual,Third Owner,43.6,155.0
+Bajaj,Avenger 220,2020,72000,40696,Individual,First Owner,36.3,220.0
+TVS,Ntorq 125,2017,29000,79289,Dealer,First Owner,45.3,124.8
+TVS,Raider 125,2020,26000,68810,Individual,Third Owner,63.0,124.8
+TVS,Apache RTR 200,2021,88000,37930,Dealer,First Owner,35.7,197.75
+TVS,Ntorq 125,2021,51000,29623,Individual,First Owner,44.2,124.8
+Bajaj,Pulsar NS200,2020,64000,49724,Dealer,Second Owner,36.8,199.5
+Yamaha,MT-15,2021,98000,33084,Dealer,First Owner,45.7,155.0
+Hero,Splendor Plus,2022,50000,28315,Individual,First Owner,69.0,97.2
+KTM,Duke 200,2024,169000,3494,Individual,First Owner,32.0,199.5
+TVS,Raider 125,2024,77000,28520,Individual,First Owner,60.6,124.8
+Hero,Splendor Plus,2021,46000,31042,Individual,First Owner,70.0,97.2
+Hero,Glamour,2015,16000,52685,Individual,Third Owner,57.1,124.7
+TVS,Raider 125,2017,30000,36771,Individual,Second Owner,61.9,124.8
+TVS,Raider 125,2013,18000,105437,Individual,Second Owner,67.2,124.8
+Royal Enfield,Bullet 350,2022,130000,31254,Individual,First Owner,38.0,346.0
+Honda,Activa,2020,46000,34570,Individual,First Owner,48.3,109.5
+Suzuki,Gixxer 155,2013,23000,89986,Dealer,First Owner,44.0,155.0
+Yamaha,FZ-S FI,2016,41000,62250,Individual,First Owner,44.6,149.0
+Bajaj,Avenger 220,2021,75000,55150,Dealer,First Owner,38.1,220.0
+TVS,Apache RTR 160,2018,44000,84950,Individual,First Owner,46.4,159.7
+Bajaj,Pulsar NS200,2017,43000,103315,Individual,First Owner,36.2,199.5
+Honda,Hness CB350,2024,168000,8617,Individual,First Owner,34.9,348.0
+Honda,Shine,2019,40000,39558,Individual,First Owner,59.6,124.0
+Hero,HF Deluxe,2019,29000,59992,Individual,First Owner,65.3,97.2
+Hero,Xpulse 200,2017,44000,79929,Individual,First Owner,39.0,199.6
+Honda,Hness CB350,2015,38000,71159,Individual,Second Owner,33.2,348.0
+Suzuki,Access 125,2020,40000,56561,Dealer,First Owner,50.4,124.0
+Suzuki,Gixxer 155,2019,48000,51998,Individual,Second Owner,44.2,155.0
+Royal Enfield,Classic 350,2018,83000,44716,Dealer,Second Owner,34.2,349.0
+Hero,Xpulse 200,2019,56000,40539,Dealer,Second Owner,39.7,199.6
+Honda,Activa,2015,14000,110256,Individual,Second Owner,51.2,109.5
+TVS,Apache RTR 160,2019,52000,78190,Individual,First Owner,47.1,159.7
+Hero,Xpulse 200,2020,69000,47042,Dealer,First Owner,41.7,199.6
+Bajaj,Dominar 400,2023,159000,11225,Dealer,First Owner,29.7,373.3
+TVS,Jupiter,2015,16000,64180,Individual,Second Owner,54.1,109.7
+TVS,Jupiter,2015,14000,138239,Individual,First Owner,49.7,109.7
+Bajaj,Pulsar NS200,2015,27000,76804,Individual,Third Owner,34.8,199.5
+Hero,Splendor Plus,2023,53000,34777,Individual,First Owner,72.7,97.2
+Hero,Xpulse 200,2023,99000,46570,Individual,First Owner,39.3,199.6
+Bajaj,Platina 110,2012,13000,163646,Individual,Third Owner,74.3,115.4
+Royal Enfield,Himalayan,2015,61000,79061,Individual,First Owner,28.8,411.0
+Royal Enfield,Himalayan,2017,50000,104284,Individual,Second Owner,31.0,411.0
+KTM,Duke 390,2021,154000,36419,Dealer,Second Owner,25.9,373.2
+Honda,Dio,2018,22000,71659,Individual,Second Owner,47.9,109.5
+KTM,Duke 390,2017,88000,104023,Individual,First Owner,25.7,373.2
+Royal Enfield,Hunter 350,2013,44000,57856,Individual,First Owner,37.5,349.0
+Hero,Xpulse 200,2013,24000,118448,Dealer,First Owner,40.1,199.6
+Honda,Hness CB350,2017,46000,94025,Individual,Second Owner,34.1,348.0
+Yamaha,MT-15,2020,95000,40605,Dealer,First Owner,47.4,155.0
+Bajaj,Avenger 220,2017,57000,47392,Individual,First Owner,39.9,220.0
+Honda,Dio,2023,53000,28740,Individual,First Owner,47.4,109.5
+Royal Enfield,Hunter 350,2021,111000,37137,Individual,First Owner,34.3,349.0
+Hero,Xpulse 200,2015,23000,83824,Individual,Second Owner,38.8,199.6
+Honda,Hness CB350,2019,51000,71476,Individual,Third Owner,36.4,348.0
+Bajaj,Avenger 220,2020,63000,38226,Individual,Second Owner,35.8,220.0
+Yamaha,MT-15,2022,112000,20542,Individual,First Owner,46.0,155.0
+Suzuki,Access 125,2020,40000,61664,Individual,First Owner,49.7,124.0
+Honda,Hness CB350,2021,117000,47917,Dealer,First Owner,33.2,348.0
+KTM,RC 200,2024,197000,18798,Individual,First Owner,31.6,199.5
+TVS,Apache RTR 160,2016,23000,123213,Dealer,Second Owner,43.8,159.7
+Royal Enfield,Bullet 350,2017,74000,59640,Individual,First Owner,35.0,346.0
+Honda,Dio,2021,39000,51978,Individual,First Owner,44.7,109.5
+TVS,Jupiter,2019,37000,42498,Individual,First Owner,51.2,109.7
+Bajaj,Avenger 220,2019,63000,63864,Individual,First Owner,38.3,220.0
+Hero,HF Deluxe,2022,38000,29523,Individual,Second Owner,65.9,97.2
+KTM,RC 200,2013,40000,84801,Individual,Second Owner,33.0,199.5
+TVS,Ntorq 125,2022,58000,46971,Individual,First Owner,46.1,124.8
+Bajaj,Pulsar 150,2021,58000,68123,Individual,First Owner,45.1,149.5
+KTM,Duke 200,2020,98000,33268,Individual,Second Owner,32.7,199.5
+Yamaha,FZ-S FI,2014,23000,91475,Individual,Third Owner,44.0,149.0
+Honda,Hness CB350,2019,99000,52008,Individual,First Owner,34.1,348.0
+Royal Enfield,Hunter 350,2016,61000,65236,Individual,First Owner,33.5,349.0
+Royal Enfield,Hunter 350,2015,32000,105994,Dealer,Third Owner,37.3,349.0
+Royal Enfield,Himalayan,2022,99000,63325,Individual,Third Owner,27.9,411.0
+Honda,Shine,2021,46000,27538,Dealer,Second Owner,64.9,124.0
+TVS,Jupiter,2023,51000,36181,Dealer,First Owner,53.8,109.7
+KTM,Duke 390,2020,141000,81055,Individual,First Owner,28.0,373.2
+Honda,Dio,2023,57000,24770,Individual,First Owner,47.9,109.5
+Bajaj,Dominar 400,2021,116000,33638,Individual,Second Owner,29.0,373.3
+Royal Enfield,Hunter 350,2021,100000,54581,Dealer,First Owner,37.3,349.0
+Royal Enfield,Bullet 350,2017,54000,62311,Individual,Second Owner,35.6,346.0
+Hero,Xpulse 200,2015,27000,73130,Dealer,Second Owner,39.1,199.6
+TVS,Ntorq 125,2022,59000,32566,Individual,First Owner,48.0,124.8
+Bajaj,Pulsar NS200,2021,89000,44074,Individual,First Owner,35.8,199.5
+Bajaj,Pulsar 150,2012,21000,132286,Individual,Second Owner,46.7,149.5
+KTM,RC 200,2019,73000,39498,Dealer,Third Owner,32.5,199.5
+KTM,Duke 200,2018,70000,49960,Dealer,Second Owner,31.7,199.5
+Bajaj,Dominar 400,2019,90000,66408,Individual,First Owner,28.8,373.3
+Suzuki,Access 125,2019,31000,83021,Individual,First Owner,48.7,124.0
+Honda,Hness CB350,2021,104000,39722,Individual,Second Owner,33.8,348.0
+KTM,Duke 390,2020,175000,41408,Individual,First Owner,26.8,373.2
+Bajaj,Dominar 400,2020,118000,49970,Dealer,First Owner,28.8,373.3
+Hero,Xpulse 200,2021,77000,56993,Individual,First Owner,38.6,199.6
+Honda,Dio,2021,35000,56742,Dealer,Second Owner,50.3,109.5
+KTM,Duke 390,2021,193000,36047,Dealer,First Owner,28.0,373.2
+Bajaj,Dominar 400,2020,122000,43188,Individual,First Owner,27.2,373.3
+TVS,Raider 125,2015,22000,53113,Individual,Second Owner,64.1,124.8
+Yamaha,FZ-S FI,2017,28000,119550,Individual,First Owner,46.5,149.0
+Yamaha,FZ-S FI,2019,38000,32943,Individual,Third Owner,46.8,149.0
+Bajaj,Pulsar 150,2018,46000,59804,Individual,First Owner,47.0,149.5
+Bajaj,Platina 110,2015,17000,90287,Individual,First Owner,68.5,115.4
+Bajaj,Platina 110,2023,48000,25586,Individual,First Owner,67.0,115.4
+Bajaj,Pulsar NS200,2020,70000,68175,Individual,First Owner,36.8,199.5
+Royal Enfield,Bullet 350,2021,117000,41562,Dealer,First Owner,38.8,346.0
+Bajaj,Pulsar NS200,2019,62000,68761,Individual,First Owner,36.7,199.5
+Suzuki,Access 125,2016,16000,83550,Dealer,Second Owner,49.1,124.0
+Honda,Shine,2018,22000,78001,Individual,Second Owner,59.4,124.0
+Yamaha,YZF R15,2024,158000,20532,Individual,First Owner,46.5,155.0
+KTM,Duke 390,2019,133000,45077,Individual,Second Owner,27.4,373.2
+Royal Enfield,Himalayan,2019,85000,73622,Dealer,Second Owner,30.6,411.0
+Bajaj,Avenger 220,2019,32000,79619,Individual,Third Owner,35.5,220.0
+Yamaha,YZF R15,2019,86000,38173,Individual,First Owner,45.1,155.0
+Honda,Activa,2015,14000,127617,Individual,Second Owner,48.0,109.5
+Honda,CB Unicorn,2016,37000,60243,Individual,First Owner,50.0,162.7
+KTM,Duke 390,2023,232000,36281,Individual,First Owner,27.9,373.2
+Yamaha,YZF R15,2022,119000,33541,Individual,First Owner,46.5,155.0
+Yamaha,YZF R15,2019,98000,42150,Individual,First Owner,41.9,155.0
+Royal Enfield,Classic 350,2023,175000,27436,Dealer,First Owner,33.8,349.0
+Hero,Glamour,2017,29000,67264,Individual,First Owner,56.4,124.7
+Hero,Xpulse 200,2016,26000,87859,Individual,Second Owner,39.7,199.6
+Yamaha,YZF R15,2022,127000,28561,Dealer,First Owner,46.5,155.0
+Honda,Hness CB350,2017,62000,78946,Individual,First Owner,35.9,348.0
+TVS,Apache RTR 200,2022,88000,34220,Individual,First Owner,37.8,197.75
+TVS,Apache RTR 160,2022,81000,47334,Dealer,First Owner,46.4,159.7
+Bajaj,Platina 110,2017,14000,48423,Dealer,Third Owner,67.6,115.4
+Hero,HF Deluxe,2014,11000,76758,Individual,Second Owner,66.4,97.2
+Suzuki,Gixxer 155,2020,68000,66333,Individual,First Owner,45.1,155.0
+Hero,Glamour,2018,23000,74550,Dealer,Second Owner,60.3,124.7
+Honda,Hness CB350,2024,165000,7240,Individual,First Owner,33.6,348.0
+Honda,Dio,2022,46000,44142,Individual,First Owner,50.3,109.5
+TVS,Raider 125,2017,28000,84737,Dealer,First Owner,68.2,124.8
+Yamaha,FZ-S FI,2013,21000,108225,Individual,First Owner,43.9,149.0
+Royal Enfield,Classic 350,2018,52000,58609,Individual,Third Owner,33.5,349.0
+TVS,Apache RTR 160,2019,32000,105282,Individual,Second Owner,42.5,159.7
+Hero,Xpulse 200,2012,26000,99758,Individual,First Owner,39.6,199.6
+Honda,Dio,2019,25000,75413,Individual,Second Owner,46.1,109.5
+TVS,Raider 125,2017,20000,49067,Dealer,Third Owner,67.1,124.8
+TVS,Raider 125,2020,47000,50653,Individual,First Owner,65.0,124.8
+Bajaj,Avenger 220,2020,68000,55185,Individual,First Owner,38.5,220.0
+Bajaj,Pulsar 150,2012,21000,167662,Individual,Second Owner,49.2,149.5
+Suzuki,Access 125,2022,48000,53625,Individual,First Owner,47.2,124.0
+Honda,CB Unicorn,2017,43000,45505,Individual,First Owner,50.2,162.7
+Suzuki,Gixxer 155,2020,70000,50059,Individual,First Owner,46.2,155.0
+TVS,Apache RTR 200,2023,100000,23696,Dealer,Second Owner,39.9,197.75
+Royal Enfield,Himalayan,2019,133000,42257,Dealer,First Owner,28.2,411.0
+Honda,Dio,2019,32000,38791,Dealer,Second Owner,46.9,109.5
+Royal Enfield,Bullet 350,2024,157000,22433,Individual,First Owner,35.6,346.0
+Honda,Dio,2015,13000,119044,Individual,Third Owner,45.4,109.5
+TVS,Apache RTR 160,2019,41000,87454,Individual,Second Owner,45.6,159.7
+Honda,Dio,2016,19000,93909,Individual,First Owner,48.1,109.5
+Royal Enfield,Himalayan,2020,141000,45970,Dealer,First Owner,29.2,411.0
+KTM,Duke 390,2021,171000,63405,Individual,First Owner,28.2,373.2
+Hero,Glamour,2019,39000,59556,Individual,First Owner,60.4,124.7
+Hero,Glamour,2017,32000,60473,Dealer,First Owner,56.0,124.7
+Bajaj,Pulsar NS200,2018,26000,86273,Individual,Third Owner,34.4,199.5
+Yamaha,MT-15,2019,54000,73411,Individual,Second Owner,47.9,155.0
+TVS,Apache RTR 160,2017,38000,47866,Individual,Second Owner,45.6,159.7
+Honda,CB Unicorn,2022,63000,30226,Individual,Second Owner,53.5,162.7
+KTM,Duke 200,2018,61000,28555,Individual,Third Owner,32.6,199.5
+KTM,Duke 390,2018,95000,71455,Dealer,Second Owner,27.7,373.2
+Yamaha,MT-15,2018,51000,72902,Individual,Second Owner,49.3,155.0
+Suzuki,Access 125,2014,17000,93734,Dealer,First Owner,49.8,124.0
+Honda,Hness CB350,2020,123000,24467,Individual,First Owner,35.3,348.0
+Bajaj,Platina 110,2022,43000,34775,Individual,First Owner,68.4,115.4
+Yamaha,YZF R15,2012,32000,154346,Individual,First Owner,45.9,155.0
+TVS,Apache RTR 200,2020,50000,37081,Individual,Third Owner,38.5,197.75
+Hero,Xpulse 200,2017,32000,81584,Dealer,Second Owner,37.3,199.6
+Hero,Glamour,2021,53000,37537,Dealer,First Owner,60.3,124.7
+Bajaj,Platina 110,2022,43000,42297,Dealer,First Owner,69.0,115.4
+TVS,Apache RTR 200,2023,99000,39610,Dealer,First Owner,36.4,197.75
+TVS,Jupiter,2021,40000,59748,Dealer,First Owner,53.5,109.7
+Hero,HF Deluxe,2018,21000,111238,Dealer,First Owner,64.2,97.2
+Royal Enfield,Bullet 350,2019,68000,58380,Individual,Second Owner,35.5,346.0
+TVS,Ntorq 125,2023,66000,23589,Dealer,First Owner,48.7,124.8
+TVS,Apache RTR 200,2022,88000,27660,Dealer,First Owner,36.4,197.75
+TVS,Raider 125,2023,70000,24778,Individual,First Owner,63.1,124.8
+Hero,Splendor Plus,2024,60000,19054,Individual,First Owner,66.1,97.2
+Royal Enfield,Hunter 350,2016,45000,107047,Individual,First Owner,37.5,349.0
+TVS,Ntorq 125,2020,40000,74337,Individual,First Owner,47.6,124.8
+Honda,Hness CB350,2021,120000,22961,Individual,First Owner,36.6,348.0
+Bajaj,Pulsar NS200,2021,85000,48464,Individual,First Owner,36.8,199.5
+Hero,Splendor Plus,2022,48000,39651,Individual,First Owner,66.5,97.2
+TVS,Ntorq 125,2019,43000,37250,Individual,First Owner,45.0,124.8
+Bajaj,Pulsar 150,2019,57000,38891,Individual,First Owner,44.8,149.5
+Yamaha,FZ-S FI,2018,39000,56565,Individual,Second Owner,44.1,149.0
+TVS,Jupiter,2022,49000,26650,Dealer,First Owner,50.5,109.7
+Honda,Shine,2021,47000,51369,Individual,First Owner,63.1,124.0
+Royal Enfield,Hunter 350,2012,30000,119812,Individual,First Owner,36.8,349.0
+TVS,Ntorq 125,2020,43000,52775,Individual,First Owner,47.6,124.8
+TVS,Apache RTR 200,2019,36000,65859,Individual,Third Owner,39.4,197.75
+TVS,Jupiter,2022,39000,28717,Individual,Third Owner,52.4,109.7
+TVS,Jupiter,2022,44000,41374,Individual,Second Owner,49.7,109.7
+Yamaha,MT-15,2019,78000,65872,Dealer,First Owner,45.6,155.0
+Yamaha,YZF R15,2017,62000,80616,Dealer,First Owner,46.9,155.0
+Bajaj,Pulsar 150,2014,21000,103682,Individual,Third Owner,45.3,149.5
+Hero,Splendor Plus,2020,44000,28782,Dealer,First Owner,72.1,97.2
+KTM,RC 200,2017,44000,102796,Individual,Second Owner,30.5,199.5
+Hero,Splendor Plus,2020,29000,53722,Individual,Second Owner,68.5,97.2
+Bajaj,Dominar 400,2020,116000,62938,Dealer,First Owner,29.9,373.3
+Hero,HF Deluxe,2020,31000,70366,Individual,First Owner,65.3,97.2
+Suzuki,Gixxer 155,2019,33000,66469,Dealer,Third Owner,46.5,155.0
+TVS,Apache RTR 160,2022,81000,34919,Individual,First Owner,43.7,159.7
+Hero,Splendor Plus,2015,16000,99763,Dealer,First Owner,67.2,97.2
+Yamaha,FZ-S FI,2015,26000,106944,Individual,First Owner,43.6,149.0
+Honda,Hness CB350,2019,72000,66573,Individual,Second Owner,36.6,348.0
+Royal Enfield,Bullet 350,2015,60000,59871,Dealer,First Owner,37.5,346.0
+Suzuki,Access 125,2020,42000,60952,Individual,First Owner,50.7,124.0
+Honda,CB Unicorn,2013,21000,121505,Individual,Third Owner,50.4,162.7
+Royal Enfield,Bullet 350,2018,72000,78562,Individual,First Owner,38.0,346.0
+Bajaj,Dominar 400,2013,38000,163400,Individual,First Owner,29.2,373.3
+Hero,Glamour,2015,15000,77642,Dealer,Second Owner,61.7,124.7
+Yamaha,YZF R15,2015,37000,101954,Individual,First Owner,46.1,155.0
+Yamaha,YZF R15,2020,98000,37500,Dealer,First Owner,45.0,155.0
+TVS,Ntorq 125,2021,46000,62988,Dealer,First Owner,44.2,124.8
+TVS,Jupiter,2018,14000,74759,Individual,Third Owner,50.6,109.7
+TVS,Jupiter,2017,15000,99881,Dealer,Second Owner,51.9,109.7
+Royal Enfield,Himalayan,2021,152000,31044,Individual,First Owner,30.4,411.0
+Royal Enfield,Hunter 350,2022,127000,10266,Individual,First Owner,37.7,349.0
+Bajaj,Dominar 400,2022,133000,21335,Individual,Second Owner,27.3,373.3
+Bajaj,Dominar 400,2021,104000,56433,Dealer,Second Owner,27.5,373.3
+KTM,Duke 200,2017,41000,105118,Individual,Second Owner,32.5,199.5
+Honda,Hness CB350,2015,40000,114423,Individual,First Owner,32.7,348.0
+Hero,HF Deluxe,2021,38000,64553,Individual,First Owner,70.3,97.2
+TVS,Apache RTR 200,2019,46000,82466,Dealer,Second Owner,39.2,197.75
+Royal Enfield,Hunter 350,2024,154000,9008,Individual,First Owner,34.2,349.0
+TVS,Apache RTR 160,2022,58000,35023,Individual,Third Owner,42.0,159.7
+Honda,Hness CB350,2016,42000,78598,Individual,Second Owner,34.7,348.0
+Bajaj,Platina 110,2019,29000,62387,Individual,First Owner,71.5,115.4
+Royal Enfield,Hunter 350,2020,92000,63739,Individual,First Owner,36.4,349.0
+Bajaj,Dominar 400,2020,110000,62063,Dealer,First Owner,29.8,373.3
+Honda,CB Unicorn,2021,58000,69142,Dealer,First Owner,49.2,162.7
+Royal Enfield,Classic 350,2020,122000,43100,Individual,First Owner,35.7,349.0
+Bajaj,Avenger 220,2023,98000,28726,Individual,First Owner,39.1,220.0
+Yamaha,YZF R15,2020,91000,64106,Individual,First Owner,46.5,155.0
+TVS,Raider 125,2021,55000,31434,Individual,First Owner,61.8,124.8
+KTM,Duke 200,2023,145000,20119,Individual,First Owner,33.8,199.5
+TVS,Raider 125,2018,21000,60703,Individual,Third Owner,65.9,124.8
+Honda,Activa,2015,21000,34699,Dealer,Second Owner,48.9,109.5
+Yamaha,FZ-S FI,2018,50000,53938,Dealer,First Owner,44.8,149.0
+Honda,Activa,2018,35000,46981,Individual,First Owner,51.4,109.5
+Yamaha,FZ-S FI,2023,93000,34961,Dealer,First Owner,48.0,149.0
+Yamaha,YZF R15,2021,110000,35700,Individual,First Owner,47.2,155.0
+KTM,RC 200,2019,100000,53763,Individual,First Owner,30.0,199.5
+Hero,Xpulse 200,2016,24000,114681,Individual,Second Owner,39.0,199.6
+TVS,Apache RTR 160,2012,22000,140996,Individual,Third Owner,42.2,159.7
+Honda,Activa,2015,15000,168978,Individual,Second Owner,49.4,109.5
+TVS,Ntorq 125,2015,16000,110550,Individual,Second Owner,46.4,124.8
+Hero,Splendor Plus,2023,52000,31262,Dealer,First Owner,72.4,97.2
+Honda,Shine,2023,56000,18950,Individual,First Owner,58.2,124.0
+Hero,Xpulse 200,2019,65000,48483,Individual,First Owner,40.6,199.6
+Honda,Activa,2017,25000,78617,Dealer,First Owner,50.1,109.5
+TVS,Apache RTR 160,2019,40000,83546,Dealer,Second Owner,44.9,159.7
+Yamaha,MT-15,2019,84000,31716,Dealer,First Owner,46.7,155.0
+TVS,Apache RTR 200,2022,90000,53770,Individual,First Owner,36.2,197.75
+Hero,Splendor Plus,2021,42000,26516,Dealer,First Owner,66.5,97.2
+Bajaj,Avenger 220,2016,44000,58815,Individual,First Owner,36.6,220.0
+Suzuki,Gixxer 155,2019,55000,74904,Individual,First Owner,44.5,155.0
+Yamaha,YZF R15,2020,100000,39204,Dealer,First Owner,43.9,155.0
+Yamaha,MT-15,2022,94000,36448,Dealer,Second Owner,45.7,155.0
+Bajaj,Platina 110,2021,38000,38641,Individual,First Owner,74.3,115.4
+Hero,Splendor Plus,2021,35000,52715,Individual,Second Owner,72.3,97.2
+Bajaj,Avenger 220,2021,81000,27423,Individual,First Owner,38.3,220.0
+TVS,Ntorq 125,2019,28000,79812,Dealer,Second Owner,48.3,124.8
+KTM,Duke 200,2017,65000,85667,Individual,First Owner,32.0,199.5
+Yamaha,MT-15,2017,59000,24028,Dealer,Second Owner,46.1,155.0
+Suzuki,Gixxer 155,2020,72000,31321,Dealer,First Owner,43.5,155.0
+Yamaha,YZF R15,2021,127000,25587,Individual,First Owner,45.9,155.0
+Royal Enfield,Bullet 350,2018,72000,88414,Individual,First Owner,34.5,346.0
+Honda,Dio,2018,31000,71306,Individual,First Owner,44.8,109.5
+Suzuki,Gixxer 155,2022,76000,63107,Dealer,First Owner,43.6,155.0
+TVS,Raider 125,2018,34000,87497,Individual,First Owner,63.7,124.8
+Honda,Activa,2019,38000,37994,Individual,First Owner,49.0,109.5
+Bajaj,Dominar 400,2013,40000,97799,Individual,Second Owner,29.6,373.3
+TVS,Ntorq 125,2012,16000,119792,Individual,Second Owner,44.6,124.8
+Royal Enfield,Classic 350,2014,39000,87946,Individual,Second Owner,37.0,349.0
+TVS,Jupiter,2024,62000,14961,Individual,First Owner,53.8,109.7
+Royal Enfield,Hunter 350,2022,115000,28848,Dealer,Second Owner,34.7,349.0
+Yamaha,YZF R15,2021,107000,48016,Dealer,First Owner,45.9,155.0
+Bajaj,Dominar 400,2020,108000,56225,Individual,First Owner,30.1,373.3
+Honda,Activa,2018,33000,48207,Individual,First Owner,46.6,109.5
+Suzuki,Gixxer 155,2020,69000,35830,Individual,First Owner,43.7,155.0
+Royal Enfield,Bullet 350,2020,83000,60438,Dealer,Second Owner,37.6,346.0
+Hero,Xpulse 200,2015,34000,91381,Individual,First Owner,41.2,199.6
+Hero,Xpulse 200,2018,54000,69208,Dealer,First Owner,38.3,199.6
+Bajaj,Dominar 400,2020,116000,50912,Individual,First Owner,28.2,373.3
+TVS,Jupiter,2018,27000,74752,Individual,First Owner,52.8,109.7
+Honda,Shine,2023,56000,29094,Individual,First Owner,64.9,124.0
+Suzuki,Access 125,2019,34000,29393,Individual,Second Owner,47.3,124.0
+Royal Enfield,Hunter 350,2013,30000,99231,Individual,First Owner,34.0,349.0
+Royal Enfield,Hunter 350,2015,37000,69046,Dealer,Second Owner,34.4,349.0
+KTM,Duke 200,2021,88000,83496,Dealer,Second Owner,34.5,199.5
+TVS,Ntorq 125,2020,37000,65176,Individual,Second Owner,44.5,124.8
+KTM,Duke 390,2021,184000,51555,Dealer,First Owner,25.5,373.2
+KTM,Duke 200,2015,36000,84881,Individual,Second Owner,34.0,199.5
+Royal Enfield,Himalayan,2021,120000,41872,Dealer,Second Owner,30.1,411.0
+Bajaj,Avenger 220,2022,65000,20543,Individual,Third Owner,37.1,220.0
+KTM,RC 200,2017,73000,76815,Individual,First Owner,31.3,199.5
+TVS,Ntorq 125,2021,42000,43710,Individual,Second Owner,49.0,124.8
+TVS,Raider 125,2018,39000,49141,Dealer,First Owner,61.6,124.8
+Suzuki,Access 125,2019,40000,42787,Individual,First Owner,47.5,124.0
+Royal Enfield,Himalayan,2018,107000,48434,Dealer,First Owner,31.1,411.0
+Hero,HF Deluxe,2020,29000,41110,Individual,Second Owner,68.2,97.2
+TVS,Apache RTR 160,2023,83000,31361,Individual,First Owner,44.3,159.7
+Yamaha,MT-15,2023,121000,19723,Individual,First Owner,46.7,155.0
+Honda,CB Unicorn,2020,38000,45588,Individual,Third Owner,52.9,162.7
+KTM,Duke 390,2023,224000,30708,Dealer,First Owner,28.0,373.2
+KTM,RC 200,2019,78000,80055,Individual,Second Owner,31.4,199.5
+Bajaj,Avenger 220,2012,25000,76970,Dealer,Second Owner,38.0,220.0
+Royal Enfield,Himalayan,2019,86000,77277,Individual,Second Owner,29.2,411.0
+Honda,Activa,2017,28000,62596,Dealer,First Owner,51.6,109.5
+Bajaj,Dominar 400,2018,68000,72172,Individual,Second Owner,27.2,373.3
+Hero,HF Deluxe,2020,29000,69538,Individual,First Owner,68.1,97.2
+KTM,Duke 390,2018,90000,83103,Dealer,Second Owner,26.8,373.2
+Honda,Dio,2013,20000,40071,Dealer,First Owner,45.8,109.5
+Royal Enfield,Himalayan,2017,41000,121717,Individual,Second Owner,29.9,411.0
+KTM,RC 200,2021,131000,46639,Dealer,First Owner,30.4,199.5
+Bajaj,Platina 110,2021,32000,38794,Dealer,Second Owner,67.1,115.4
+Honda,Hness CB350,2015,66000,58582,Individual,First Owner,35.1,348.0
+Honda,Shine,2021,51000,22465,Individual,First Owner,57.7,124.0
+Hero,HF Deluxe,2019,30000,54273,Individual,First Owner,64.2,97.2
+KTM,RC 200,2019,85000,93455,Individual,First Owner,31.5,199.5
+Hero,Xpulse 200,2021,78000,50410,Individual,First Owner,41.8,199.6
+TVS,Jupiter,2018,17000,58218,Individual,Third Owner,49.1,109.7
+Honda,CB Unicorn,2021,59000,36193,Dealer,First Owner,50.8,162.7
+Yamaha,FZ-S FI,2014,23000,106589,Dealer,Third Owner,45.9,149.0
+Yamaha,FZ-S FI,2015,26000,99090,Individual,First Owner,43.1,149.0
+KTM,Duke 390,2022,164000,50761,Individual,Second Owner,28.2,373.2
+Yamaha,YZF R15,2013,32000,110906,Individual,Second Owner,46.8,155.0
+KTM,Duke 200,2014,51000,66395,Individual,First Owner,32.4,199.5
+Royal Enfield,Hunter 350,2018,73000,48362,Dealer,First Owner,35.7,349.0
+Yamaha,MT-15,2018,54000,111046,Individual,First Owner,46.8,155.0
+KTM,Duke 200,2018,86000,54172,Individual,First Owner,33.3,199.5
+Royal Enfield,Bullet 350,2019,103000,28606,Individual,First Owner,36.4,346.0

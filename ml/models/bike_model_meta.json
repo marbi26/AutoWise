@@ -1,0 +1,114 @@
+{
+  "model_type": "Bike Price Prediction",
+  "champion_algorithm": "XGBoost Regressor",
+  "test_metrics": {
+    "test_r2": 0.9861,
+    "test_mae": 2915.74,
+    "test_rmse": 4417.75,
+    "cv_r2_mean": 0.9843,
+    "cv_mae_mean": 3201.6,
+    "cv_rmse_mean": 4782.75
+  },
+  "residual_std": 4417.04,
+  "categorical_features": [
+    "brand",
+    "model",
+    "seller_type",
+    "owner"
+  ],
+  "numerical_features": [
+    "year",
+    "km_driven",
+    "mileage_kmpl",
+    "engine_cc",
+    "vehicle_age",
+    "km_per_year"
+  ],
+  "top_features": [
+    {
+      "feature": "model",
+      "importance_percentage": 28.31
+    },
+    {
+      "feature": "brand",
+      "importance_percentage": 17.2
+    },
+    {
+      "feature": "engine_cc",
+      "importance_percentage": 15.08
+    },
+    {
+      "feature": "year",
+      "importance_percentage": 12.39
+    },
+    {
+      "feature": "vehicle_age",
+      "importance_percentage": 10.39
+    },
+    {
+      "feature": "mileage_kmpl",
+      "importance_percentage": 8.58
+    },
+    {
+      "feature": "owner",
+      "importance_percentage": 6.32
+    },
+    {
+      "feature": "km_driven",
+      "importance_percentage": 1.48
+    }
+  ],
+  "benchmarks": {
+    "Linear Regression": {
+      "test_r2": 0.8892,
+      "test_mae": 8930.37,
+      "test_rmse": 12453.24,
+      "cv_r2_mean": 0.8841,
+      "cv_mae_mean": 9402.63,
+      "cv_rmse_mean": 13016.84
+    },
+    "Ridge Regression": {
+      "test_r2": 0.8892,
+      "test_mae": 8919.61,
+      "test_rmse": 12455.77,
+      "cv_r2_mean": 0.8843,
+      "cv_mae_mean": 9404.49,
+      "cv_rmse_mean": 13010.12
+    },
+    "Lasso Regression": {
+      "test_r2": 0.8888,
+      "test_mae": 8898.14,
+      "test_rmse": 12477.16,
+      "cv_r2_mean": 0.8844,
+      "cv_mae_mean": 9389.69,
+      "cv_rmse_mean": 13004.56
+    },
+    "Decision Tree": {
+      "test_r2": 0.9416,
+      "test_mae": 5908.86,
+      "test_rmse": 9038.6,
+      "cv_r2_mean": 0.9342,
+      "cv_mae_mean": 6328.2,
+      "cv_rmse_mean": 9749.97
+    },
+    "Random Forest": {
+      "test_r2": 0.9699,
+      "test_mae": 4009.36,
+      "test_rmse": 6489.75,
+      "cv_r2_mean": 0.9699,
+      "cv_mae_mean": 4352.08,
+      "cv_rmse_mean": 6617.27
+    },
+    "XGBoost Regressor": {
+      "test_r2": 0.9861,
+      "test_mae": 2915.74,
+      "test_rmse": 4417.75,
+      "cv_r2_mean": 0.9843,
+      "cv_mae_mean": 3201.6,
+      "cv_rmse_mean": 4782.75
+    }
+  },
+  "target_currency": "INR",
+  "trained_samples": 1964,
+  "test_samples": 492
+}

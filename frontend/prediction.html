@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Learning Price Prediction — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html" class="active">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem;">
+    <!-- Page Header -->
+    <div class="section-header" style="margin-bottom: 2.5rem;">
+      <span class="badge badge-green" style="margin-bottom: 0.75rem;">Supervised Machine Learning Regression</span>
+      <h1>Vehicle Resale Price Predictor</h1>
+      <p>Estimate fair market valuation for used cars and motorcycles using verified Indian transaction datasets and gradient boosted decision trees.</p>
+    </div>
+
+    <!-- Category Toggle Tabs -->
+    <div style="display: flex; justify-content: center; margin-bottom: 2.5rem;">
+      <div style="background: var(--bg-card); padding: 0.35rem; border-radius: var(--radius-full); border: 1px solid var(--border-color); display: flex;">
+        <button id="tab-car" class="btn btn-primary btn-sm" style="border-radius: var(--radius-full); padding: 0.6rem 1.75rem;">🚗 Used Car Valuation</button>
+        <button id="tab-bike" class="btn btn-secondary btn-sm" style="border-radius: var(--radius-full); padding: 0.6rem 1.75rem; border: none; background: transparent;">🏍️ Used Bike Valuation</button>
+      </div>
+    </div>
+
+    <!-- Main Grid: Form Left + Output Right -->
+    <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.5rem; align-items: start; max-width: 1100px; margin: 0 auto;">
+      
+      <!-- Prediction Input Form -->
+      <div class="card" style="box-shadow: var(--shadow-lg);">
+        <h3 style="margin-bottom: 1.25rem;" id="form-heading">Car Valuation Inputs</h3>
+        
+        <form id="prediction-form">
+          <!-- Brand -->
+          <div class="form-group">
+            <label class="form-label">Brand / Manufacturer</label>
+            <select id="pred-brand" class="form-select" required>
+              <option value="Maruti Suzuki">Maruti Suzuki</option>
+              <option value="Hyundai">Hyundai</option>
+              <option value="Tata">Tata</option>
+              <option value="Mahindra">Mahindra</option>
+              <option value="Honda">Honda</option>
+              <option value="Toyota">Toyota</option>
+              <option value="Kia">Kia</option>
+              <option value="Volkswagen">Volkswagen</option>
+            </select>
+          </div>
+
+          <!-- Model -->
+          <div class="form-group">
+            <label class="form-label">Vehicle Model</label>
+            <input type="text" id="pred-model" class="form-control" placeholder="e.g. Swift, Creta, Nexon..." value="Swift" required>
+          </div>
+
+          <!-- Year & KM Driven -->
+          <div class="grid grid-2">
+            <div class="form-group">
+              <label class="form-label">Manufacturing Year</label>
+              <select id="pred-year" class="form-select" required>
+                <!-- Filled dynamically 2010 - 2024 -->
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Kilometres Driven</label>
+              <input type="number" id="pred-km" class="form-control" placeholder="e.g. 45000" value="45000" min="500" max="400000" required>
+            </div>
+          </div>
+
+          <!-- Car-Only Inputs (Fuel, Transmission, Seats) -->
+          <div id="car-inputs-wrapper">
+            <div class="grid grid-2">
+              <div class="form-group">
+                <label class="form-label">Fuel Type</label>
+                <select id="pred-fuel" class="form-select">
+                  <option value="Petrol" selected>Petrol</option>
+                  <option value="Diesel">Diesel</option>
+                  <option value="CNG">CNG</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Transmission</label>
+                <select id="pred-trans" class="form-select">
+                  <option value="Manual" selected>Manual</option>
+                  <option value="Automatic">Automatic / AMT</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-2">
+              <div class="form-group">
+                <label class="form-label">Engine Capacity (cc)</label>
+                <input type="number" id="pred-engine" class="form-control" placeholder="e.g. 1197" value="1197">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Seating Capacity</label>
+                <select id="pred-seats" class="form-select">
+                  <option value="5" selected>5 Seats</option>
+                  <option value="7">7 Seats</option>
+                  <option value="4">4 Seats</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Common Inputs (Owner & Seller) -->
+          <div class="grid grid-2">
+            <div class="form-group">
+              <label class="form-label">Ownership History</label>
+              <select id="pred-owner" class="form-select">
+                <option value="First Owner" selected>1st Owner</option>
+                <option value="Second Owner">2nd Owner</option>
+                <option value="Third Owner">3rd Owner</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Seller Channel</label>
+              <select id="pred-seller" class="form-select">
+                <option value="Individual" selected>Individual Seller</option>
+                <option value="Dealer">Used Car Dealer</option>
+                <option value="Trustmark Dealer">Certified Dealer</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 0.5rem; border-radius: var(--radius-md);">
+            <span>📈 Compute Market Valuation</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Valuation Results Container -->
+      <div id="valuation-result-box" style="display: none;">
+        
+        <!-- Hero Price Box -->
+        <div class="valuation-hero-box">
+          <span class="badge badge-green" style="margin-bottom: 0.5rem;">Estimated Fair Market Price</span>
+          <div class="valuation-amount" id="val-price-text">₹ 0</div>
+          <div class="valuation-range" id="val-range-text">95% Range: ₹ 0 - ₹ 0</div>
+          
+          <div style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 0.75rem;">
+            <span class="badge badge-blue" id="val-model-badge">XGBoost Regressor</span>
+            <span class="badge badge-purple" id="val-r2-badge">R²: 0.9857</span>
+            <span class="badge badge-amber" id="val-mae-badge">MAE: ±₹30k</span>
+          </div>
+        </div>
+
+        <!-- Feature Importance Chart Card -->
+        <div class="card" style="margin-bottom: 1.5rem;">
+          <h4 style="margin-bottom: 0.5rem;">Price Influencing Factors</h4>
+          <p class="text-muted" style="font-size: 0.82rem; margin-bottom: 1rem;">Machine Learning feature weights derived from real transaction data.</p>
+          <div style="height: 220px; position: relative;">
+            <canvas id="featureImportanceChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Statistical Limitations & Disclaimer -->
+        <div class="card" style="background: rgba(10, 14, 23, 0.6); border-color: rgba(255, 255, 255, 0.08);">
+          <h5 style="margin-bottom: 0.4rem; color: #cbd5e1; font-size: 0.85rem;">Model Confidence & Disclaimer</h5>
+          <p id="val-disclaimer-text" style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin: 0;">
+            Estimates are mathematically computed via AutoWise's machine learning model trained on Indian used vehicle sales.
+          </p>
+        </div>
+      </div>
+
+      <!-- Placeholder Before Valuation -->
+      <div id="valuation-placeholder" class="card" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 380px; text-align: center; border-style: dashed;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+        <h4>Instant Valuation Output</h4>
+        <p class="text-muted" style="max-width: 320px; font-size: 0.9rem; margin-top: 0.5rem;">
+          Fill in vehicle specifications on the left to compute estimated price range and feature weights.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script src="/static/js/charts.js"></script>
+  <script>
+    let activeCategory = "car";
+    let importanceChartInstance = null;
+
+    document.addEventListener("DOMContentLoaded", () => {
+      // 1. Populate manufacturing years (2011 to 2024)
+      const yearSelect = document.getElementById("pred-year");
+      for (let y = 2024; y >= 2011; y--) {
+        const opt = document.createElement("option");
+        opt.value = y;
+        opt.textContent = y;
+        if (y === 2020) opt.selected = true;
+        yearSelect.appendChild(opt);
+      }
+
+      // 2. Category Toggle
+      const tabCar = document.getElementById("tab-car");
+      const tabBike = document.getElementById("tab-bike");
+      const carInputs = document.getElementById("car-inputs-wrapper");
+      const formHeading = document.getElementById("form-heading");
+      const brandSelect = document.getElementById("pred-brand");
+      const modelInput = document.getElementById("pred-model");
+
+      const carBrands = ["Maruti Suzuki", "Hyundai", "Tata", "Mahindra", "Honda", "Toyota", "Kia", "Volkswagen"];
+      const bikeBrands = ["Royal Enfield", "Hero", "Honda", "Bajaj", "TVS", "Yamaha", "KTM", "Suzuki"];
+
+      function setCategory(cat) {
+        activeCategory = cat;
+        if (cat === "car") {
+          tabCar.className = "btn btn-primary btn-sm";
+          tabBike.className = "btn btn-secondary btn-sm";
+          tabBike.style.background = "transparent";
+          tabBike.style.border = "none";
+          formHeading.textContent = "Car Valuation Inputs";
+          carInputs.style.display = "block";
+          brandSelect.innerHTML = carBrands.map(b => `<option value="${b}">${b}</option>`).join('');
+          modelInput.value = "Swift";
+          document.getElementById("pred-engine").value = "1197";
+          document.getElementById("pred-km").value = "45000";
+        } else {
+          tabBike.className = "btn btn-primary btn-sm";
+          tabCar.className = "btn btn-secondary btn-sm";
+          tabCar.style.background = "transparent";
+          tabCar.style.border = "none";
+          formHeading.textContent = "Motorcycle Valuation Inputs";
+          carInputs.style.display = "none";
+          brandSelect.innerHTML = bikeBrands.map(b => `<option value="${b}">${b}</option>`).join('');
+          modelInput.value = "Classic 350";
+          document.getElementById("pred-engine").value = "349";
+          document.getElementById("pred-km").value = "22000";
+        }
+      }
+
+      tabCar.addEventListener("click", () => setCategory("car"));
+      tabBike.addEventListener("click", () => setCategory("bike"));
+
+      // 3. Form Submission
+      const form = document.getElementById("prediction-form");
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = "Computing Valuation Pipeline...";
+
+        const brand = brandSelect.value;
+        const model = modelInput.value.trim();
+        const year = parseInt(document.getElementById("pred-year").value);
+        const km = parseFloat(document.getElementById("pred-km").value);
+        const owner = document.getElementById("pred-owner").value;
+        const seller = document.getElementById("pred-seller").value;
+
+        try {
+          let predRes;
+          if (activeCategory === "car") {
+            const fuel = document.getElementById("pred-fuel").value;
+            const trans = document.getElementById("pred-trans").value;
+            const engine = parseFloat(document.getElementById("pred-engine").value) || 1200;
+            const seats = parseInt(document.getElementById("pred-seats").value) || 5;
+
+            predRes = await AutoWiseAPI.predictCarPrice({
+              brand, model, year, km_driven: km,
+              fuel_type: fuel, transmission: trans,
+              engine_cc: engine, seats, owner, seller_type: seller
+            });
+          } else {
+            const engine = parseFloat(document.getElementById("pred-engine").value) || 150;
+            predRes = await AutoWiseAPI.predictBikePrice({
+              brand, model, year, km_driven: km,
+              engine_cc: engine, owner, seller_type: seller
+            });
+          }
+
+          renderValuationResult(predRes);
+        } catch (err) {
+          AutoWiseUtils.showToast(err.message, "error");
+        } finally {
+          btn.disabled = false;
+          btn.innerHTML = "<span>📈 Compute Market Valuation</span>";
+        }
+      });
+    });
+
+    function renderValuationResult(data) {
+      document.getElementById("valuation-placeholder").style.display = "none";
+      const resultBox = document.getElementById("valuation-result-box");
+      resultBox.style.display = "block";
+      resultBox.scrollIntoView({ behavior: "smooth" });
+
+      document.getElementById("val-price-text").textContent = AutoWiseUtils.formatINR(data.predicted_price, true);
+      document.getElementById("val-range-text").textContent = `95% Confidence Range: ${AutoWiseUtils.formatINR(data.price_range_low)} — ${AutoWiseUtils.formatINR(data.price_range_high)}`;
+      document.getElementById("val-model-badge").textContent = data.model_name;
+      document.getElementById("val-r2-badge").textContent = `Model R²: ${data.model_r2_score}`;
+      document.getElementById("val-mae-badge").textContent = `MAE: ±₹${Math.round(data.model_mae_inr).toLocaleString('en-IN')}`;
+      document.getElementById("val-disclaimer-text").textContent = data.disclaimer;
+
+      // Render Chart
+      if (importanceChartInstance) {
+        importanceChartInstance.destroy();
+      }
+      importanceChartInstance = AutoWiseCharts.renderFeatureImportance("featureImportanceChart", data.feature_importances);
+    }
+  </script>
+</body>
+</html>

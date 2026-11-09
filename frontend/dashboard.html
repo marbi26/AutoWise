@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard — AutoWise</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand-logo">
+        <span>⚡</span> Auto<span class="accent">Wise</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/vehicles.html">Browse Vehicles</a></li>
+        <li><a href="/recommendations.html">AI Recommender</a></li>
+        <li><a href="/prediction.html">Price Prediction</a></li>
+        <li><a href="/compare.html">Compare</a></li>
+        <li><a href="/ownership.html">Ownership Cost</a></li>
+        <li><a href="/admin_analytics.html">Analytics</a></li>
+      </ul>
+      <div class="nav-actions" id="nav-actions"></div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1.5rem 5rem 1.5rem;">
+    <!-- Welcome Header -->
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 2.5rem; flex-wrap: wrap; gap: 1rem;">
+      <div>
+        <span class="badge badge-blue">Personal Automotive Portal</span>
+        <h1 style="margin-top: 0.35rem;" id="dash-greeting">Welcome, User</h1>
+        <p class="text-muted" id="dash-email">Manage your saved vehicles and recommendation logs.</p>
+      </div>
+      <div>
+        <a href="/profile.html" class="btn btn-outline btn-sm">Profile Settings</a>
+      </div>
+    </div>
+
+    <!-- Stats Ribbon -->
+    <div class="grid grid-3" style="margin-bottom: 3rem;">
+      <div class="card" style="display: flex; align-items: center; gap: 1.25rem;">
+        <div style="font-size: 2.5rem;">🔖</div>
+        <div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-cyan);" id="dash-saved-count">0</div>
+          <span class="text-muted" style="font-size: 0.88rem;">Saved Bookmarks</span>
+        </div>
+      </div>
+      <div class="card" style="display: flex; align-items: center; gap: 1.25rem;">
+        <div style="font-size: 2.5rem;">🎯</div>
+        <div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-green);" id="dash-rec-count">0</div>
+          <span class="text-muted" style="font-size: 0.88rem;">AI Recommendation Queries</span>
+        </div>
+      </div>
+      <div class="card" style="display: flex; align-items: center; gap: 1.25rem;">
+        <div style="font-size: 2.5rem;">📈</div>
+        <div>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-amber);">Active</div>
+          <span class="text-muted" style="font-size: 0.88rem;">Market Valuation Access</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Tool Action Tiles -->
+    <div class="grid grid-3" style="margin-bottom: 3.5rem;">
+      <a href="/recommendations.html" class="card" style="border-left: 4px solid var(--accent-blue); text-decoration: none;">
+        <h4>🎯 New AI Recommendation</h4>
+        <p class="text-muted" style="font-size: 0.88rem; margin-top: 0.25rem;">Run personalized preference matching for cars & bikes.</p>
+      </a>
+      <a href="/prediction.html" class="card" style="border-left: 4px solid var(--accent-cyan); text-decoration: none;">
+        <h4>📈 Resale Valuation Predictor</h4>
+        <p class="text-muted" style="font-size: 0.88rem; margin-top: 0.25rem;">Compute fair market resale value using ML models.</p>
+      </a>
+      <a href="/ownership.html" class="card" style="border-left: 4px solid var(--accent-green); text-decoration: none;">
+        <h4>💰 Ownership Cost Calculator</h4>
+        <p class="text-muted" style="font-size: 0.88rem; margin-top: 0.25rem;">Model 5-year lifetime expenses and running cost per km.</p>
+      </a>
+    </div>
+
+    <!-- Saved Vehicles Section -->
+    <div style="margin-bottom: 3.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem;">
+        <div>
+          <h3>Your Saved Vehicles</h3>
+          <p class="text-muted">Shortlisted vehicles bookmarked for rapid specifications check and comparison.</p>
+        </div>
+        <a href="/vehicles.html" class="btn btn-secondary btn-sm">+ Browse More Vehicles</a>
+      </div>
+
+      <div class="grid grid-3" id="saved-vehicles-grid">
+        <div style="text-align: center; grid-column: 1 / -1; padding: 2rem;">
+          <p class="text-muted">Loading your saved vehicles...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Recommendation History Snippet -->
+    <div>
+      <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.25rem;">
+        <h3>Recent Recommendation Queries</h3>
+        <a href="/profile.html" class="text-muted" style="font-size: 0.85rem;">View Full History →</a>
+      </div>
+      <div class="card" id="recent-rec-card" style="padding: 0; overflow: hidden;">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Category</th>
+              <th>Budget Range</th>
+              <th>Top Pick</th>
+              <th>Match Score</th>
+            </tr>
+          </thead>
+          <tbody id="recent-rec-tbody">
+            <tr><td colspan="5" style="text-align: center; color: var(--text-muted); padding: 2rem;">Loading query history...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="/static/js/utils.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/auth.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      if (!AutoWiseAuth.requireAuth()) return;
+
+      const user = AutoWiseAPI.getUser();
+      if (user) {
+        document.getElementById("dash-greeting").textContent = `Welcome, ${user.full_name || user.username}`;
+        document.getElementById("dash-email").textContent = user.email || "";
+      }
+
+      // Fetch profile & stats
+      try {
+        const profile = await AutoWiseAPI.getProfile();
+        document.getElementById("dash-saved-count").textContent = profile.saved_vehicles_count || 0;
+        document.getElementById("dash-rec-count").textContent = profile.recommendations_count || 0;
+      } catch (e) {
+        console.warn("Profile fetch error:", e);
+      }
+
+      // Fetch saved vehicles
+      await loadSavedVehicles();
+
+      // Fetch recommendation history
+      try {
+        const histRes = await AutoWiseAPI.getRecommendationHistory();
+        const tbody = document.getElementById("recent-rec-tbody");
+        if (!histRes.history || histRes.history.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted); padding: 2rem;">No recommendation queries yet. Run your first query above!</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = histRes.history.slice(0, 5).map(h => {
+          const topPick = h.results && h.results[0] ? h.results[0] : null;
+          const dt = h.created_at ? new Date(h.created_at).toLocaleDateString("en-IN") : "Recent";
+          const minB = h.query_parameters ? (h.query_parameters.min_budget / 100000).toFixed(1) + 'L' : 'Any';
+          const maxB = h.query_parameters ? (h.query_parameters.max_budget / 100000).toFixed(1) + 'L' : 'Any';
+          return `
+            <tr>
+              <td>${dt}</td>
+              <td><span class="badge ${h.category === 'car' ? 'badge-blue' : 'badge-purple'}">${h.category.toUpperCase()}</span></td>
+              <td>₹${minB} — ₹${maxB}</td>
+              <td><strong>${topPick ? topPick.vehicle_id : 'N/A'}</strong></td>
+              <td><span class="match-score-pill" style="font-size: 0.75rem;">${topPick ? topPick.match_score + '%' : 'N/A'}</span></td>
+            </tr>
+          `;
+        }).join('');
+      } catch (e) {
+        console.warn("History fetch error:", e);
+      }
+    });
+
+    async function loadSavedVehicles() {
+      const grid = document.getElementById("saved-vehicles-grid");
+      try {
+        const res = await AutoWiseAPI.getSavedVehicles();
+        if (!res.items || res.items.length === 0) {
+          grid.innerHTML = `
+            <div class="card" style="grid-column: 1 / -1; text-align: center; padding: 3rem; border-style: dashed;">
+              <p class="text-muted" style="margin-bottom: 1rem;">You haven't bookmarked any vehicles yet.</p>
+              <a href="/vehicles.html" class="btn btn-outline btn-sm">Explore Vehicle Catalog</a>
+            </div>
+          `;
+          return;
+        }
+
+        grid.innerHTML = res.items.map(v => `
+          <div class="vehicle-card" id="card-${v.vehicle_id}">
+            <div class="vehicle-card-img-wrapper" style="height: 160px;">
+              <img src="${v.image_url || '/static/images/' + v.category + '/default.jpg'}" alt="${v.brand} ${v.model}" class="vehicle-card-img" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=80'">
+              <span class="vehicle-card-badge badge ${v.category === 'car' ? 'badge-blue' : 'badge-purple'}">${v.body_type || v.category}</span>
+              <button class="vehicle-card-save-btn saved" onclick="removeBookmark('${v.vehicle_id}')" title="Remove from bookmarks">✕</button>
+            </div>
+            <div class="vehicle-card-body">
+              <span class="vehicle-brand">${v.brand}</span>
+              <div class="vehicle-name">${v.model}</div>
+              <div class="vehicle-variant">${v.fuel_type} • ${v.transmission}</div>
+              <div class="vehicle-price" style="font-size: 1.15rem; margin: 0.5rem 0;">${AutoWiseUtils.formatINR(v.price_ex_showroom, true)}</div>
+              <div class="vehicle-card-actions">
+                <a href="/vehicle_detail.html?id=${v.vehicle_id}" class="btn btn-secondary btn-sm">View Details</a>
+                <a href="/ownership.html?id=${v.vehicle_id}" class="btn btn-outline btn-sm">TCO</a>
+              </div>
+            </div>
+          </div>
+        `).join('');
+      } catch (e) {
+        grid.innerHTML = `<div style="grid-column: 1 / -1;"><p class="text-muted">Error loading saved vehicles: ${e.message}</p></div>`;
+      }
+    }
+
+    async function removeBookmark(vehicleId) {
+      try {
+        await AutoWiseAPI.removeSavedVehicle(vehicleId);
+        AutoWiseUtils.showToast("Vehicle removed from bookmarks", "info");
+        const card = document.getElementById(`card-${vehicleId}`);
+        if (card) card.remove();
+        // Update stats
+        const currentCount = parseInt(document.getElementById("dash-saved-count").textContent) || 1;
+        document.getElementById("dash-saved-count").textContent = Math.max(0, currentCount - 1);
+      } catch (e) {
+        AutoWiseUtils.showToast(e.message, "error");
+      }
+    }
+  </script>
+</body>
+</html>

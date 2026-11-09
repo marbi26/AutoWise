@@ -1,0 +1,13 @@
+{
+  "k": 5,
+  "evaluated_users": 40,
+  "precision_at_k": 0.445,
+  "recall_at_k": 0.2669,
+  "ndcg_at_k": 0.5107,
+  "recommendation_types_supported": [
+    "Content-Based Preference Matching",
+    "Cold-Start Safe Recommendations",
+    "Collaborative Filtering Hybrid",
+    "K-Nearest Neighbors Similar Vehicles"
+  ]
+}
