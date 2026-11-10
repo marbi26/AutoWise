@@ -8,6 +8,7 @@ import os
 import json
 import uuid
 import socket
+import asyncio
 from datetime import datetime, timezone
 import motor.motor_asyncio
 import pymongo
@@ -45,13 +46,15 @@ class JSONDocumentCollection:
                 match = True
                 for k, v in filter_dict.items():
                     if isinstance(v, dict):
+                        doc_val = doc.get(k)
+                        num_val = doc_val if (doc_val is not None and isinstance(doc_val, (int, float))) else 0
                         if "$in" in v and doc.get(k) not in v["$in"]:
                             match = False
                             break
-                        if "$gte" in v and doc.get(k, 0) < v["$gte"]:
+                        if "$gte" in v and num_val < v["$gte"]:
                             match = False
                             break
-                        if "$lte" in v and doc.get(k, 0) > v["$lte"]:
+                        if "$lte" in v and num_val > v["$lte"]:
                             match = False
                             break
                     elif doc.get(k) != v:
@@ -64,7 +67,10 @@ class JSONDocumentCollection:
             def __init__(self, items):
                 self.items = items
             def sort(self, key, direction=1):
-                self.items.sort(key=lambda x: x.get(key, 0), reverse=(direction == -1))
+                self.items.sort(
+                    key=lambda x: (x.get(key) if x.get(key) is not None else 0),
+                    reverse=(direction == -1)
+                )
                 return self
             def skip(self, n):
                 self.items = self.items[n:]
@@ -199,14 +205,21 @@ class DatabaseManager:
     async def connect(self):
         if settings.MONGODB_ENABLED:
             try:
+                import re
+                masked_uri = re.sub(r':([^@]+)@', ':****@', settings.MONGODB_URI)
                 self.client = motor.motor_asyncio.AsyncIOMotorClient(
                     settings.MONGODB_URI,
-                    serverSelectionTimeoutMS=2000
+                    serverSelectionTimeoutMS=3000
                 )
+                # Verify connection with a quick ping bounded by timeout
+                await asyncio.wait_for(self.client.admin.command('ping'), timeout=3.0)
                 self.db = self.client[settings.MONGODB_DB_NAME]
                 self.is_mongodb_connected = True
-                print(f"✓ Connected to MongoDB at: {settings.MONGODB_URI}/{settings.MONGODB_DB_NAME}", flush=True)
+                print(f"✓ Connected to MongoDB at: {masked_uri}/{settings.MONGODB_DB_NAME}", flush=True)
             except Exception as e:
+                if self.client:
+                    self.client.close()
+                    self.client = None
                 print(f"ℹ MongoDB connection failed ({e}), falling back to local document store.", flush=True)
                 self.is_mongodb_connected = False
 

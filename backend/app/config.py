@@ -1,5 +1,5 @@
 import os
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     APP_NAME: str = "AutoWise"
@@ -25,8 +25,9 @@ class Settings(BaseSettings):
     ML_DATA_DIR: str = os.path.join(BASE_DIR, "ml", "data")
     FRONTEND_DIR: str = os.path.join(BASE_DIR, "frontend")
 
-    class Config:
-        env_file = ".env"
-        extra = "ignore"
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        extra="ignore"
+    )
 
 settings = Settings()

@@ -1,7 +1,9 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from typing import List, Optional
 
 class VehicleResponse(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
     id: Optional[str] = Field(None, alias="_id")
     vehicle_id: str
     category: str
@@ -25,9 +27,6 @@ class VehicleResponse(BaseModel):
     features: Optional[List[str]] = []
     image_url: Optional[str] = ""
     condition: Optional[str] = "New"
-
-    class Config:
-        populate_by_name = True
 
 class VehicleListResponse(BaseModel):
     items: List[VehicleResponse]

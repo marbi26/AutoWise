@@ -14,9 +14,16 @@ async def compare_vehicles(
     req: CompareRequest,
     current_user: Optional[dict] = Depends(get_optional_current_user)
 ):
+    unique_ids = list(dict.fromkeys(req.vehicle_ids))
+    if len(unique_ids) < 2:
+        raise HTTPException(
+            status_code=400,
+            detail="Please provide at least two distinct vehicle IDs to compare."
+        )
+
     vehicles_col = db_manager.get_collection("vehicles")
     vehicles = []
-    for vid in req.vehicle_ids:
+    for vid in unique_ids:
         v = await vehicles_col.find_one({"vehicle_id": vid})
         if v:
             vehicles.append(v)

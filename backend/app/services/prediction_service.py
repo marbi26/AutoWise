@@ -56,7 +56,7 @@ class PredictionService:
         }])
 
         raw_pred = float(self.car_model.predict(input_data)[0])
-        pred_price = round(raw_pred, -3)
+        pred_price = max(50000.0, round(raw_pred, -3))
 
         # Statistical 95% Confidence Interval using residual standard error
         std = self.car_meta.get("residual_std", 50000.0)
@@ -102,7 +102,7 @@ class PredictionService:
         }])
 
         raw_pred = float(self.bike_model.predict(input_data)[0])
-        pred_price = round(raw_pred, -2)
+        pred_price = max(10000.0, round(raw_pred, -2))
 
         std = self.bike_meta.get("residual_std", 4500.0)
         margin = 1.96 * std
